@@ -940,7 +940,7 @@
 		"LocalPlayerColor"	"HUDBlack"
 
 		"BaseBackgroundColor"	"0 0 0 128"
-		"LocalBackgroundColor"	"255 255 255 192"
+		"LocalBackgroundColor"	"255 255 255 255"
 	}
 
 	HudVehicle
