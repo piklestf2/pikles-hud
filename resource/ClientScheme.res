@@ -65,7 +65,7 @@ Scheme
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
-		"Black"				"9 9 9 255"
+		"Black"				"0 0 0 255" // was 9 9 9 for some reason
 		"SuperBlack"		"0 0 0 255" // pvhud
 		"TransparentBlack"	"0 0 0 153" // pvhud - was "0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
@@ -129,21 +129,21 @@ Scheme
 		
 		"ProgressOffWhiteTransparent"	"255 255 255 128"	//"251 235 202 128"
 		
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"	"109 96 80 180"
+		"LabelDark"			"27 27 27 255"
+		"LabelTransparent"	"142 142 142 175"
 		
 		"BuildMenuActive"	"248 231 198 255"
 		
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
+ 		"MatchmakingDialogTitleColor"			"255 255 255 255"
  		"MatchmakingMenuItemBackground"			"27 27 27 255"
- 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
-		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"142 142 142 255"	
+		"MatchmakingMenuItemTitleColor"			"255 255 255 255"
+		"MatchmakingMenuItemDescriptionColor"	"255 255 255 255"
 		
-		"HTMLBackground"						"95 92 101 255"
+		"HTMLBackground"						"70 70 70 255"
 		
 		"ItemAttribLevel"						"142 142 142 255"	//"142 142 142 255"
 		"ItemAttribNeutral"						"255 255 255 255"	//"235 226 202 255"
@@ -194,8 +194,8 @@ Scheme
 
 		"LightRed"								"64 190 112 255"	//"Pikles"
 		"LighterRed"							"156 222 181 255" 	//"220 100 80 255"
-		"LighterDarkBrown"						"59 54 48 255"
-		"DarkBrown"								"41 37 38 255"
+		"LighterDarkBrown"						"42 42 42 255"
+		"DarkBrown"								"27 27 27 255"
 		
 		"UpgradeDefaultFg"		"87 82 74 255"
 		"UpgradeDefaultBg"		"111 104 94 255"
