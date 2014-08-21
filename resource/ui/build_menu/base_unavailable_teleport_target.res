@@ -61,7 +61,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"TanDarker"
+		"fgcolor"		"ButtonArmed"
 		"xpos"			"43"
 		"ypos"			"17"
 		"zpos"			"1"
