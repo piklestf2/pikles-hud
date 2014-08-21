@@ -2546,7 +2546,7 @@
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
+		"bgcolor"			"ButtonArmed"
 		"paintbackground"	"1"
 		"tall"				"100"
 		"tall_lodef"				"60"

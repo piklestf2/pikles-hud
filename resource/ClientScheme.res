@@ -30,7 +30,7 @@ Scheme
 		"Garm3nCharge"			"42 79 134 255"
 		"Garm3nDamage"			"255 185 0 255"
 		"Garm3nHealth"			"255 255 255 255"
-		"Garm3nLow"			"255 255 255 255"
+		"Garm3nLow"				"255 255 255 255"
 		"Garm3nMetal"			"71 87 93 255"
 		"Garm3nMeter"			"105 45 95 255"
 		"Garm3nPlus"			"0 175 255 255"
@@ -42,7 +42,7 @@ Scheme
 		"Garm3nBlue"			"0 175 255 255"
 		"Garm3nGray"			"165 165 165 255"
 		"Garm3nGreen"			"65 235 0 255" 
-		"Garm3nRed"			"255 0 0 255"
+		"Garm3nRed"				"255 0 0 255"
 		"Garm3nWhite"			"255 255 255 255"
 		"Garm3nYellow"			"255 255 0 255"
 		
@@ -98,12 +98,12 @@ Scheme
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
 
-		"HudPanelForeground"		"123 110 59 184"
-		"HudPanelBackground"		"123 110 59 184"
+		"HudPanelForeground"		"123 110 59 184" //ugly brownish
+		"HudPanelBackground"		"123 110 59 184" //ugly brownish
 		"HudPanelBorder"			"255 255 255 102"
 
 		"HudProgressBarActive"		"240 207 78 255"
-		"HudProgressBarInActive"	"140 120 73 255"
+		"HudProgressBarInActive"	"140 120 73 255" //ugly brownish
 		"HudProgressBarActiveLow"	"240 30 30 255"
 		"HudProgressBarInActiveLow"	"240 30 30 99"	
 
@@ -116,7 +116,7 @@ Scheme
 		
 		"TanDark"				"142 142 142 255"
 		"TanLight"				"255 255 255 255"	//"235 226 202 255"
-		"TanDarker"				"27 27 27 255"	//"46 43 42 255"
+		"TanDarker"				"0 0 0 255"	//"46 43 42 255" - color for specific (empty) backpack pages
         
 		"StoreDarkTan"			"142 142 142 255"
 		"StoreGreen"			"76 107 34 255"
@@ -193,7 +193,7 @@ Scheme
 		"SaleGreen"								"76 107 34 255"
 
 		"LightRed"								"64 190 112 255"	//"Pikles"
-		"LighterRed"							"156 222 181 255" 	//"220 100 80 255"
+		"LighterRed"							"156 222 181 255" 	//"PiklesLight" | "220 100 80 255"
 		"LighterDarkBrown"						"42 42 42 255"
 		"DarkBrown"								"27 27 27 255"
 		
@@ -837,7 +837,7 @@ Scheme
 			}
 		}
 		
-		"HudFontSmallGiantBold"
+		"HudFontSmallGiantBold" //not stock
 		{
 			"1"
 			{
@@ -921,18 +921,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontMediumBold"
+		"HudFontMediumBold"	//changed to control specific backpack page buttons, if anything weird happens blame this
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"24"
+				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"HudFontMediumSmallishBold"
+		"HudFontMediumSmallishBold" //not stock
 		{
 			"1"
 			{
@@ -968,7 +968,7 @@ Scheme
 			}
 		}
 		
-		"HudFontMediumSmaller"
+		"HudFontMediumSmaller" //not stock
 		{
 			"1"
 			{
@@ -980,7 +980,7 @@ Scheme
 			}
 		}
 		
-		"HudFontMediumSmallish"
+		"HudFontMediumSmallish" //not stock
 		{
 			"1"
 			{
@@ -1028,7 +1028,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
-		"HudFontSmallShadow"
+		"HudFontSmallShadow" //not stock
 		{
 			"1"
 			{
@@ -1098,7 +1098,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Invisible"
+		"Invisible" //not stock
 		{
 			"1"
 			{
