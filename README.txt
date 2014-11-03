@@ -10,3 +10,6 @@ https://sites.google.com/site/piklestf2/
 In short, it screwed up the target ID's, so just use these for now:
 tf_hud_target_id_disable_floating_health 1
 tf_hud_target_id_alpha 255
+
+or just steal someone else's targetid.res, healthiconpanel.res and spectatorguihealth.res 
+(and CMainTargetID and CSecondaryTargetID in hudlayout.res)
