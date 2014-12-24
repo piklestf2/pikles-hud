@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"14"
+		"xpos"			"8"
 		"ypos"			"6"
 		"zpos"			"-1"
 		"wide"			"480"
@@ -30,7 +30,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG_Spec_blue"
-		"xpos"			"15"
+		"xpos"			"9"
 		"ypos"			"6"
 		"zpos"			"-1"
 		"wide"			"480"
@@ -52,7 +52,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG_Spec_red"
-		"xpos"			"15"
+		"xpos"			"9"
 		"ypos"			"6"
 		"zpos"			"-1"
 		"wide"			"480"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Bar"
-		"xpos"			"14"
+		"xpos"			"8"
 		"ypos"			"16"
 		"zpos"			"-1"
 		"wide"			"480"
@@ -111,7 +111,7 @@
 		"fieldName"			"TargetDataLabel"
 		"font"				"Garm3n8Spec"	//"HudFontTINY"	//"Garm3n8Spec"	//"FontStoreOriginalPrice"
 		"xpos"				"51"
-		"ypos"				"17"	[$WIN32]
+		"ypos"				"17"
 		"zpos"				"1"
 		"wide"				"480"
 		"tall"				"10"
@@ -129,9 +129,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"1"
+		"xpos"			"5"
 		"ypos"			"3"
-		"wide"			"49"
+		"wide"			"28"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -189,7 +189,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
-			"xpos"			"5"
+			"xpos"			"7"
 			"ypos"			"15"
 			"zpos"			"11"
 			"wide"			"14"
@@ -204,7 +204,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MoveableSymbolIcon"
-			"xpos"			"16"
+			"xpos"			"18"
 			"ypos"			"-2"
 			"zpos"			"14"
 			"wide"			"12"
@@ -223,9 +223,9 @@
 			"font"	"DefaultVerySmall"
 			"font"			"TFFontMedium"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"20"
 			"zpos"			"1"
-			"wide"			"640"
+			"wide"			"20"
 			"tall"			"24"
 			"autoResize"		"0"
 			"pinCorner"		"0"

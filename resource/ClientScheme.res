@@ -50,7 +50,7 @@ Scheme
 		"OrangeDim"			"64 190 112 120"	//"178 82 22 120"
 		"LightOrange"		"255 255 255 255"
 		"GoalOrange"		"255 255 255 255"
-		"TFOrange"			"255 255 255 255"
+		"TFOrange"			"27 27 27 255"
 		
 		"White"				"255 255 255 255"
 		"OffWhite"			"200 200 200 255"
@@ -932,7 +932,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontMediumSmallishBold" //not stock
+		"HudFontMediumSmallishBold" //not stoc
 		{
 			"1"
 			{
