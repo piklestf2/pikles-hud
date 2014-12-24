@@ -23,7 +23,7 @@ Scheme
 	    "TFTanLightBright"          "255 255 255 255"
 	    "TFTanLightDark"            "142 142 142 255"
 	    
-	    "TFOrangeBright"            "250 129 225 255"
+	    "TFOrangeBright"            "64 190 112 255"
 	    
 	    "TFTextBright"              "255 255 255 255"
 	    "TFTextLight"               "200 200 200 255"

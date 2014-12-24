@@ -701,7 +701,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"r220"
-		"ypos"		"r32"
+		"ypos"		"r20"
 		"wide"		"130"
 		"tall"		"90"
 	}
@@ -1787,9 +1787,9 @@
 		"tall"			"150"
 	}
 	
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
+		"fieldName"		"CTFStreakNotice"
 		"xpos"			"0"			
 		"ypos"			"0"
 		"wide"			"640"
