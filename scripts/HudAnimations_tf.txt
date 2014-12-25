@@ -208,13 +208,15 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"96"				Linear 0.2 0.4
 	Animate	PlayerStatusHealthValueBG		FgColor		"31 41 62 255" 		Linear 0.0 0.2
 	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.2 0.4
+	
+	Animate PlayerStatusHealthImageCover	alpha 		"255" 				Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 
-	Animate PlayerStatusHealthValue 		Alpha 		"255" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue	 		FgColor	 	"75 165 255 255" 	Linear 0.0 0.0
-	Animate SpectatorPlayerStatusHealthValue 	Alpha "255" Linear 0.0 0.1
-	Animate SpectatorPlayerStatusHealthValue	FgColor "Tanlight" Linear 0.0 0.0
+	Animate PlayerStatusHealthValue 			Alpha 		"255" 				Linear 0.0 0.1
+	Animate PlayerStatusHealthValue	 			FgColor	 	"75 165 255 255" 	Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue 	Alpha 		"255" 				Linear 0.0 0.1
+	Animate SpectatorPlayerStatusHealthValue	FgColor 	"Tanlight" 			Linear 0.0 0.0
 }
 
 // call to loop HudHealthBonusPulse
@@ -228,7 +230,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.0 0.0001
-
+	Animate PlayerStatusHealthImageCover	alpha	 	"0" 				Linear 0.0 0.0
 	Animate PlayerStatusHealthValue Alpha "255" Linear 0.0 0.1
 	Animate PlayerStatusHealthValue	 FgColor	 "Tanlight" Linear 0.0 0.0
 	Animate SpectatorPlayerStatusHealthValue 	Alpha "255" Linear 0.0 0.1
