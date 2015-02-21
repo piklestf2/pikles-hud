@@ -559,7 +559,30 @@
 		{
 			"visible"		"1"
 		}
-	}							
+	}		
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"ScoreboardMedium"
+		"labelText"		"%mapname%"
+		"textAlignment"		"east"
+		"xpos"			"415"
+		"ypos"			"377"
+		"zpos"			"3"
+		"wide"			"165"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}		
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -601,8 +624,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm
 		{
@@ -942,25 +965,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}	
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"HudFontSmall"
-			"labelText"		"%mapname%"
-			"textAlignment"		"east"
-			"xpos"			"435"
-			"xpos_lodef"		"105"
-			"ypos"			"22"
-			"zpos"			"3"
-			"wide"			"145"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-		}	
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
@@ -976,8 +980,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"fgcolor"		"White"
 		}							
 		"Assists"
