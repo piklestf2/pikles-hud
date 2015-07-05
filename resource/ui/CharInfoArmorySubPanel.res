@@ -36,7 +36,7 @@
 			"wide"			"70"
 			"tall"			"49"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"142 142 142 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
