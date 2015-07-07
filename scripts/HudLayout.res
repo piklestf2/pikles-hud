@@ -1672,11 +1672,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"340"
+		"xpos"					"r200"
+		"ypos"					"rs1"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 	
 	HudTFCrosshair
