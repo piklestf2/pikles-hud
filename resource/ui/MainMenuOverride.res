@@ -763,8 +763,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"284"
-			"ypos"			"6"
+			"xpos"			"283"
+			"ypos"			"7"
 			"zpos"			"10"
 			"wide"			"10"
 			"tall"			"10"

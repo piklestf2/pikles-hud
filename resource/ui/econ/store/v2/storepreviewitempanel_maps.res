@@ -87,15 +87,15 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FootBottomPanel"
-			"xpos"			"3"
+			"xpos"			"0"
 			"ypos"			"240"
 			"zpos"			"1"
-			"wide"			"275"
-			"tall"			"58"
+			"wide"			"480"
+			"tall"			"60"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"bgcolor_override" "27 27 27 255"
 		}
@@ -646,12 +646,12 @@
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"close"
+		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
+		"image_drawcolor"	"70 70 70 255"
+		"image_armedcolor"	"27 27 27 255"
 		
 		"SubImage"
 		{
@@ -717,6 +717,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override" "StoreGreen"
+		"defaultBgColor_override"	"76 107 34 255"
+		"ArmedBgColor_override"	"86 117 44 255"
+		"depressedBgColor_override" "66 97 24 255"
 	}		
 }
