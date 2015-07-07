@@ -135,15 +135,15 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FootBottomPanel"
-			"xpos"			"3"
+			"xpos"			"0"
 			"ypos"			"240"
 			"zpos"			"1"
-			"wide"			"474"
-			"tall"			"58"
+			"wide"			"480"
+			"tall"			"60"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"bgcolor_override" "27 27 27 255"
 		}
@@ -661,8 +661,9 @@
 		"visible"		"1"
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"bgblockout"
 		{
@@ -673,7 +674,7 @@
 			"zpos"			"-10"
 			"wide"			"26"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "27 27 27 255"
@@ -715,8 +716,9 @@
 		"visible"		"1"
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"bgblockout"
 		{
@@ -727,7 +729,7 @@
 			"zpos"			"-10"
 			"wide"			"26"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "27 27 27 255"
@@ -769,8 +771,9 @@
 		"visible"		"1"
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"bgblockout"
 		{
@@ -781,7 +784,7 @@
 			"zpos"			"-10"
 			"wide"			"26"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "27 27 27 255"
@@ -823,8 +826,9 @@
 		"visible"		"1"
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"bgblockout"
 		{
@@ -835,7 +839,7 @@
 			"zpos"			"-10"
 			"wide"			"26"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "27 27 27 255"
@@ -877,8 +881,9 @@
 		"visible"		"1"
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
-		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"image_indent"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"bgblockout"
 		{
@@ -889,7 +894,7 @@
 			"zpos"			"-10"
 			"wide"			"26"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "27 27 27 255"
@@ -933,7 +938,8 @@
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 	}
 	"ClassUsageImage2"
 	{
@@ -949,7 +955,8 @@
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 	}
 	"ClassUsageImage3"
 	{
@@ -965,7 +972,8 @@
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 	}
 	"ClassUsageImage4"
 	{
@@ -981,7 +989,8 @@
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 	}
 	"ClassUsageImage5"
 	{
@@ -997,7 +1006,8 @@
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 	}
 	"ClassUsageImage6"
 	{
@@ -1013,7 +1023,8 @@
 		"panel_bgcolor" "27 27 27 255"
 		"panel_bgcolor_mouseover" "Black"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 	}
 	
 	"IconsMoveLeftButton"
