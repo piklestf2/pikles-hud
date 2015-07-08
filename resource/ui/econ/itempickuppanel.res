@@ -32,14 +32,17 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"27 27 27 255"
 			
-			"model_xpos"	"-125"
+			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
+			"model_wide"        "240"
 			
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
+			"is_mouseover"                "1"
+			"hide_collection_panel" "1"
 			
 			"itemmodelpanel"
 			{
