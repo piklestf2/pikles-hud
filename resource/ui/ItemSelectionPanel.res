@@ -342,11 +342,12 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"27 27 27 255"
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"2"
 		"PaintBackground"	"1"
 		"paintborder"	"1"
+		"border"	"DarkGreyBox"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -368,9 +369,12 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"bgcolor_override"	"0 0 0 255"
+			"PaintBackground"	"1"
+			"PaintBorder"	"0"
+			"border"		"DarkGreyBox"
+			"bgcolor_override"	"19 19 19 255"
 		}
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"

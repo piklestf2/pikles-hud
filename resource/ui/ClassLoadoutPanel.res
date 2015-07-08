@@ -41,10 +41,9 @@
 			"wide"			"140"
 			"tall"			"70"
 			"visible"		"0"
-			"bgcolor_override"		"27 27 27 255"
+			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"142 142 142 255"
 			"PaintBackgroundType"	"2"
-			"paintbackground"	"0"
 			"paintborder"	"1"
 			
 			"model_center_x"	"1"
@@ -261,17 +260,18 @@
 		"wide"			"250"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"27 27 27 255"
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"paintborder"	"0"
+		"PaintBackground"	"1"
+		"paintborder"	"1"
+		"border"	"DarkGreyBox"
 		
-		"text_ypos"			"0"
+		"text_ypos"			"15"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"30"
+		"padding_height"	"15"
 		
 		"BackColor"
 		{
@@ -287,8 +287,10 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"bgcolor_override"	"0 0 0 255"
+			"PaintBackground"	"1"
+			"PaintBorder"	"0"
+			"border"		"DarkGreyBox"
+			"bgcolor_override"	"19 19 19 255"
 		}
 		
 		"attriblabel"

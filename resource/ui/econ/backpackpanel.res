@@ -91,7 +91,7 @@
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
 				"border"		"StoreNewBorder"
-				"fgcolor"		"10 10 10 255"
+				"fgcolor"		"0 0 0 255"
 			}
 		}
 		
@@ -105,7 +105,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"142 142 142 255"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"
@@ -148,7 +148,7 @@
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
 				"border"		"StoreNewBorder"
-				"fgcolor"		"10 10 10 255"
+				"fgcolor"		"0 0 0 255"
 			}
 			
 			"use_item_sounds"	"1"
@@ -363,10 +363,10 @@
 		"bgcolor_override"		"0 0 0 255"
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"1"
+		"PaintBackground"	"1"
 		"paintborder"	"1"
-		
-		"text_ypos"			"20"
+		"border"	"DarkGreyBox"
+
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
@@ -386,8 +386,10 @@
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"bgcolor_override"	"0 0 0 255"
+			"PaintBackground"	"1"
+			"PaintBorder"	"0"
+			"border"		"DarkGreyBox"
+			"bgcolor_override"	"19 19 19 255"
 		}
 		
 		"attriblabel"
