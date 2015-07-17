@@ -6,6 +6,9 @@ piklesHUD v2.8.74 (July 8, 2015)
 screenshots and HUD options at
 https://sites.google.com/site/piklestf2/
 
+add me and COMMENT so I know you're not a spammer here
+http://steamcommunity.com/profiles/76561198054383867
+
 12/23/14
 redesigned the targetid's to work with the floating health thing
 they're pretty ugly though, so if you want you can still use the old flame ones by
