@@ -6,7 +6,7 @@ piklesHUD v2.8.75 (July 30, 2015)
 screenshots and HUD options at
 https://sites.google.com/site/piklestf2/
 
-if you have questions, add me and COMMENT (so I know you're not a spammer) here
+if you have questions, add me and COMMENT (so I know you're not a scammer) here
 http://steamcommunity.com/profiles/76561198054383867
 
 12/23/14
