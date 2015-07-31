@@ -1,4 +1,4 @@
-piklesHUD v2.8.74 (July 8, 2015)
+piklesHUD v2.8.75 (July 30, 2015)
 
 » extract contents to 
 "~/Steam/SteamApps/common/team fortress 2/tf/custom/"
