@@ -10,7 +10,7 @@ if you have questions, add me and COMMENT (so I know you're not a scammer) here
 http://steamcommunity.com/profiles/76561198054383867
 
 12/23/14
-redesigned the targetid's to work with the floating health thing
+redesigned the targetids to work with the floating health thing
 they're pretty ugly though, so if you want you can still use the old flame ones by
 	- replacing the text in
 		targetid.res
@@ -25,7 +25,7 @@ they're pretty ugly though, so if you want you can still use the old flame ones 
 	(respectively of course)
 	
 10/29/14 update 
-In short, it screwed up the target ID's, so just use these for now:
+In short, it screwed up the target IDs, so just use these for now:
 tf_hud_target_id_disable_floating_health 1
 tf_hud_target_id_alpha 235
 
