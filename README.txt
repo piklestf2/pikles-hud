@@ -10,8 +10,8 @@ if you have questions, add me and COMMENT (so I know you're not a scammer) here
 http://steamcommunity.com/profiles/76561198054383867
 
 3/31/16
-I won't be updating any features that I don't personally use. 
-I've missed over a year's worth of updates and simply have no desire to make the time to go back and implement things if they don't affect me.
+I won't be updating any features that I don't personally use. I've missed over a year's worth of updates and simply have no desire to make the time to go back and implement things if they don't affect me.
+
 If anything major breaks, I'll fix it the next time I hop on TF2 (which could and likely will be a while after the update).
 
 12/23/14
