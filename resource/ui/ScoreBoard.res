@@ -19,17 +19,19 @@
 		"tabPosition"		"0"
 		"medal_width"       "15"
 		"avatar_width"		"48"	
+		"spacer"            "5"
 		"name_width"		"102"	
 		"name_width_short"	"102"
-		"status_width"		"15"	
+		//"status_width"		"15"	
 		"nemesis_width"		"15"	
 		"class_width"		"15"	
 		"score_width"		"25"
-		"score_width_lodef"	"35"
-		"score_width_hidef"	"50"
+		//"score_width_lodef"	"35"
+		//"score_width_hidef"	"50"
 		"ping_width"		"23"	
 		"stats_width"		"30"
 		"killstreak_width"	"20"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -96,7 +98,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"border"		"TFThinLineBorder"
+		"border"		"NoBorder"
 		
 		if_mvm
 		{
