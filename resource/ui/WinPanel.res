@@ -12,12 +12,18 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
-			"wide"			"0"
-			"tall"			"0"
+			"xpos"			"50"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"BlueScoreBG2"
 		{
@@ -32,15 +38,20 @@
 			"enabled"	"1"
 			"fillcolor"	"127 152 166 128" //"77 116 139 255"		
 		}
-
 		"RedScoreBG"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreBG"
-			"wide"			"0"
-			"tall"			"0"
+			"xpos"			"197"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
 		"RedScoreBG2"
 		{
@@ -55,7 +66,6 @@
 			"enabled"	"1"
 			"fillcolor"	"206 115 113 128"
 		}
-
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -79,7 +89,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"HUDFontBiggerBold" //"ScoreboardTeamScore"
+			"font"			"HUDFontBiggerBold"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"122"
@@ -98,8 +108,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"HUDFontBiggerBold" //"ScoreboardTeamScore"
-			"fgcolor"		"SuperBlack"
+			"font"			"HUDFontBiggerBold"
+			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"123"
@@ -113,7 +123,35 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"BlueLeaderAvatar"
+			"xpos"			"61"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueLeaderAvatarBG"
+			"xpos"			"59"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
+		}									
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -137,7 +175,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"HUDFontBiggerBold" //"ScoreboardTeamScore"
+			"font"			"HUDFontBiggerBold"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"199"
@@ -156,8 +194,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"HUDFontBiggerBold" //"ScoreboardTeamScore"
-			"fgcolor"		"SuperBlack"
+			"font"			"HUDFontBiggerBold"
+			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"200"
@@ -171,21 +209,51 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
-
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"RedLeaderAvatar"
+			"xpos"			"280"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedLeaderAvatarBG"
+			"xpos"			"278"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
+		}
 	}
-	"WinPanelBG"
+
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"-102"
-		"ypos"			"48"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"70"
 		"zpos"			"0"
-		"wide"			"0" //"496"
-		"tall"			"0" //"174"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"p0.94"
+		"tall"			"185"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinPanelBG2"
 	{
@@ -200,7 +268,6 @@
 		"enabled"	"1"
 		"fillcolor"	"0 0 0 128"		
 	}
-
 	"WinningTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
