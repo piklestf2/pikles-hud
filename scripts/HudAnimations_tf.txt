@@ -602,6 +602,17 @@ event TeamsFullArrowAnimateEnd
 	StopEvent TeamsFullArrowAnimateLoop 0.0
 }
 
+//===========================================
+
+event WinPanel_CompPos
+{
+Animate WinPanel ypos "r158" Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+Animate WinPanel ypos "r158" Linear 0 0
+}
 
 //===========================================
 
