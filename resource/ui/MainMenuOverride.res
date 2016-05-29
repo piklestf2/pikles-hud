@@ -1327,7 +1327,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"c-276"
-		"ypos"			"r319"
+		"ypos"			"r299"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
@@ -1395,7 +1395,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"c-276"
-		"ypos"			"r240"
+		"ypos"			"r220"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
@@ -1462,7 +1462,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"c-276"
-		"ypos"			"r220"
+		"ypos"			"r200"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
@@ -1530,7 +1530,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-276"
-		"ypos"			"r270"
+		"ypos"			"r250"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
@@ -1598,7 +1598,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-276"
-		"ypos"			"r290"
+		"ypos"			"r270"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
@@ -2027,7 +2027,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
 		"xpos"			"c-276"
-		"ypos"			"r339"
+		"ypos"			"r319"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
@@ -2035,6 +2035,74 @@
 		"PaintBackgroundType"	"0"
 
 		"navUp"			"QuickplayButton"
+		"navDown"		"PlayCompetitiveButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"197"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"FgColor" "255 255 255 255"			
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"255 255 255 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"8"
+				"ypos"			"4"
+				"zpos"			"2"
+				"wide"			"11"
+				"tall"			"11"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
+	"PlayCompetitiveButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"PlayCompetitiveButton"
+		"xpos"			"c-276"
+		"ypos"			"r339"
+		"zpos"			"11"
+		"wide"			"197"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"PaintBackgroundType"	"0"
+
+		"navUp"			"PlayPVEButton"
 		"navDown"		"ServerBrowserButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
@@ -2088,7 +2156,37 @@
 			}
 		}
 	}
-		
+
+	"CompetitiveBetaImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldname"		"CompetitiveBetaImage"
+		// Competitive button, plus offset.
+		"xpos"			"c-285+218"
+		"ypos"			"178"
+		"zpos"			"12"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"beta"
+		"scaleImage"	"1"
+		if_competitive
+		{
+				"visible"		"1"
+				"enabled"		"1"
+		}
+		if_competitive_stress_event
+		{
+			// Move up/left 10px, bump up to 20x20
+			"ypos"	"165"
+			"xpos"	"c-285+205"
+			"wide"	"56"
+			"tall"	"56"
+			"image"	"beta_stress"
+		}
+	}
+	
 	"ServerBrowserButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2223,7 +2321,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButton"
 		"xpos"			"c-276"
-		"ypos"			"r139"
+		"ypos"			"r119"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"22"
@@ -2286,7 +2384,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
 		"xpos"			"c-276"
-		"ypos"			"r139"
+		"ypos"			"r119"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"22"
@@ -2809,7 +2907,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"c-286"
-		"ypos"			"r169"
+		"ypos"			"r149"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
@@ -2865,7 +2963,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"c-286"
-		"ypos"			"r189"
+		"ypos"			"r169"
 		"zpos"			"11"
 		"wide"			"197"
 		"tall"			"20"
