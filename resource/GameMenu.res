@@ -28,6 +28,13 @@
 		"OnlyAtMenu" "1"
 		"OnlyWhenCompetitiveEnabled" "1"
 	}
+	"PlayCompetitiveDecoyButton"
+	{
+		"label" "Play Competitive" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyInGame" "1"
+	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers" 
