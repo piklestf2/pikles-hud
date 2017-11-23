@@ -1,9 +1,9 @@
 "GameMenu" [$WIN32]
 {
-	"QuickplayButton"
+	"FindAGameButton"
 	{
-		"label" "#MMenu_StartPlaying" 
-		"command" "quickplay"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
