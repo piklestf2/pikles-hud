@@ -1,8 +1,8 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -27,7 +27,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/round_banner.mdl"
+			"modelname"	"models/props_ui/banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -201,12 +201,79 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 
+	"BGFrame"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrame"
+		"xpos"				"cs-0.5"
+		"ypos"				"-5"
+		"zpos"				"0"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+
+		"proportionaltoaparent"	"1"
+		"border"			"TFFatLineBorder"
+
+		if_match
+		{
+			"visible"		"0"
+		}
+	}
+
+	"RankUpLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"RankUpLabel"
+		"font"			"HudFontMediumSmallBold"
+		"xpos"			"cs-0.5"
+		"ypos"			"80"
+		"wide"			"600"
+		"tall"			"60"
+		"zpos"			"5"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+		"centerwrap"	"1"
+		"alpha"			"0"
+		"labelText"		"%rank_possibility%"
+		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
+		"fgcolor"		"TanLight"
+	}
+
+	"RankUpShadowLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"RankUpShadowLabel"
+		"font"			"HudFontMediumSmallBold"
+		"xpos"			"cs-0.5+2"
+		"ypos"			"80+2"
+		"wide"			"600"
+		"tall"			"60"
+		"zpos"			"5"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+		"centerwrap"	"1"
+		"alpha"			"0"
+		"labelText"		"%rank_possibility%"
+		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
+		"fgcolor"		"Black"
+	}
+	
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
