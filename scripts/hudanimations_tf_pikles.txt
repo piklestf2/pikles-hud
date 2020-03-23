@@ -41,37 +41,6 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
-event LevelInit
-{
-}
-
-event OpenWeaponSelectionMenu
-{
-	StopEvent CloseWeaponSelectionMenu	0.0
-	StopEvent WeaponPickup				0.0
-
-	// make the display visible
-	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
-	Animate HudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
-	Animate HudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
-	//Animate HudWeaponSelection TextColor	"BrightFg"	Linear 0.0 0.1
-	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
-}
-
-event CloseWeaponSelectionMenu
-{
-	StopEvent CloseWeaponSelectionMenu	0.0
-	StopEvent WeaponPickup				0.0
-
-	// make the display visible
-	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
-	Animate HudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
-	Animate HudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
-	//Animate HudWeaponSelection TextColor	"BrightFg"	Linear 0.0 0.1
-	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
-}
-
-
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0
@@ -107,51 +76,6 @@ event MenuPulse
 	Animate HudMenu		Blur		"7"			Linear	0.4		0.1
 	Animate HudMenu		Blur		"2"			Deaccel	0.5		0.1
 	Animate	HudMenu		Blur		"1"			Deaccel	0.6		0.4
-}
-
-event TimerIncrement
-{
-	Animate HudTimer		Blur		"7"			Linear	0.0	0.1
-	Animate HudTimer		Blur		"2"			Deaccel	0.1		0.8
-	Animate	HudTimer		Blur		"0"			Deaccel	1.1		1.5
-}
-
-event TimerDecrement
-{
-	Animate HudTimer		Blur		"7"			Linear	0.0	0.1
-	Animate HudTimer		Blur		"2"			Deaccel	0.1		0.8
-	Animate	HudTimer		Blur		"0"			Deaccel	1.1		1.5
-}
-
-
-event ResourceIncrement
-{
-	Animate HudResources		Blur			"3"			Linear	0.0	0.0
-	Animate HudResources		PulseAmount		"0"			Linear	0.0	0.01
-	Animate HudResources		Blur			"1"			Deaccel	0.1	1.5
-	Animate HudResources		PulseAmount		"1"			Linear	0.1	2
-
-	Animate HudResources		PulseAmount		"0"			Linear	2	2
-}
-
-event ResourceDecrement
-{
-	Animate HudResources		Blur			"7"			Linear	0.0	0.0
-	Animate HudResources		PulseAmount		"0"			Linear	0.0	0.01
-	Animate HudResources		Blur			"1"			Deaccel	0.1	1.5
-	Animate HudResources		PulseAmount		"1"			Linear	0.1	2
-
-	Animate HudResources		PulseAmount		"0"			Linear	2	2
-}
-
-event ResourcePickup
-{
-	Animate HudResourcesPickup	Alpha			"255"			Linear	0	0
-	Animate HudResourcesPickup	Position		"80 r40"		Linear	0	0
-	Animate HudResourcesPickup	Position		"80 r120"		Deaccel	0	1
-	Animate HudResourcesPickup	Blur			"7"			Deaccel 0	0.2
-	Animate HudResourcesPickup	Alpha			"0"			Deaccel	.8	0.2
-	Animate	HudResourcesPickup	Blur		"1"			Deaccel	0.2	0.3
 }
 
 event HintMessageShow
@@ -208,7 +132,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"96"				Linear 0.2 0.4
 	Animate	PlayerStatusHealthValueBG		FgColor		"31 41 62 255" 		Linear 0.0 0.2
 	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.2 0.4
-	
+
 	Animate PlayerStatusHealthImageCover	alpha 		"255" 				Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
@@ -277,16 +201,16 @@ event HudLowAmmoPulse
 //	Animate	AmmoInClipShadow			FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
 //	Animate	AmmoInReserveShadow			FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
 //	Animate	AmmoNoClipShadow			FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
-//	Animate	AmmoInClipShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2 
+//	Animate	AmmoInClipShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2
 //	Animate	AmmoInClipShadow			FgColor		"SuperBlack" 		Linear 0.2 0.04
-//	Animate	AmmoInReserveShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2 
+//	Animate	AmmoInReserveShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2
 //	Animate	AmmoInReserveShadow			FgColor		"SuperBlack" 		Linear 0.2 0.04
-//	Animate	AmmoNoClipShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2 
+//	Animate	AmmoNoClipShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2
 //	Animate	AmmoNoClipShadow			FgColor		"SuperBlack" 		Linear 0.2 0.04
-	Animate	AmmoInReserve				FgColor		"255 0 0 255" 		Linear 0.0 0.0001 
-	Animate	AmmoNoClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001 
-	Animate	AmmoInClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001 
-	
+	Animate	AmmoInReserve				FgColor		"255 0 0 255" 		Linear 0.0 0.0001
+	Animate	AmmoNoClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001
+	Animate	AmmoInClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001
+
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
@@ -301,52 +225,12 @@ event HudLowAmmoPulseStop
 	Animate	AmmoInClipShadow			FgColor		"SuperBlack" 		Linear 0.0 0.0001 // pvhud
 	Animate	AmmoInReserveShadow			FgColor		"SuperBlack" 		Linear 0.0 0.0001 // pvhud
 	Animate	AmmoNoClipShadow			FgColor		"SuperBlack" 		Linear 0.0 0.0001 // pvhud
-	Animate	AmmoInClip					FgColor		"Tanlight" 		Linear 0.0 0.0001 // pvhud	
+	Animate	AmmoInClip					FgColor		"Tanlight" 		Linear 0.0 0.0001 // pvhud
 	Animate	AmmoInReserve				FgColor		"Tanlight" 		Linear 0.0 0.0001 // pvhud
 	Animate	AmmoNoClip					FgColor		"Tanlight" 		Linear 0.0 0.0001 // pvhud
 
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-}
-
-//===========================================
-
-event ControlPointIconShrink
-{
-	Animate HudControlPointIcons icon_expand "0" Linear 0.0 0.2
-}
-
-event ControlPointIconGrow
-{
-	Animate HudControlPointIcons icon_expand "4" Linear 0.0 0.2
-}
-
-// Metal Account
-
-//activecolor - instantly turn red, fade back to yellow
-event AccountMoneyRemoved
-{
-	Animate HudAccount		FgColor	"HudIcon_Red" Linear 0.0 0.0001
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
-
-	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
-	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
-}
-
-//activecolor - instantly turn green, fade back to yellow
-event AccountMoneyAdded
-{
-	Animate HudAccount		FgColor	"HudIcon_Green" Linear 0.0 0.0001
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
-
-	Animate HudAccount		Ammo2Color "HudIcon_Green" Accel 0.0 0.0001
-	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
-}
-
-event AccountMoneyInvisible
-{
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 0.0001
-	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 0.0001
 }
 
 //===========================================
@@ -378,10 +262,8 @@ event FlagOutline
 event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"		Linear 0.0 0.2
-	
-	Animate PlayerStatusSpyOutlineImage		Position	"c-284 r120"	Linear 0.0 0.2	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-284 r120"	Linear 0.0 0.
 	Animate PlayerStatusSpyOutlineImage		Size		"120 120"	Linear 0.0 0.2
-	
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
@@ -389,7 +271,6 @@ event HudSpyDisguiseHide
 {
 	Animate PlayerStatusSpyOutlineImage		Position	"c-186 r36"	Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"37 37"		Linear 0.0 0.2
-	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"		Linear 0.2 0.1
 }
 
@@ -495,21 +376,9 @@ event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
-	
+
 	Animate	ChargeLabel 	FgColor		"Tanlight"	Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"Garm3nPlus"		Linear 0.0 0.0001
-}
-
-//====================================
-
-event VideoCaptionFadeIn
-{
-	Animate VideoCaption	Alpha		"255"			Linear 0.0 0.1
-}
-
-event VideoCaptionFadeOut
-{
-	Animate VideoCaption	Alpha		"0"				Linear 0.0 0.1
 }
 
 //====================================
@@ -538,28 +407,6 @@ event ArenaVsPanelSlideOut
 	Animate bluepanel	Position	"-200 50"	Spline 0.0 0.2
 	Animate redpanel	Position	"r-200 140"	Spline 0.0 0.2
 	Animate vslabel	Alpha	"0"		Linear 0.0 0.05
-}
-
-//===========================================
-
-//Cart Alarm Pulse
-event HudCartAlarmPulse
-{
-	Animate	EscortItemImageAlert 	Alpha		"160"		Linear 0.0 0.3
-	Animate	EscortItemImageAlert 	Alpha		"0"		Linear 0.6 0.3
-
-	RunEvent HudCartAlarmPulseLoop	1.2
-}
-
-event HudCartAlarmPulseLoop
-{
-	RunEvent HudCartAlarmPulse 0.0
-}
-
-event HudCartAlarmPulseStop
-{
-	StopEvent HudCartAlarmPulse 0.0
-	StopEvent HudCartAlarmPulseLoop 0.0
 }
 
 //===========================================
@@ -606,195 +453,20 @@ event TeamsFullArrowAnimateEnd
 
 event WinPanel_CompPos
 {
-Animate WinPanel ypos "r158" Linear 0 0
+    Animate WinPanel ypos "r158" Linear 0 0
 }
 
 event WinPanel_NormalPos
 {
-Animate WinPanel ypos "r158" Linear 0 0
-}
-
-//===========================================
-
-event TrainingHudBounce
-{
-	Animate ObjectiveStatusTraining	Position		"c-160 r187"		Linear 0 0
-	Animate ObjectiveStatusTraining	Position		"c-160 r127"		Bounce 0.0 2.0
-}
-
-event TrainingPressSpacebarBlink
-{
-	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.0 0.1
-	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 0.2 0.1
-
-	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.4 0.1
-	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 0.6 0.1
-
-	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.8 0.1
-	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 1.0 0.1
-
-	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 1.2 0.1
-
-	RunEvent TrainingPressSpacebarBlinkLoop		3.0
-}
-
-event TrainingPressSpacebarBlinkLoop
-{
-	RunEvent TrainingPressSpacebarBlink			0.0
-}
-
-event TrainingPressSpacebarBlinkStop
-{
-	StopEvent TrainingPressSpacebarBlink			0.0
-	StopEvent TrainingPressSpacebarBlinkLoop 		0.0
-}
-
-//===========================================
-
-event IntroMovieContinueBlink
-{
-	Animate	continue 	Alpha		"255"		Linear 0.0 0.1
-	Animate	continue 	Alpha		"0"			Linear 0.2 0.1
-
-	Animate	continue 	Alpha		"255"		Linear 0.4 0.1
-	Animate	continue 	Alpha		"0"			Linear 0.6 0.1
-
-	Animate	continue 	Alpha		"255"		Linear 0.8 0.1
-	Animate	continue 	Alpha		"0"			Linear 1.0 0.1
-
-	Animate	continue 	Alpha		"255"		Linear 1.2 0.1
-
-	RunEvent IntroMovieContinueBlinkLoop		2.0
-}
-
-event IntroMovieContinueBlinkLoop
-{
-	RunEvent IntroMovieContinueBlink			0.0
-}
-
-event IntroMovieContinueBlinkStop
-{
-	StopEvent IntroMovieContinueBlink			0.0
-	StopEvent IntroMovieContinueBlinkLoop 		0.0
-}
-
-//===========================================
-
-event HasMOTDBlink
-{
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
-
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
-
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
-
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
-
-	RunEvent HasMOTDBlinkLoop		2.0
-}
-
-event HasMOTDBlinkLoop
-{
-	RunEvent HasMOTDBlink			0.0
-}
-
-event HasMOTDBlinkStop
-{
-	StopEvent HasMOTDBlink				0.0
-	StopEvent HasMOTDBlinkLoop 		0.0
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-}
-
-//===========================================
-
-event HasNotificationsBlink
-{
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
-
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
-
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
-
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
-
-	RunEvent HasNotificationsBlinkLoop		2.0
-}
-
-event HasNotificationsBlinkLoop
-{
-	RunEvent HasNotificationsBlink			0.0
-}
-
-event HasNotificationsBlinkStop
-{
-	StopEvent HasNotificationsBlink				0.0
-	StopEvent HasNotificationsBlinkLoop 		0.0
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-}
-
-//===========================================
-
-event AddToCartBlink
-{
-	Animate	CartButton	BgColor	"TanDark"		Linear 0.0 0.01
-	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.1 0.01
-
-	Animate	CartButton 	BgColor	"TanDark"		Linear 0.2 0.01
-	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.3 0.01
-
-	Animate	CartButton 	BgColor	"TanDark"		Linear 0.4 0.01
-	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.5 0.01
-
-	Animate	CartButton	BgColor	"TanDark"		Linear 0.6 0.01
-	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.7 0.01
-
-	Animate	CartButton 	BgColor	"TanDark"		Linear 0.8 0.01
-	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.9 0.01
-
-	Animate	CartButton 	BgColor	"TanDark"		Linear 1.0 0.01
-}
-
-//===========================================
-
-event NotificationsPresentBlink
-{
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
-	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.2 0.1
-
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1
-	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.6 0.1
-
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.8 0.1
-	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 1.0 0.1
-
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 1.2 0.1
-
-	RunEvent NotificationsPresentBlinkLoop		2.0
-}
-
-event NotificationsPresentBlinkLoop
-{
-	RunEvent NotificationsPresentBlink			0.0
-}
-
-event NotificationsPresentBlinkStop
-{
-	StopEvent NotificationsPresentBlink				0.0
-	StopEvent NotificationsPresentBlinkLoop 		0.0
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+    Animate WinPanel ypos "r158" Linear 0 0
 }
 
 //===========================================
 
 event DamagedPlayer
 {
-	RunEvent xHairHit 0.0
+	StopEvent xHairHit 0.0
+	RunEvent xHairHit 0.01
 }
 
 event xHairHit
@@ -827,25 +499,4 @@ event SpyWarningFlashEnd
 {
 	StopEvent SpyWarningFlash			0.0
 	StopEvent SpyWarningFlashLoop		0.0
-}
-
-event HudReadyPulse
-{
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
-
-	RunEvent HudReadyPulseLoop	0.5
-}
-
-event HudReadyPulseLoop
-{
-	RunEvent HudReadyPulse			0.0
-}
-
-event HudReadyPulseEnd
-{
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-
-	StopEvent HudReadyPulse			0.0
-	StopEvent HudReadyPulseLoop		0.0
 }
