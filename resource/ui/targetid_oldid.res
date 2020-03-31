@@ -20,11 +20,11 @@
 		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"40"			// pixels inside the image
-		"src_corner_width"		"40"			
+		"src_corner_width"		"40"
 		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"		
+		"draw_corner_height" 		"0"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -42,9 +42,9 @@
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"		"../hud/color_panel_blu"
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
+		"src_corner_width"		"40"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 	}
@@ -64,9 +64,9 @@
 		"image"			"../hud/color_panel_red"
 		"image_lodef"		"../hud/color_panel_red"
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
+		"src_corner_width"		"40"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"
 	}
@@ -87,7 +87,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetNameLabel"
 		"font"				"TFFontMediumBold"
@@ -106,7 +106,7 @@
 		"brighttext"		"0"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
 		"font"				"Garm3n8Spec"	//"HudFontTINY"	//"Garm3n8Spec"	//"FontStoreOriginalPrice"
@@ -134,14 +134,14 @@
 		"wide"			"49"
 		"tall"			"32"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"Hudoffwhite"
-	}	
-	
+	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -156,7 +156,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -168,7 +168,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -184,7 +184,7 @@
 			"iconColor"		"Black"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -217,7 +217,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"MoveableKeyLabel"
 			"font"	"DefaultVerySmall"
@@ -235,6 +235,6 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}	
+		}
 	}
 }

@@ -11,7 +11,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ReplayLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -55,6 +55,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_replay"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 }

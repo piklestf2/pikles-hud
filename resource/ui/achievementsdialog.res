@@ -2,7 +2,7 @@
 // Achievements Dialog
 //------------------------------------
 "AchievementsDialog.res"
-{	
+{
 	"AchievementsDialog"
 	{
 		"ControlName"		"CAchievementsDialog"
@@ -20,7 +20,7 @@
 		"title"						"#GameUI_Achievements_Title"
 		"borderwidth"				"15"
 	}
-	
+
 	"Back" //back button
 	{
 		"ControlName"		"Button"
@@ -42,7 +42,7 @@
 		"Command"		"Close"
 		"Default"		"0"
 	}
-	
+
 	"listpanel_achievements"
 	{
 		"ControlName"		"PanelListPanel"
@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"tabPosition"		"1"
 	}
-	
+
 	"listpanel_background"
 	{
 		"ControlName"		"ImagePanel"
@@ -73,7 +73,7 @@
 		"pinCorner"		"0"
 		"autoResize"		"3"
 	}
-	
+
 	"PercentageBarBackground" //light grey overall percentage
 	{
 		"ControlName"		"ImagePanel"
@@ -87,7 +87,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"PercentageBar" //dark grey current completed
 	{
 		"ControlName"		"ImagePanel"
@@ -101,7 +101,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"PercentageText" //Percent Text inside the percentage field
 	{
 		"ControlName"		"Label"
@@ -123,7 +123,7 @@
 		"fillcolor"	"255 255 255 255"
 		"font"		"AchievementItemDescription"	//"defaultlarg"
 	}
-	
+
 	"achievement_pack_combo"
 	{
 		"ControlName"	"ComboBox"
@@ -136,7 +136,7 @@
 		"visible"		"1"
 		"editable"		"0"
 	}
-	
+
 	"ProgressBackground" // dark box around progress bar and 'achievements earned' label
 	{
 		"ControlName"		"ImagePanel"
@@ -150,8 +150,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
-	"AchievementsEarnedLabel" 
+
+	"AchievementsEarnedLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"AchievementsEarnedLabel"
@@ -172,7 +172,7 @@
 		"fillcolor"	"255 255 255 255"
 		"font"		"AchievementItemDescription"	//"defaultlarg"
 	}
-	
+
 	"HideAchieved"
 	{
 		"ControlName"		"CheckButton"

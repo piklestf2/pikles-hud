@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveStatus.res"
-{	
+{
 //	apparently not in use anymore
 //	"ObjectiveStatusTimePanel"
 //	{
@@ -20,7 +20,7 @@
 //		"NegativeColor"			"255 0 0 255"
 //		"delta_lifetime"		"1.5"
 //		"delta_item_font"		"HudFontMediumSmall"
-//		
+//
 //		"TimePanelValue"
 //		{
 //			"ControlName"		"CExLabel"
@@ -37,6 +37,6 @@
 //			"enabled"		"1"
 //			"textAlignment"		"center"
 //			"labelText"		"0:00"
-//		}	
+//		}
 //	}
 }

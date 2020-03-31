@@ -18,7 +18,7 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
@@ -26,7 +26,7 @@
 		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"104"
-		"tall"			"6"				
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -36,8 +36,8 @@
 		"fgcolor_override" "255 255 255 255"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
-	
+	}
+
 	"Mark1"
 	{
 		"ControlName"			"ImagePanel"
@@ -53,7 +53,7 @@
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"Mark2"
 	{
 		"ControlName"			"ImagePanel"
@@ -85,7 +85,7 @@
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"ChargeColor_25"
 	{
 		"controlName"			"ImagePanel"
@@ -111,7 +111,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"85 85 85 255"
-	}	
+	}
 	"ChargeColor_75"
 	{
 		"controlName"			"ImagePanel"
@@ -124,7 +124,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"170 170 170 255"
-	}	
+	}
 	"ChargeColor_100"
 	{
 		"controlName"			"ImagePanel"

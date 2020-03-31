@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -33,7 +33,7 @@
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -51,8 +51,8 @@
 		"textAlignment"	"west"
 		"font"			"HudFontsmallBold"
 		"fgcolor"		"Gray"
-	}	
-	
+	}
+
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
@@ -71,7 +71,7 @@
 		"textAlignment"	"northwest"
 		"fgcolor"		"white"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -84,7 +84,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
 
 	"MapInfoContinue"
@@ -106,7 +106,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"font"			"HudFontSmallBold"		//"MenuSmallFont"
-		
+
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
 		"fgcolor"			"255 255 255 255"
@@ -120,7 +120,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
@@ -140,7 +140,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"font"			"HudFontSmallBold"		//"MenuSmallFont"
-		
+
 		"sound_released"			"UI/projector_screen_down.wav"
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"fgcolor"			"255 255 255 255"
@@ -154,7 +154,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
@@ -174,7 +174,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"		//"MenuSmallFont"
-		
+
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
 		"fgcolor"			"255 255 255 255"
@@ -188,7 +188,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -201,7 +201,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 153"
-	}					
+	}
 
 	"ShadedBar"
 	{
@@ -216,5 +216,5 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 128"
-	}	
+	}
 }

@@ -27,7 +27,7 @@
 			"enabled"		"1"
 			"scaleimage"	"1"
 		}
-				
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"

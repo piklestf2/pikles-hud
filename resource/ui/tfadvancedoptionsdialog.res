@@ -19,7 +19,7 @@
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"border"				"GrayDialogBorder"
-		
+
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
@@ -93,7 +93,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border"		"OutlinedDullGreyBox"
 	}
-	
+
 	"PanelListPanel"
 	{
 		"ControlName"		"CPanelListPanel"
@@ -109,7 +109,7 @@
 		"tabPosition"		"0"
 		"bgcolor_override"	"Black"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -122,7 +122,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -143,5 +143,5 @@
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}
-	}	
+	}
 }

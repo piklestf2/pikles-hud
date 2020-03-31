@@ -13,7 +13,7 @@
 		"enabled"			"1"
 	}
 	"GoalLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GoalLabel"
 		"fgcolor"		"TanLight"
@@ -34,7 +34,7 @@
 		"textAlignment"		"North"
 	}
 	"GoalLabelShadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GoalLabelShadow"
 		"fgcolor"		"Black"
@@ -55,7 +55,7 @@
 		"textAlignment"		"North"
 	}
 	"MsgLabel"
-	{	
+	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MsgLabel"
 		"fgcolor"		"TanLight"
@@ -76,7 +76,7 @@
 		"font"			"InstructionalText"
 	}
 	"PressSpacebarToContinue"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PressSpacebarToContinue"
 		"fgcolor"		"TanLight"

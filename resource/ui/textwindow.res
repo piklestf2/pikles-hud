@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"ForceStereoRenderToFrameBuffer" "1"
 	}
-	
+
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -36,7 +36,7 @@
 		"brighttext"	"0"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"
-	}	
+	}
 
 	"TextMessage"
 	{
@@ -81,7 +81,7 @@
 		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"	"CExButton"
@@ -104,7 +104,7 @@
 		"command"		"okay"
 		"default"		"0"
 		"font"			"HudFontSmallBold"		//"MenuSmallFont"
-		
+
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
 		"fgcolor"			"255 255 255 255"
@@ -118,7 +118,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -131,8 +131,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 153"
-	}				
-	
+	}
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -146,13 +146,13 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 128"
-	}						
-	
+	}
+
 	"MessageTitle"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
 }

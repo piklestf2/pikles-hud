@@ -16,7 +16,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"bgcolor_override"	"Black"
-		
+
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
 		"item_backpack_offcenter_x"		"-288"
@@ -36,7 +36,7 @@
 			"text_center"		"0"
 			"text_yoffset"		"2"
 			"inset_eq_y"		"55"
-			
+
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
 		}
@@ -52,26 +52,26 @@
 			"noitem_textcolor"		"142 142 142 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_xpos"	"2"
-			"model_ypos"	"5" 
+			"model_ypos"	"5"
 			"model_wide"	"50"
 			"model_tall"	"35"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
-			
+
 			"deferred_description"	"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
+
 			"use_item_sounds"	"1"
 		}
 		"duplicatelabels_kv"
@@ -87,7 +87,7 @@
 			"fgcolor"		"153 204 255 255"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -123,7 +123,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -138,7 +138,7 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
-	}				
+	}
 	"BottomLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -153,8 +153,8 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
-	}				
-		
+	}
+
 	"ItemSlotLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -191,7 +191,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "Pikles"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -214,8 +214,8 @@
 		"Command"		"vguicancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"ShowBackpack"
 	{
 		"ControlName"	"CExButton"
@@ -264,7 +264,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -287,8 +287,8 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -307,7 +307,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "Pikles"
 	}
-	
+
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -330,8 +330,8 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -348,13 +348,13 @@
 		"PaintBackground"	"1"
 		"paintborder"	"1"
 		"border"	"DarkGreyBox"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
 		{
 			"ControlName"		"EditablePanel"
@@ -374,7 +374,7 @@
 			"border"		"DarkGreyBox"
 			"bgcolor_override"	"19 19 19 255"
 		}
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -393,7 +393,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"NameFilterLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -454,5 +454,5 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"White"
-	}	
+	}
 }

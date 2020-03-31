@@ -1,6 +1,6 @@
 "Resource/UI/HudMenuTauntSelection.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,7 +11,7 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
@@ -46,7 +46,7 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 0"
 	}
-	
+
 	"IcoReelIcon"
 	{
 		"ControlName"	"CIconPanel"
@@ -58,13 +58,13 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_taunt_menu_icon"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -82,9 +82,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontSmallBold"
@@ -118,20 +118,20 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"36"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -160,13 +160,13 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -188,20 +188,20 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"36"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -223,20 +223,20 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"36"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -258,20 +258,20 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"36"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -293,20 +293,20 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"36"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -328,20 +328,20 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"36"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -363,29 +363,29 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"36"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"NumberLabel1"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1"
 		"font"			"HudFontSmallestBold"
@@ -405,7 +405,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow1"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow1"
 		"font"			"HudFontSmallestBold"
@@ -424,9 +424,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"NumberLabel2"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2"
 		"font"			"HudFontSmallestBold"
@@ -446,7 +446,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow2"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow2"
 		"font"			"HudFontSmallestBold"
@@ -466,7 +466,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabel3"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel3"
 		"font"			"HudFontSmallestBold"
@@ -486,7 +486,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow3"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow3"
 		"font"			"HudFontSmallestBold"
@@ -506,7 +506,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabel4"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4"
 		"font"			"HudFontSmallestBold"
@@ -526,7 +526,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow4"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow4"
 		"font"			"HudFontSmallestBold"
@@ -546,7 +546,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabel5"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel5"
 		"font"			"HudFontSmallestBold"
@@ -566,7 +566,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow5"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow5"
 		"font"			"HudFontSmallestBold"
@@ -586,7 +586,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabel6"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6"
 		"font"			"HudFontSmallestBold"
@@ -606,7 +606,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow6"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow6"
 		"font"			"HudFontSmallestBold"
@@ -626,7 +626,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabel7"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7"
 		"font"			"HudFontSmallestBold"
@@ -646,7 +646,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow7"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow7"
 		"font"			"HudFontSmallestBold"
@@ -666,7 +666,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabel8"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
 		"font"			"HudFontSmallestBold"
@@ -686,7 +686,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow8"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow8"
 		"font"			"HudFontSmallestBold"
@@ -706,7 +706,7 @@
 		"brighttext"	"0"
 	}
 	"WeaponTauntLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntLabel"
 		"font"			"Default"
@@ -724,9 +724,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"Default"

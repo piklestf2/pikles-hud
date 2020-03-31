@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"Overlay"
 	{
 		"ControlName"	"RoundInfoOverlay"
@@ -27,9 +27,9 @@
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 	}
-	
+
 	"Title"
 	{
 		"ControlName"	"CExLabel"
@@ -50,7 +50,7 @@
 		"font"			"HudFontsmallBold"
 		"fgcolor"		"Gray"
 	}
-	
+
 	"Mapname"
 	{
 		"ControlName"	"CExLabel"
@@ -71,7 +71,7 @@
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"white"
 	}
-	
+
 	"RoundContinue"
 	{
 		"ControlName"	"CExButton"
@@ -94,11 +94,11 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"HudFontSmallBold"		//"MenuSmallFont"
-		
+
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -110,9 +110,9 @@
 		"tall"			"240"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}	
-	
+		"scaleImage"	"1"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -126,13 +126,13 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
-		
+
 		"src_corner_height"		"60"		// pixels inside the image
 		"src_corner_width"		"60"
-		
+
 		"draw_corner_width"		"10"		// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"10"
-	}					
+	}
 
 	"ShadedBar"
 	{
@@ -147,8 +147,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 128"
-	}		
+	}
 }

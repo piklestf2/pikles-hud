@@ -14,12 +14,12 @@
 		"delta_item_font_big"	"HudFontSmall" //"HudFontAlmostSmall"
 		"visible"				"1"
 	}
-	
+
 	"DamageAccountValue"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DamageAccountValue"
-		"xpos"				"c-214"	   
+		"xpos"				"c-214"
 		"ypos"				"r120"
 		"zpos"				"2"
 		"wide"				"100"
@@ -31,12 +31,12 @@
 		"fgcolor"			"255 255 0 255"
 		"font"				"HudFontMediumSmallishBold"
 	}
-	
+
 	"DamageAccountValueBG"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DamageAccountValue"
-		"xpos"				"c-213"	  
+		"xpos"				"c-213"
 		"ypos"				"r119"
 		"zpos"				"1"
 		"wide"				"100"

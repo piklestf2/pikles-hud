@@ -11,8 +11,8 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageCover"
 	{
 		"ControlName"	"ImagePanel"
@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"fillcolor"		"75 165 255 255"
 		"alpha"			"0"
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -37,13 +37,13 @@
 		"wide"			"0"	//"60"
 		"tall"			"0"	//"31"
 		"visible"		"0"
-		"enabled"		"0"	
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"PlayerStatusHealthValue"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"1"
@@ -57,7 +57,7 @@
 		"textAlignment"		"center"
 		"font"			"hudfontsmallestbold"
 		"FgColor"		"Tanlight"
-	}	
+	}
 	"BlackBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -109,8 +109,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -123,6 +123,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 }

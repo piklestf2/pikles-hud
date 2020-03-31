@@ -17,14 +17,14 @@
 		"enabled"		"1"
 		"image"			"../hud/death_panel_black_bg"
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"		"40"
-		"src_corner_width"		"40"			
+		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
 	"StalemateLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"StalemateLabel"
 		"font"			"HudFontMediumSmall"
@@ -42,7 +42,7 @@
 		"textAlignment"	"center"
 	}
 	"ReasonLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"ReasonLabel"
 		"font"			"HudFontSmall"

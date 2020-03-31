@@ -18,7 +18,7 @@
 		"bgcolor_override"				"27 27 27 255"
 		"infocus_bgcolor_override"		"27 27 27 255"
 		"outoffocus_bgcolor_override"	"27 27 27 255"
-		
+
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"0"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"				"Pikles"
 		"titlebardisabledfgcolor_override"		"Pikles"
 		"titlebarbgcolor_override"				"27 27 27 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"55"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 255"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,7 +56,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 255"
-	}				
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -69,8 +69,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Pikles"
-	}				
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -97,15 +97,15 @@
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
 			"bgcolor_override"		"Pikles"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"textAlignment"		"center"
 			"font"				"HudFontMediumBold"
 			"selectedcolor"		"255 255 255 255"
-			"unselectedcolor"	"142 142 142 255"	
+			"unselectedcolor"	"142 142 142 255"
 			"defaultBgColor_override"	"Black"
 			"selectedBgColor_override"	"Black"
 			"paintbackground"	"1"
@@ -114,7 +114,7 @@
 			"normalborder_override" "PiklesTab"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -138,8 +138,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -194,7 +194,7 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -218,6 +218,6 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 }

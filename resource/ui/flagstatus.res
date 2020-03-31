@@ -1,5 +1,5 @@
 "Resource/UI/FlagStatus.res"
-{	
+{
 	"Arrow"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -11,7 +11,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"Briefcase"
 	{
@@ -26,15 +26,15 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
-		
+
 		"if_mvm"
 		{
 			"xpos"			"55"
 			"ypos"			"15"
 			"wide"			"20"
 			"tall"			"20"
-		}	
-	}				
+		}
+	}
 	"StatusIcon"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -47,11 +47,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 }

@@ -46,7 +46,7 @@
 			"Default"		"0"
 			"Command"		"particle_use_head_clicked"
 		}
-	
+
 		"HatParticleSlider"
 		{
 			"ControlName"				"CCvarSlider"
@@ -64,7 +64,7 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"fgcolor_override" 			"white"
-		}	
+		}
 
 		"SetStyleButton"
 		{

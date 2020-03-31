@@ -1,5 +1,5 @@
 	"Resource/UI/HudObjectiveKothTimePanel.res"
-{	
+{
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -11,7 +11,7 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -28,7 +28,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-		}	
+		}
 	}
 
 	"RedTimer"
@@ -42,7 +42,7 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -59,9 +59,9 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-		}	
+		}
 	}
-	
+
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -72,7 +72,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"		
+		"image"				"../hud/objectives_timepanel_active_bg"
+		"scaleImage"		"1"
 	}
 }

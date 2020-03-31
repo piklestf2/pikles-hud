@@ -27,7 +27,7 @@
 		"border_armed"		"OutlinedDullGreyBox"
 		"paintbackground"	"1"
 		"paintborder"		"1"
-		
+
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
@@ -35,7 +35,7 @@
 		"armedbgColor_override" "27 27 27 255"
 		"depressedbgColor_override" "70 70 70 255"
 	}
-	
+
 	"OverlayPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -51,7 +51,7 @@
 		"paintbackground"	"1"
 		"bgcolor_override"	"Black"
 		"border"			"OutlinedGreyBox"
-		
+
 		"ClassNameLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -69,7 +69,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"DescLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -87,7 +87,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 		}
-		
+
 		"WeaponSetLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -105,7 +105,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "116 108 101 255"
 		}
-		
+
 		"WeaponImage0"
 		{
 			"ControlName"	"ImagePanel"
@@ -118,7 +118,7 @@
 			"tileImage"		"0"
 			"scaleImage"	"1"
 		}
-		
+
 		"WeaponImage1"
 		{
 			"ControlName"	"ImagePanel"
@@ -131,7 +131,7 @@
 			"tileImage"		"0"
 			"scaleImage"	"1"
 		}
-		
+
 		"WeaponImage2"
 		{
 			"ControlName"	"ImagePanel"
@@ -144,7 +144,7 @@
 			"tileImage"		"0"
 			"scaleImage"	"1"
 		}
-		
+
 		"PrimaryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -161,7 +161,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"SecondaryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -178,7 +178,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"MeleeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -196,7 +196,7 @@
 			"enabled"		"1"
 		}
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -210,7 +210,7 @@
 		"tileImage"		"0"
 		"scaleImage"	"1"
 	}
-	
+
 	"ClassIconImage"
 	{
 		"ControlName"	"ImagePanel"

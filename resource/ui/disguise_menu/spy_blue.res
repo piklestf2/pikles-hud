@@ -1,7 +1,7 @@
 "Resource/UI/disguise_menu/spy_red.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
 		"font"			"HudFontSmallBold"
@@ -17,7 +17,7 @@
 		"labelText"		"BLU"
 	}
 	"ItemNameLabelBG"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameBG"
 		"font"			"HudFontSmallBold"
@@ -32,7 +32,7 @@
 		"fgcolor"		"0 0 0 255"
 		"labelText"		"BLU"
 	}
-	
+
 	"Team_OtherRED"
 	{
 		"ControlName"	"CExLabel"
@@ -49,8 +49,8 @@
 		"textAlignment"	"west"
 		"fgcolor"		"0 0 0 96"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ClassIcon"
@@ -59,8 +59,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-		
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -69,9 +69,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"DefaultShadow"
@@ -86,9 +86,9 @@
 		"fgcolor"		"104 124 155 255"
 		"labelText"		""
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"DefaultShadow"

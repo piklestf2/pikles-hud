@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"paintbackground"	"0"
 	}
-	
+
 	"titlelabel"
 	{
 		"ControlName"		"CExLabel"
@@ -32,7 +32,7 @@
 	}
 
 	"Skip"
-	{		
+	{
 		"ControlName"		"CExButton"
 		"fieldName"			"skip"
 		"xpos"				"c105"
@@ -52,7 +52,7 @@
 		"wrap"				"0"
 		"command"			"skip"
 		"default"			"0"
-		"font"				"HudFontSmallBold"		//"MenuSmallFont"		
+		"font"				"HudFontSmallBold"		//"MenuSmallFont"
 		"sound_released"	"UI/projector_screen_up_long.wav"
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
@@ -99,7 +99,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"Back"
 	{
 		"ControlName"	"CExButton"
@@ -120,7 +120,7 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"		//"MenuSmallFont"
 		//"fgcolor"		"Black"
-		
+
 		"sound_released"	"UI/projector_screen_up_long.wav"
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"fgcolor"			"255 255 255 255"
@@ -136,7 +136,7 @@
 	}
 
 	"ReplayVideo"
-	{	
+	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
 		"xpos"			"c-60"
@@ -156,9 +156,9 @@
 		"default"		"0"
 		"font"			"HudFontSmallBold"		//"MenuSmallFont"
 		//"fgcolor"		"Black"
-		
+
 		"defaultbgcolor_override"		"75 75 75 255"
-		
+
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
 		"fgcolor"			"255 255 255 255"
@@ -172,7 +172,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -186,8 +186,8 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 153"
-	}	
-	
+	}
+
 	"ShadedBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -201,8 +201,8 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 153"
-	}	
-	
+	}
+
 	"VideoPanelMessage"
 	{
 		"ControlName"	"CExLabel"
@@ -222,14 +222,14 @@
 		"brighttext"	"0"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"
-	}	
+	}
 	"VideoPanel"
 	{
 		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
 		"xpos"			"c-150"
 		"ypos"			"c-155"
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"225"
 		"autoResize"	"0"
@@ -238,8 +238,8 @@
 		"enabled"		"1"
 		"start_delay"	"1.0"
 		"end_delay"		"2.0"
-	}	
-	
+	}
+
 	"VideoPanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -255,7 +255,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"VideoPanelBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -271,7 +271,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 
 	"MenuBG2"
 	{
@@ -285,8 +285,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
-	}	
-	
+	}
+
 	"VideoCaption"
 	{
 		"ControlName"	"CExLabel"
@@ -308,5 +308,5 @@
 		"fgcolor"		"White"
 		"wrap"			"1"
 	}
-		
+
 }

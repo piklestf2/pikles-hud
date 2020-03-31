@@ -29,13 +29,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"teamname"
 	{
 		"ControlName"	"CExLabel"
@@ -67,7 +67,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -82,7 +82,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+
 	"randompc_blue"
 	{
 		"ControlName"		"ImageButton"
@@ -102,7 +102,7 @@
 		"armedFgColor_override"				"192 192 192 255"
 		"depressedFgColor_override"			"255 255 0 255"
 	}
-		
+
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
@@ -171,7 +171,7 @@
 		"armedFgColor_override"				"192 192 192 255"
 		"depressedFgColor_override"			"255 255 0 255"
 	}
-	
+
 	"Defense"
 	{
 		"ControlName"	"CExLabel"
@@ -201,7 +201,7 @@
 		"defaultFgColor_override"			"104 124 155 255"
 		"armedFgColor_override"				"192 192 192 255"
 		"depressedFgColor_override"			"255 255 0 255"
-	}	
+	}
 	"heavyweapons_blue"
 	{
 		"ControlName"		"ImageButton"
@@ -240,7 +240,7 @@
 		"armedFgColor_override"				"192 192 192 255"
 		"depressedFgColor_override"			"255 255 0 255"
 	}
-	
+
 	"Support"
 	{
 		"ControlName"	"CExLabel"
@@ -308,7 +308,7 @@
 		"defaultFgColor_override"			"104 124 155 255"
 		"armedFgColor_override"				"192 192 192 255"
 		"depressedFgColor_override"			"255 255 0 255"
-	}	
+	}
 
 	"EditLoadoutButton"
 	{
@@ -327,7 +327,7 @@
 		"Command"		"openloadout"
 		"font"			"Default"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -345,8 +345,8 @@
 		"command"		"vguicancel"
 		"font"			"Default"
 	}
-	
-	"ResetButton" [$WIN32] 
+
+	"ResetButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
@@ -377,7 +377,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
@@ -387,7 +387,7 @@
 		"zpos"			"-9999"
 		"wide"			"0"
 		"tall"			"0"
-	}	
+	}
 
 	"ShadedBar"
 	{
@@ -399,8 +399,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
-	
+	}
+
 	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -412,7 +412,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -424,7 +424,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -435,8 +435,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}							
-	
+	}
+
 	"countImage1" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -448,7 +448,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage2" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -460,7 +460,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage3" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -472,7 +472,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage4" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -484,7 +484,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage5" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -496,7 +496,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage6" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -508,7 +508,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage7" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -520,7 +520,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage8" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -530,9 +530,9 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"	
+		"enabled"		"0"
 	}
-	
+
 	"countImage9" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -544,7 +544,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"countImage10" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -556,7 +556,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"CountLabel" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
@@ -567,7 +567,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
+	}
 
 	"numScout"
 	{
@@ -584,8 +584,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}	
-	
+	}
+
 	"numSoldier"
 	{
 		"ControlName"	"CExLabel"
@@ -601,8 +601,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}		
-	
+	}
+
 	"numPyro"
 	{
 		"ControlName"	"CExLabel"
@@ -618,8 +618,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}			
-	
+	}
+
 	"numDemoman"
 	{
 		"ControlName"	"CExLabel"
@@ -635,8 +635,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}				
-	
+	}
+
 	"numHeavy"
 	{
 		"ControlName"	"CExLabel"
@@ -652,8 +652,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}					
-	
+	}
+
 	"numEngineer"
 	{
 		"ControlName"	"CExLabel"
@@ -669,8 +669,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}						
-	
+	}
+
 	"numMedic"
 	{
 		"ControlName"	"CExLabel"
@@ -686,8 +686,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}							
-	
+	}
+
 	"numSniper"
 	{
 		"ControlName"	"CExLabel"
@@ -703,8 +703,8 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}						
-	
+	}
+
 	"numSpy"
 	{
 		"ControlName"	"CExLabel"
@@ -720,6 +720,6 @@
 		"textAlignment"	"west"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-	}								
-								
+	}
+
 }

@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,11 +11,11 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -32,8 +32,8 @@
 		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
 	}
-	
-	"BuildIcon"	
+
+	"BuildIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
@@ -44,12 +44,12 @@
 		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIconShadow"	
+
+	"BuildIconShadow"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
@@ -60,13 +60,13 @@
 		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -84,9 +84,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontSmallBold"
@@ -105,9 +105,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -125,7 +125,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"available_target_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -136,8 +136,8 @@
 		"wide"			"70"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"available_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -148,7 +148,7 @@
 		"wide"			"70"
 		"tall"			"100"
 		"visible"		"1"
-	}	
+	}
 
 	"unavailable_target_1"
 	{
@@ -160,8 +160,8 @@
 		"wide"			"70"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"unavailable_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -172,5 +172,5 @@
 		"wide"			"70"
 		"tall"			"100"
 		"visible"		"1"
-	}	
+	}
 }

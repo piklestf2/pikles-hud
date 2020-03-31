@@ -9,24 +9,24 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-		
+
 		"team1_player_base_offset_x"		"339"
 		"team1_player_base_y"				"154"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"33"
-		
+
 		"team2_player_base_offset_x"		"294"
 		"team2_player_base_y"				"154"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"33"
-		
-		"playerpanels_kv"				
+
+		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"45"
 			"tall"			"33"
 			"zpos"			"1"
-			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -44,7 +44,7 @@
 				"textAlignment"	"north-west"
 				"fgcolor"		"White"
 			}
-			
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -57,8 +57,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
-			
+				"scaleImage"	"1"
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -72,14 +72,14 @@
 				"enabled"		"0"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
+
 				if_mvm
 				{
 					"visible"		"0"
 				}
 			}
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -90,14 +90,14 @@
 				"wide"				"35"
 				"tall"				"32"
 				"visible"			"1"
-				"enabled"			"1"	
+				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"White"
-			}	
-			
+			}
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -115,16 +115,16 @@
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
-			
+
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
+
 				if_mvm
 				{
 					"visible"		"1"
-				}	
+				}
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -163,7 +163,7 @@
 				"textAlignment"	"right"
 				"fgcolor"		"white"
 			}
-			
+
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -181,7 +181,7 @@
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
 			}
-			
+
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -287,7 +287,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -340,30 +340,30 @@
 		"paintbackground"	"1"
 		"paintborder"	"0"
 		"border"	"TFThinLineBorder"
-		
+
 		"model_xpos"		"10"
 		"model_center_y"	"1"
 		"model_wide"		"90"
 		"model_tall"		"55"
-		
+
 		"text_xpos"		"90"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"90"
 		"padding_height"	"40"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -381,7 +381,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -401,5 +401,5 @@
 			"fgcolor"		"White"
 			"centerwrap"	"1"
 		}
-	}			
+	}
 }

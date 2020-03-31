@@ -1,5 +1,5 @@
 "Resource/UI/HudSpellSelection.res"
-{		
+{
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -12,9 +12,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"spellbook_book"
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
-	
+
 	"SpellIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -26,11 +26,11 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"White"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"	"CExLabel"
@@ -45,7 +45,7 @@
 		"fgcolor"		"white"
 		"visible"		"0"
 	}
-	
+
 	"SpellText"
 	{
 		"ControlName"	"CExLabel"
@@ -60,7 +60,7 @@
 		"fgcolor"		"white"
 		"visible"		"0"
 	}
-	
+
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
@@ -75,7 +75,7 @@
 		"tall"			"19"
 		"fgcolor"		"white"
 	}
-	
+
 	"CountTextShadow"
 	{
 		"ControlName"	"CExLabel"

@@ -20,15 +20,15 @@
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
-		
+
 		"src_corner_height"		"40"
-		"src_corner_width"		"40"			
+		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-		
+
 	}
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallest"
@@ -46,7 +46,7 @@
 		"textAlignment"		"west"
 	}
 	"GoalLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
 		"font"			"HudFontSmallest"
@@ -78,11 +78,11 @@
 		"enabled"		"0"
 		"image"			"../hud/hud_icon_attack"
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"		"6"
-		"src_corner_width"		"6"			
+		"src_corner_width"		"6"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-		
+
 	}
 }

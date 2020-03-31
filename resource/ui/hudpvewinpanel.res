@@ -17,13 +17,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	
+
 		"src_corner_height"	"40"
 		"src_corner_width"	"40"
-		"draw_corner_width"	"0"	
-		"draw_corner_height" "0"	
+		"draw_corner_width"	"0"
+		"draw_corner_height" "0"
 	}
-	
+
 	"BGThwartski"
 	{
 		"ControlName"	"ImagePanel"
@@ -37,7 +37,7 @@
 		"pinCorner"		"0"
 		"visible"		"1S"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"54 51 52 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -52,9 +52,9 @@
 		"tall"			"24"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
-		
+
 		"WinningTeamLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
 			"font"			"HudFontMediumSmallBold"
@@ -71,9 +71,9 @@
 			"labelText"		"Failure"//"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"		"Center"
 		}
-		
+
 		"WinningTeamLabelDropshadow"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
 			"font"			"HudFontMediumSmallBold"
@@ -91,9 +91,9 @@
 			"textAlignment"		"Center"
 		}
 	}
-	
+
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"HudFontSmallest"
