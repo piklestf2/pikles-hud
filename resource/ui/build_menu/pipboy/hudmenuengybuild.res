@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
@@ -48,7 +48,7 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -66,9 +66,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontSmallBold"
@@ -87,9 +87,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -107,7 +107,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -118,8 +118,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -130,8 +130,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -142,8 +142,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -155,7 +155,7 @@
 		"tall"			"100"
 		"visible"		"1"
 	}
-	
+
 	"already_built_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -166,8 +166,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -178,8 +178,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -190,8 +190,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -203,7 +203,7 @@
 		"tall"			"100"
 		"visible"		"0"
 	}
-	
+
 	"cant_afford_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -214,8 +214,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -226,8 +226,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -238,8 +238,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -250,9 +250,9 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-		
+
 	}
-	
+
 	"unavailable_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -263,8 +263,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -275,8 +275,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -287,8 +287,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -299,5 +299,5 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
+	}
 }

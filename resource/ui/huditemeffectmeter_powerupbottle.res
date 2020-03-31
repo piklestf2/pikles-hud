@@ -12,14 +12,14 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"5"
 		"ypos"			"5"
-		"zpos"			"-10"		
+		"zpos"			"-10"
 		"wide"			"68"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
 	}
-	
+
 	"ItemEffectIcon"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -43,7 +43,7 @@
 		"image"			"../hud/ico_powerup_critboost_red"
 		"scaleImage"	"1"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -67,7 +67,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -75,7 +75,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"0"				
+		"tall"					"0"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -83,8 +83,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
-	
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -93,7 +93,7 @@
 		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"23"	
+		"tall"					"23"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -113,7 +113,7 @@
 		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"23"	
+		"tall"					"23"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

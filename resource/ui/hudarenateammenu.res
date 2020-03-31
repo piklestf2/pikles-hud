@@ -124,7 +124,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"SpectateLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -185,7 +185,7 @@
 		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"		"CTFTeamButton"
@@ -206,11 +206,11 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
-		"associated_model"	"spectate"	
+		"associated_model"	"spectate"
 		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"ImageButton"

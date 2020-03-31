@@ -3,23 +3,23 @@
 "Resource/UI/build_menu/pipboy/dispenser_cant_afford.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"		"#TF_Object_dispenser"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"icon"			"hud_menu_dispenser_build"
 	}
-	
-	
+
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"		"2"
 	}
-	
+
 	"NumberLabelShadow"
-	{	
+	{
 		"labelText"		"2"
 	}
 }

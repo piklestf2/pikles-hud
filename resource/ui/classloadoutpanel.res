@@ -17,22 +17,22 @@
 		"bgcolor_override"	"Black"
 		"infocus_bgcolor_override" "Black"
 		"outoffocus_bgcolor_override" "Black"
-		
+
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
-		
+
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
-		"button_xpos_offcenter"	"175"		
+		"button_xpos_offcenter"	"175"
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -45,29 +45,29 @@
 			"noitem_textcolor"		"142 142 142 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_center_x"	"1"
-			"model_ypos"		"5"			
+			"model_ypos"		"5"
 			"model_tall"		"55"
 			"model_wide"		"82"
 			"text_ypos"			"54"
 			"text_center"		"1"
 			"name_only"			"1"
-			
-			
+
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
 		}
-		
+
 		"itemoptionpanels_kv"
 		{
 			"ControlName"	"CExButton"
@@ -90,7 +90,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -143,7 +143,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -158,27 +158,27 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
-	}				
-	
+	}
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"c-167"
 		"ypos"			"78"
-		"zpos"			"-1"		
+		"zpos"			"-1"
 		"wide"			"328"
 		"tall"			"285"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"30"
 		"allow_manip"		"1"
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -193,9 +193,9 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
-			
+
 			"animation"
 			{
 				"name"		"PRIMARY"
@@ -226,12 +226,12 @@
 			{
 				"name"		"ITEM1"
 				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"		"ITEM2"
 				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
+			}
 			"animation"
 			{
 				"name"		"MELEE_ALLCLASS"
@@ -249,7 +249,7 @@
 			}
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -266,13 +266,13 @@
 		"PaintBackground"	"1"
 		"paintborder"	"1"
 		"border"	"DarkGreyBox"
-		
+
 		"text_ypos"			"15"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
 		{
 			"ControlName"		"EditablePanel"
@@ -292,7 +292,7 @@
 			"border"		"DarkGreyBox"
 			"bgcolor_override"	"19 19 19 255"
 		}
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -311,7 +311,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"PassiveAttribsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -319,7 +319,7 @@
 		"font"			"ItemFontAttribLarge"
 		"xpos"			"c-135"
 		"ypos"			"120"
-		"zpos"			"0"	
+		"zpos"			"0"
 		"wide"			"270"
 		"tall"			"240"
 		"autoResize"	"0"
@@ -331,7 +331,7 @@
 		"fgcolor"		"255 215 0 255"
 		"centerwrap"	"1"
 	}
-	
+
 	"PresetsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -345,7 +345,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-200"
 		"end_y"			"120"
@@ -354,7 +354,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"75"
 		"next_explanation"		""
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -373,7 +373,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -392,7 +392,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -416,13 +416,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"142 142 142 255"
 			"image_armedcolor"	"Pikles"
 			"SubImage"
@@ -438,8 +438,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 	}
 
 	"ItemOptionsPanel"
@@ -521,14 +521,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"RedButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RedButton"
 		"xpos"				"c-167"
 		"ypos"				"60"
-		"zpos"				"20"	
+		"zpos"				"20"
 		"wide"				"40"
 		"tall"				"15"
 		"autoResize"		"0"
@@ -540,33 +540,33 @@
 		"labelText"			"RED"
 		"textAlignment"		"center"
 		"command"			"r_skin 0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"	"1" // this needs to be 1 for bgcolor
 		"PaintBackgroundType"	"2"
-    
+
 		// default style
 		"defaultBgColor_override"	"ButtonBG"
 		"defaultFgColor_override"	"RedTeam"
-			
+
 		// armed style
 		"armedBgColor_override"	"ButtonArmed"
 		"armedFgColor_override" 	"RedTeam"
-		
-		// depressed style    
+
+		// depressed style
 		"depressedBgColor_override"	"ButtonSelect"
 		"depressedFgColor_override" "RedTeam"
 	}
-	
+
 	"BlueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BlueButton"
 		"xpos"				"c123"
 		"ypos"				"60"
-		"zpos"				"20"	
+		"zpos"				"20"
 		"wide"				"39"
 		"tall"				"15"
 		"autoResize"		"0"
@@ -578,23 +578,23 @@
 		"labelText"			"BLU"
 		"textAlignment"		"center"
 		"command"			"r_skin 1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"	"1" // this needs to be 1 for bgcolor
 		"PaintBackgroundType"	"2"
-    
+
 		// default style
 		"defaultBgColor_override"	"ButtonBG"
 		"defaultFgColor_override"	"BlueTeam"
-			
+
 		// armed style
 		"armedBgColor_override"	"ButtonArmed"
 		"armedFgColor_override" 	"BlueTeam"
-		
-		// depressed style    
+
+		// depressed style
 		"depressedBgColor_override"	"ButtonSelect"
-		"depressedFgColor_override" "BlueTeam"	
+		"depressedFgColor_override" "BlueTeam"
 	}
 }

@@ -11,8 +11,8 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"255"	
-		
+		"alpha"			"255"
+
 		"ScreenshotPanelBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -38,10 +38,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/ico_replay"
-			"scaleImage"		"1"	
-		}		
+			"scaleImage"		"1"
+		}
 		"ReplayLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ReplayLabel"
 			"font"			"SpectatorKeyHints"
@@ -59,5 +59,5 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-	}	
+	}
 }

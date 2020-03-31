@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
-{	
+{
 	"TimePanelBG"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -11,18 +11,18 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"	"0"	
-	}	
+		"image"			"../hud/objectives_timepanel_blue_bg"
+		"scaleImage"	"0"
+	}
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
 		"ypos"				"16"
-		"zpos"				"4"	
+		"zpos"				"4"
 		"wide"				"20"
-		"tall"				"20"	
+		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
@@ -49,7 +49,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-	}			
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -60,8 +60,8 @@
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"	"1"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"	"1"
 	}
 	"OvertimeLabel"
 	{
@@ -80,7 +80,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-	}			
+	}
 	"OvertimeBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -92,8 +92,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"		"1"
 	}
 	"SuddenDeathLabel"
 	{
@@ -112,7 +112,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-	}			
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -124,9 +124,9 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"	"1"	
-	}	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"	"1"
+	}
 	"SetupLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -144,7 +144,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-	}	
+	}
 	"SetupBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -156,9 +156,9 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"	"1"	
-	}	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"	"1"
+	}
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -186,7 +186,7 @@
 		"font"			"ClockSubText"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
-	}	
+	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -201,7 +201,7 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"		"1"
 	}
 }

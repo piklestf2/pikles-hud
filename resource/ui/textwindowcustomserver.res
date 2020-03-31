@@ -15,7 +15,7 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
-	
+
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -35,7 +35,7 @@
 		"brighttext"	"0"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"
-	}	
+	}
 
 	"TextMessage"
 	{
@@ -80,7 +80,7 @@
 		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"	"CExButton"
@@ -114,7 +114,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -128,7 +128,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 153"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -142,13 +142,13 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 128"
-	}						
-	
+	}
+
 	"MessageTitle"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
 }

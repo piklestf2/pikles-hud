@@ -20,7 +20,7 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"		
+		"enabled"		"0"
 	}
 	"AmmoInClip"
 	{
@@ -35,10 +35,10 @@
 		"tall"			"70"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-		
-	}		
+
+	}
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -52,10 +52,10 @@
 		"tall"			"70"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-		
-	}	
+
+	}
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -69,9 +69,9 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -85,9 +85,9 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -101,10 +101,10 @@
 		"tall"			"70"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%Ammo%"
-		
-	}	
+
+	}
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -118,7 +118,7 @@
 		"tall"			"70"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%Ammo%"
-	}		
+	}
 }

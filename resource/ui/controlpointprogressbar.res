@@ -43,7 +43,7 @@
 		"icon"			"cappoint_progressbar_teardrop"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"TeardropSide"
 	{
 		"ControlName"	"CIconPanel"
@@ -61,7 +61,7 @@
 	}
 
 	"ProgressText"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"ProgressText"
 		"font"			"DefaultVerySmall"

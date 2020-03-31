@@ -42,7 +42,7 @@
 			"zpos"		"-1"
 			"wide"		"400"
 			"tall"		"300"
-		
+
 			"CurPageLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -90,7 +90,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-		
+
 			"ModeInfoContainer"
 			{
 				"ControlName"	"EditablePanel"
@@ -119,7 +119,7 @@
 					"image"			"maps/menu_screen_ctf_2fort"
 					"scaleImage"	"1"
 				}
-		
+
 				"Label_GameType"
 				{
 					"ControlName"	"CExLabel"
@@ -203,7 +203,7 @@
 					"PaintBackgroundType"	"0"
 					"paintbackground"		"1"
 					"border"				"MainMenuBGBorder"
-			
+
 					"Background"
 					{
 						"ControlName"	"EditablePanel"
@@ -219,7 +219,7 @@
 						"tabPosition"		"0"
 						"bgcolor_override"	"40 37 37 255"
 					}
-			
+
 					"MoreInfoLabel"
 					{
 						"ControlName"		"CExLabel"
@@ -239,8 +239,8 @@
 						"wrap"			"1"
 						"centerwrap"	"1"
 					}
-				}	
-			}	
+				}
+			}
 
 			"PrevPageButton"
 			{
@@ -269,8 +269,8 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}		
-					
+			}
+
 			"NextPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -298,10 +298,10 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 		}
 	}
-	
+
 	"MannVsMachineGroupBox"
 	{
 		"ControlName"	"EditablePanel"
@@ -315,7 +315,7 @@
 		"enabled"	"1"
 		"paintborder"	"0"
 		"border"	"MainMenuHighlightBorder"
-		
+
 		"MannVsMachineLabel"
 		{
 			"ControlName"	"Label"
@@ -333,7 +333,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-		
+
 		"MannVsMachineExplanation"
 		{
 			"ControlName"	"CExLabel"
@@ -916,12 +916,12 @@
 			"command" "mann_up_now"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"border_default"	"OutlinedLightGreyBox"
 			"border_armed"		"OutlinedDullGreyBox"
 			"paintbackground"	"1"
 			"paintborder"		"1"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"

@@ -221,31 +221,31 @@
 		"PaintBackgroundType"	"2"
 		"PaintBackground"	"1"
 		"PaintBorder"	"1"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -263,7 +263,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

@@ -11,9 +11,9 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"
 	}
-	
+
 	"PlayerStatusClassImage" //When not disguised, the spy's image.  When disguised, the image of the class you're disguised as.
 	{
 		"ControlName"	"CTFClassImage"
@@ -26,7 +26,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusSpyImage" //When disguised, the spy's image.  Invisible when not disguised.
 	{
@@ -41,8 +41,8 @@
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
-	}	
+		"teambg_3"		"../hud/class_spyblue"
+	}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -56,13 +56,13 @@
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"
-	}		
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"-9999"
-		"ypos"			"-9999"	
+		"ypos"			"-9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
@@ -74,7 +74,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"-9999"
-		"ypos"			"-9999"	
+		"ypos"			"-9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
@@ -85,21 +85,21 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"c-200"
 		"ypos"			"r180"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"180"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -114,9 +114,9 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
-			
+
 			"animation"
 			{
 				"name"		"PRIMARY"
@@ -147,12 +147,12 @@
 			{
 				"name"		"ITEM1"
 				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"		"ITEM2"
 				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
+			}
 			"animation"
 			{
 				"name"		"MELEE_ALLCLASS"

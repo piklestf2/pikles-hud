@@ -18,7 +18,7 @@
 		"bgcolor_override"				"27 27 27 255"
 		"infocus_bgcolor_override"		"27 27 27 255"
 		"outoffocus_bgcolor_override"	"27 27 27 255"
-		
+
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"0"
@@ -26,13 +26,13 @@
 		"titlebarfgcolor_override"				"Pikles"
 		"titlebardisabledfgcolor_override"		"Pikles"
 		"titlebarbgcolor_override"				"27 27 27 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"55"
-		
+
 		"NavToRelay"			"BackButton"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -45,7 +45,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 255"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 255"
-	}				
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -71,8 +71,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Pikles"
-	}				
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -82,7 +82,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"34"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -99,15 +99,15 @@
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
 			"bgcolor_override"		"Pikles"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"textAlignment"		"center"
 			"font"				"HudFontMediumBold"
 			"selectedcolor"		"255 255 255 255"
-			"unselectedcolor"	"142 142 142 255"	
+			"unselectedcolor"	"142 142 142 255"
 			"defaultBgColor_override"	"Black"
 			"selectedBgColor_override"	"Black"
 			"paintbackground"	"1"
@@ -264,7 +264,7 @@
 		"border_armed"		"OutlinedDullGreyBox"
 		"paintbackground"	"1"
 		"paintborder"		"1"
-			
+
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
@@ -325,7 +325,7 @@
 		"border_armed"		"OutlinedDullGreyBox"
 		"paintbackground"	"1"
 		"paintborder"		"1"
-			
+
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
@@ -436,7 +436,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-300"
 		"end_y"			"100"
@@ -445,7 +445,7 @@
 		"callout_inparents_x"	"c-270"
 		"callout_inparents_y"	"380"
 		"next_explanation"		"VoucherExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -464,7 +464,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -483,7 +483,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -507,13 +507,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "Pikles"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"142 142 142 255"
 			"image_armedcolor"	"Pikles"
 			"SubImage"
@@ -529,8 +529,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}			
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -572,13 +572,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "Pikles"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"Pikles"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -594,8 +594,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 	}
 
 	"VoucherExplanation"
@@ -611,7 +611,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-300"
 		"end_y"			"100"
@@ -620,7 +620,7 @@
 		"callout_inparents_x"	"c-270"
 		"callout_inparents_y"	"340"
 		//"next_explanation"		"VoucherExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -639,7 +639,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "142 142 142 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -658,7 +658,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -682,13 +682,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "Pikles"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"142 142 142 255"
 			"image_armedcolor"	"Pikles"
 			"SubImage"
@@ -704,7 +704,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"PButton"
 		{
@@ -729,13 +729,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "Pikles"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"Pikles"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -751,8 +751,8 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -770,6 +770,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "Pikles"
-		}	
+		}
 	}
 }

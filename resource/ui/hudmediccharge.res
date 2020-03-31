@@ -1,5 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -12,9 +12,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"teambg_3"		"../hud/medic_charge_blue_bg"
 	}
 
 	"ChargeLabel"
@@ -76,9 +76,9 @@
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 153"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
@@ -86,7 +86,7 @@
 		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"86"
-		"tall"			"1"				
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -99,7 +99,7 @@
 	}
 
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
@@ -107,7 +107,7 @@
 		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"1"		
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -120,7 +120,7 @@
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
@@ -128,7 +128,7 @@
 		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"1"	
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -141,7 +141,7 @@
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
@@ -149,7 +149,7 @@
 		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"1"			
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -162,7 +162,7 @@
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
@@ -170,7 +170,7 @@
 		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"1"			
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -193,7 +193,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"bgcolor_override" "0 0 0 0"
-	}		
+	}
 }

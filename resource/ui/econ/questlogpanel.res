@@ -29,14 +29,14 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		"attrib_only"		"1"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -68,7 +68,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -170,15 +170,15 @@
 			"Command"		"close"
 			"proportionaltoparent" "1"
 			"actionsignallevel" "2"
-			
+
 			"paintbackground"	"0"
-			
+
 			//"defaultFgColor_override" "235 226 202 255"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "255 255 255 255"
 			"armedFgColor_override" "255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"70 70 70 255"
 			"image_armedcolor" "27 27 27 255" //	"200 80 60 153"
 			"SubImage"
@@ -194,7 +194,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 
 		"QuestList"

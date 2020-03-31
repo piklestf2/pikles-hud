@@ -62,7 +62,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -139,7 +139,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"RedLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -158,7 +158,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"AutoLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -177,7 +177,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"SpectateLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -214,7 +214,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"teambutton0"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -267,7 +267,7 @@
 		"paintborder"	"0"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
-		"associated_model"	"reddoor"	
+		"associated_model"	"reddoor"
 		"hover"				"2.0"
 		"font"			""
 		"border_default"	""
@@ -302,7 +302,7 @@
 		"border_armed"		""
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -324,13 +324,13 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"associated_model"	"spectate"	
+		"associated_model"	"spectate"
 		"font"			""
 		"border_default"	""
 		"border_armed"		""
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"ImageButton"
@@ -358,7 +358,7 @@
 		"depressedbgColor_override" "0 0 0 0"
 		"selectedbgColor_override" "0 0 0 0"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -372,8 +372,8 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 128"
-	}		
-	
+	}
+
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
@@ -393,8 +393,8 @@
 		"brighttext"	"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
-	}		
-	
+	}
+
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
@@ -414,6 +414,6 @@
 		"brighttext"	"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
-	}	
+	}
 }
 

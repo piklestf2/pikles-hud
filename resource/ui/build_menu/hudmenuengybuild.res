@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,13 +11,13 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -35,9 +35,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontSmallBold"
@@ -56,9 +56,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -76,7 +76,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -87,8 +87,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -99,8 +99,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,8 +111,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -124,7 +124,7 @@
 		"tall"			"100"
 		"visible"		"1"
 	}
-	
+
 	"already_built_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -135,8 +135,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -147,8 +147,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -159,8 +159,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -172,7 +172,7 @@
 		"tall"			"100"
 		"visible"		"0"
 	}
-	
+
 	"cant_afford_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -183,8 +183,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -195,8 +195,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -207,8 +207,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -219,9 +219,9 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-		
+
 	}
-	
+
 	"unavailable_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -232,8 +232,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -244,8 +244,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -256,8 +256,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -268,14 +268,14 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
+	}
 	"TeamColoredBar"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamColoredBar"
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"0"	[$WIN32]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"25"
 		"visible"		"0"
@@ -285,12 +285,12 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/objectives_timepanel_red_bg"
 		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		
+
 		"src_corner_height"		"3"				// pixels inside the image
 		"src_corner_width"		"3"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"TargetBGShadeBox"
 	{

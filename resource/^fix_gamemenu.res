@@ -2,27 +2,27 @@
 {
 	"FindAGameButton"
 	{
-		"label" "#MMenu_FindAGame" 
+		"label" "#MMenu_FindAGame"
 		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "#MMenu_NewGame"
 		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "#MMenu_PlayCoop" 
+		"label" "#MMenu_PlayCoop"
 		"command" "playpve"
 		"subimage" "glyph_coop"
 	}
 	"PlayCompetitiveButton"
 	{
-		"label" "#MMenu_PlayComp" 
+		"label" "#MMenu_PlayComp"
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
@@ -30,21 +30,21 @@
 	}
 	"PlayCompetitiveDecoyButton"
 	{
-		"label" "Play Competitive" 
+		"label" "Play Competitive"
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyInGame" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_BrowseServers" 
+		"label" "#MMenu_BrowseServers"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
-	} 
+	}
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "#MMenu_ChangeServer"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"

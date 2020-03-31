@@ -17,16 +17,16 @@
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
-		
+
 		"src_corner_height"		"40"
-		"src_corner_width"		"40"			
+		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	//"The teams have been autobalanced"
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallest"
@@ -43,10 +43,10 @@
 		"labelText"		"#TF_teambalanced"
 		"textAlignment"		"north-west"
 	}
-	
+
 	//You are now on blue
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabel"
 		"font"			"HudFontSmallestBold"
@@ -63,7 +63,7 @@
 		"labelText"		""
 		"textAlignment"	"west"
 	}
-	
+
 	"SwitchImage"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -79,11 +79,11 @@
 		"enabled"				"1"
 		"image"					"../hud/ico_teambalance"
 		"scaleImage"			"1"
-		
+
 		"src_corner_height"		"6"
-		"src_corner_width"		"6"			
+		"src_corner_width"		"6"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-		
+
 	}
 }

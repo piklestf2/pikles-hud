@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
 	}
@@ -34,10 +34,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
 	"titleLable"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"titleLable"
 		"font"			"TFFontSmall"
@@ -61,7 +61,7 @@
 		"brighttext"	"0"
 	}
 	"summaryLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"summaryLabel"
 		"font"			"TFFontMedium"
@@ -86,7 +86,7 @@
 		"wrap"			"1"
 	}
 	"StatLabelLarge"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"StatLabelLarge"
 		"font"			"HudFontMedium"
@@ -109,7 +109,7 @@
 		"brighttext"		"0"
 	}
 	"StatLabelSmall"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"StatLabelSmall"
 		"font"			"TFFontMedium"
@@ -132,7 +132,7 @@
 	}
 	StatBox
 	{
-		"ControlName"		"Panel"		
+		"ControlName"		"Panel"
 		"fieldName"		"StatBox"
 		"visible"		"0"
 		"enabled"		"1"

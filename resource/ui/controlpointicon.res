@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"Countdown"
 	{
 		"ControlName"	"CControlPointCountdown"
@@ -24,11 +24,11 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 
 	"CapPlayerImage"
 	{
-		"ControlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"
 		"fieldName"		"CapPlayerImage"
 		"xpos"			"-8"
 		"ypos"			"0"
@@ -42,7 +42,7 @@
 	}
 
 	"CapNumPlayers"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"CapNumPlayers"
 		"font"			"CapPlayerFont"
@@ -59,7 +59,7 @@
 
 	"OverlayImage"
 	{
-		"ControlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"
 		"fieldName"		"OverlayImage"
 		"xpos"			"12"
 		"ypos"			"0"
@@ -90,7 +90,7 @@
 		"wrap"			"0"
 		"font"			"ControlPointTimer"
 	}
-				
+
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
@@ -102,7 +102,7 @@
 		"tall"		"24"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"	
-		"scaleImage"	"1"	
+		"image"			"../sprites/obj_icons/icon_obj_timer"
+		"scaleImage"	"1"
 	}
 }

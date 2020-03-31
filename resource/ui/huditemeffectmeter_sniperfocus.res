@@ -10,7 +10,7 @@
 		"wide"			"137"
 		"tall"			"10"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -23,13 +23,13 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -48,7 +48,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
@@ -56,7 +56,7 @@
 		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"104"
-		"tall"			"6"				
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -66,7 +66,7 @@
 		"bgcolor_override" "0 0 0 175"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
+	}
 	"Mark1"
 	{
 		"ControlName"			"ImagePanel"
@@ -82,7 +82,7 @@
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"Mark2"
 	{
 		"ControlName"			"ImagePanel"
@@ -114,7 +114,7 @@
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 255"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"ChargeColor_25"
 	{
 		"controlName"			"ImagePanel"
@@ -140,7 +140,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"85 85 85 255"
-	}	
+	}
 	"ChargeColor_75"
 	{
 		"controlName"			"ImagePanel"
@@ -153,7 +153,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"170 170 170 255"
-	}	
+	}
 	"ChargeColor_100"
 	{
 		"controlName"			"ImagePanel"

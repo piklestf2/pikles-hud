@@ -19,14 +19,14 @@
 		"xpos"			"52"
 		"ypos"			"424"
 		"zpos"			"3"
-		"wide"			"0" 
+		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleimage"	"1"
 	}
-	
+
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -42,7 +42,7 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
- 
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"

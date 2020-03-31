@@ -19,14 +19,14 @@
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
-		
+
 		"src_corner_height"		"40"
-		"src_corner_width"		"40"			
+		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
 	"AlertLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
 		"font"			"HudFontSmallestBold"
@@ -58,9 +58,9 @@
 		"enabled"		"1"
 		"image"			"../hud/ico_teambalance"
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"		"6"
-		"src_corner_width"		"6"			
+		"src_corner_width"		"6"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}

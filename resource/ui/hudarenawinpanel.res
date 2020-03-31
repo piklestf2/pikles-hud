@@ -19,7 +19,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}
-		
+
 		"BlueScoreBG2"
 		{
 			"ControlName"	"ImagePanel"
@@ -32,7 +32,7 @@
 			"enabled"		"1"
 			"fillcolor"		"127 152 166 128"
 		}
-		
+
 		"RedScoreBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -42,7 +42,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}
-		
+
 		"RedScoreBG2"
 		{
 			"ControlName"	"ImagePanel"
@@ -55,7 +55,7 @@
 			"enabled"		"1"
 			"fillcolor"		"206 115 113 128"
 		}
-		
+
 		"BlueTeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -69,7 +69,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -100,7 +100,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"Black"
-		}							
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -114,7 +114,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -145,9 +145,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"Black"
-		}		
+		}
 
-	
+
 		"ArenaStreaksBG"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -163,16 +163,16 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 			"scaleImage"		"1"
-	
+
 			"src_corner_height"	"24"				// pixels inside the image
 			"src_corner_width"	"24"
-		
+
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}	
+			"draw_corner_height" 	"0"
+		}
 
 		"ArenaStreakLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
 			"font"			"HudFontSmallishBold"
@@ -218,9 +218,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 153"
-	}	
+	}
 	"WinningTeamLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"HudFontSmallishBold"
@@ -235,7 +235,7 @@
 		"textAlignment"	"Center"
 	}
 	"WinningTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"wide"			"0"
@@ -245,7 +245,7 @@
 	}
 
 	"LosingTeamLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"HudFontSmallishBold"
@@ -260,7 +260,7 @@
 		"textAlignment"	"Center"
 	}
 	"LosingTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"wide"			"0"
@@ -269,7 +269,7 @@
 		"enabled"		"0"
 	}
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
@@ -284,7 +284,7 @@
 		"textAlignment"	"Center"
 	}
 	"DetailsLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"ScoreboardVerySmall"
@@ -313,7 +313,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
@@ -328,7 +328,7 @@
 		"textAlignment"	"west"
 	}
 	"DamageThisRoundLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
@@ -343,7 +343,7 @@
 		"textAlignment"	"east"
 	}
 	"HealingThisRoundLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
@@ -358,7 +358,7 @@
 		"textAlignment"	"east"
 	}
 	"LifetimeThisRoundLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
@@ -373,7 +373,7 @@
 		"textAlignment"	"east"
 	}
 	"KillingBlowsThisRoundLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
@@ -400,7 +400,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -426,7 +426,7 @@
 			"enabled"		"0"
 		}
 		"Player1Name"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Name"
 			"xpos"			"4"
@@ -439,7 +439,7 @@
 			"textAlignment"	"west"
 		}
 		"Player1Class"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Class"
 			"xpos"			"110"
@@ -452,7 +452,7 @@
 			"textAlignment"	"west"
 		}
 		"Player1Damage"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Damage"
 			"xpos"			"146"
@@ -465,7 +465,7 @@
 			"textAlignment"	"east"
 		}
 		"Player1Healing"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Healing"
 			"xpos"			"186"
@@ -478,7 +478,7 @@
 			"textAlignment"	"east"
 		}
 		"Player1Lifetime"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Lifetime"
 			"xpos"			"226"
@@ -491,7 +491,7 @@
 			"textAlignment"	"east"
 		}
 		"Player1Kills"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Kills"
 			"xpos"			"266"
@@ -513,7 +513,7 @@
 			"enabled"		"0"
 		}
 		"Player2Name"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Name"
 			"xpos"			"4"
@@ -526,7 +526,7 @@
 			"textAlignment"	"west"
 		}
 		"Player2Class"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Class"
 			"xpos"			"110"
@@ -539,7 +539,7 @@
 			"textAlignment"	"west"
 		}
 		"Player2Damage"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Damage"
 			"xpos"			"146"
@@ -552,7 +552,7 @@
 			"textAlignment"	"east"
 		}
 		"Player2Healing"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Healing"
 			"xpos"			"186"
@@ -565,7 +565,7 @@
 			"textAlignment"	"east"
 		}
 		"Player2Lifetime"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Lifetime"
 			"xpos"			"226"
@@ -578,7 +578,7 @@
 			"textAlignment"	"east"
 		}
 		"Player2Kills"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Kills"
 			"xpos"			"266"
@@ -590,7 +590,7 @@
 			"labelText"		""
 			"textAlignment"	"east"
 		}
-		
+
 		"Player3Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -601,7 +601,7 @@
 			"enabled"		"0"
 		}
 		"Player3Name"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Name"
 			"xpos"			"4"
@@ -614,7 +614,7 @@
 			"textAlignment"	"west"
 		}
 		"Player3Class"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Class"
 			"xpos"			"110"
@@ -627,7 +627,7 @@
 			"textAlignment"	"west"
 		}
 		"Player3Damage"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Damage"
 			"xpos"			"146"
@@ -640,7 +640,7 @@
 			"textAlignment"	"east"
 		}
 		"Player3Healing"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Healing"
 			"xpos"			"186"
@@ -653,7 +653,7 @@
 			"textAlignment"	"east"
 		}
 		"Player3Lifetime"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Lifetime"
 			"xpos"			"226"
@@ -666,7 +666,7 @@
 			"textAlignment"	"east"
 		}
 		"Player3Kills"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Kills"
 			"xpos"			"266"
@@ -700,7 +700,7 @@
 			"enabled"		"0"
 		}
 		"Player1Name"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Name"
 			"xpos"			"4"
@@ -712,9 +712,9 @@
 			"labelText"		""
 			"textAlignment"	"west"
 		}
-		
+
 		"Player1Class"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Class"
 			"xpos"			"110"
@@ -727,7 +727,7 @@
 			"textAlignment"	"west"
 		}
 		"Player1Damage"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Damage"
 			"xpos"			"146"
@@ -740,7 +740,7 @@
 			"textAlignment"	"east"
 		}
 		"Player1Healing"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Healing"
 			"xpos"			"186"
@@ -753,7 +753,7 @@
 			"textAlignment"	"east"
 		}
 		"Player1Lifetime"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Lifetime"
 			"xpos"			"226"
@@ -766,7 +766,7 @@
 			"textAlignment"	"east"
 		}
 		"Player1Kills"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player1Kills"
 			"xpos"			"266"
@@ -788,7 +788,7 @@
 			"enabled"		"0"
 		}
 		"Player2Name"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Name"
 			"xpos"			"4"
@@ -801,7 +801,7 @@
 			"textAlignment"	"west"
 		}
 		"Player2Class"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Class"
 			"xpos"			"110"
@@ -814,7 +814,7 @@
 			"textAlignment"	"west"
 		}
 		"Player2Damage"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Damage"
 			"xpos"			"146"
@@ -827,7 +827,7 @@
 			"textAlignment"	"east"
 		}
 		"Player2Healing"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Healing"
 			"xpos"			"186"
@@ -840,7 +840,7 @@
 			"textAlignment"	"east"
 		}
 		"Player2Lifetime"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Lifetime"
 			"xpos"			"226"
@@ -853,7 +853,7 @@
 			"textAlignment"	"east"
 		}
 		"Player2Kills"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player2Kills"
 			"xpos"			"266"
@@ -865,7 +865,7 @@
 			"labelText"		""
 			"textAlignment"	"east"
 		}
-		
+
 		"Player3Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -876,7 +876,7 @@
 			"enabled"		"0"
 		}
 		"Player3Name"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Name"
 			"xpos"			"4"
@@ -889,7 +889,7 @@
 			"textAlignment"	"west"
 		}
 		"Player3Class"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Class"
 			"xpos"			"110"
@@ -902,7 +902,7 @@
 			"textAlignment"	"west"
 		}
 		"Player3Damage"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Damage"
 			"xpos"			"146"
@@ -915,7 +915,7 @@
 			"textAlignment"	"east"
 		}
 		"Player3Healing"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Healing"
 			"xpos"			"186"
@@ -928,7 +928,7 @@
 			"textAlignment"	"east"
 		}
 		"Player3Lifetime"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Lifetime"
 			"xpos"			"226"
@@ -941,7 +941,7 @@
 			"textAlignment"	"east"
 		}
 		"Player3Kills"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Player3Kills"
 			"xpos"			"266"

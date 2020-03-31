@@ -16,7 +16,7 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
 	}
-	
+
 	"GameModeImageBgPanel"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"scaleImage"	"1"
 		//"image"			"illustrations/bg"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -54,8 +54,8 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
@@ -79,8 +79,8 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"GameModeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -99,7 +99,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -119,7 +119,7 @@
 		"wrap"			"1"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -138,7 +138,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"		"CExButton"
@@ -166,7 +166,7 @@
 		"border_armed"		"OutlinedDullGreyBox"
 		"paintbackground"	"1"
 		"paintborder"		"1"
-		
+
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
@@ -174,5 +174,5 @@
 		"armedbgColor_override" "27 27 27 255"
 		"depressedbgColor_override" "70 70 70 255"
 	}
-	
+
 }

@@ -22,7 +22,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			
+
 			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"BlueScoreBG2"
@@ -36,7 +36,7 @@
 			"tall"		"16"
 			"visible"	"1"
 			"enabled"	"1"
-			"fillcolor"	"127 152 166 128" //"77 116 139 255"		
+			"fillcolor"	"127 152 166 128" //"77 116 139 255"
 		}
 		"RedScoreBG"
 		{
@@ -84,7 +84,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -136,7 +136,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
@@ -151,7 +151,7 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
-		}									
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -170,7 +170,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -222,7 +222,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
@@ -251,7 +251,7 @@
 		"tall"			"185"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
@@ -266,10 +266,10 @@
 		"tall"		"92"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 128"		
+		"fillcolor"	"0 0 0 128"
 	}
 	"WinningTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"HudFontSmallestBold"
@@ -288,7 +288,7 @@
 		"brighttext"		"0"
 	}
 	"WinningTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"HudFontSmallestBold"
@@ -308,7 +308,7 @@
 		"brighttext"		"0"
 	}
 	"AdvancingTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
 		"font"			"HudFontSmallBold"
@@ -327,7 +327,7 @@
 		"brighttext"		"0"
 	}
 	"AdvancingTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"HudFontSmallBold"
@@ -347,7 +347,7 @@
 		"brighttext"		"0"
 	}
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"DefaultVerySmallFallBack" //"ScoreboardVerySmall"
@@ -366,7 +366,7 @@
 		"brighttext"		"0"
 	}
 	"DetailsLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"DefaultVerySmallFallBack" //"ScoreboardVerySmall"
@@ -397,13 +397,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 64"
 		"fillcolor_lodef"		"0 0 0 64"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
@@ -422,7 +422,7 @@
 		"brighttext"		"0"
 	}
 	"PointsThisRoundLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
@@ -453,7 +453,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -469,11 +469,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
 	"Player1Name"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
 		"xpos"			"60"	[$WIN32]
@@ -493,7 +493,7 @@
 		"brighttext"		"0"
 	}
 	"Player1Class"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
 		"xpos"			"170"
@@ -511,7 +511,7 @@
 		"brighttext"		"0"
 	}
 	"Player1Score"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Score"
 		"xpos"			"210"
@@ -540,11 +540,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
 	"Player2Name"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
 		"xpos"			"60"	[$WIN32]
@@ -564,7 +564,7 @@
 		"brighttext"		"0"
 	}
 	"Player2Class"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
 		"xpos"			"170"
@@ -582,7 +582,7 @@
 		"brighttext"		"0"
 	}
 	"Player2Score"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Score"
 		"xpos"			"210"
@@ -611,11 +611,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
 	"Player3Name"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
 		"xpos"			"60"	[$WIN32]
@@ -635,7 +635,7 @@
 		"brighttext"		"0"
 	}
 	"Player3Class"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
 		"xpos"			"170"
@@ -653,7 +653,7 @@
 		"brighttext"		"0"
 	}
 	"Player3Score"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
 		"xpos"			"210"

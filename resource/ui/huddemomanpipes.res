@@ -18,7 +18,7 @@
 		"font"					"Garm3n6Nov"
 	}
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
@@ -26,7 +26,7 @@
 		"ypos"			"41"
 		"zpos"			"2"
 		"wide"			"104"
-		"tall"			"6"				
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -67,7 +67,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMediumSmallish"
 			"fgcolor"		"Garm3nPlus"
-		}	
+		}
 		"NumPipesLabelBG"
 		{
 			"ControlName"	"CExLabel"
@@ -88,7 +88,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMediumSmallish"
 			"fgcolor"		"0 0 0 255"
-		}	
+		}
 		"StickyLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -107,7 +107,7 @@
 			"font"					"PlayerPanelPlayerName"
 		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -139,7 +139,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMediumSmallish"
 			"fgcolor"		"Garm3nRed"
-		}	
+		}
 		"NumPipesLabelBG"
 		{
 			"ControlName"	"CExLabel"
@@ -160,7 +160,7 @@
 			"brighttext"	"0"
 			"font"			"HudFontMediumSmallish"
 			"fgcolor"		"0 0 0 255"
-		}	
+		}
 		"StickyLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -178,5 +178,5 @@
 			"textAlignment"			"center"
 			"font"					"PlayerPanelPlayerName"
 		}
-	}		
+	}
 }

@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"ItemBackground"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -46,9 +46,9 @@
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -66,9 +66,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontSmallBold"
@@ -87,9 +87,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -107,7 +107,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -118,8 +118,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -130,8 +130,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -142,8 +142,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -155,7 +155,7 @@
 		"tall"			"100"
 		"visible"		"0"
 	}
-	
+
 	"inactive_item_1"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -166,8 +166,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"inactive_item_2"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -178,8 +178,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"inactive_item_3"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -190,8 +190,8 @@
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"inactive_item_4"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -203,7 +203,7 @@
 		"tall"			"100"
 		"visible"		"1"
 	}
-	
+
 	"unavailable_item_1"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -214,8 +214,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -226,8 +226,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
@@ -238,8 +238,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"ControlName"	"CEngyDestroyMenuItem"

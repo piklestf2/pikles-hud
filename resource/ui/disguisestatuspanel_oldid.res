@@ -24,12 +24,12 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"DisguiseStatusBG2"
 	{
@@ -49,7 +49,7 @@
 	}
 
 	"DisguiseNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"Default"
@@ -63,9 +63,9 @@
 		"labelText"		"%disguisename%"
 		"textAlignment"	"west"
 	}
-	
+
 	"WeaponNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"DefaultVerySmallOutline"
@@ -79,7 +79,7 @@
 		"labelText"		"%weaponname%"
 		"textAlignment"	"west"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -90,12 +90,12 @@
 		"wide"			"500"
 		"tall"			"24"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 }

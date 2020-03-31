@@ -14,31 +14,31 @@
 		"PaintBackgroundType"	"2"
 		"PaintBackground"	"1"
 		"PaintBorder"	"1"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -56,8 +56,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
-	
+	}
+
 	"FreezePanelBaseReference"
 	{
 		"ControlName"	"ImagePanel"
@@ -66,20 +66,20 @@
 		"ypos"			"225"
 		"zpos"			"0"
 		"wide"			"260"
-		"tall"			"16"		
+		"tall"			"16"
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 0 255 255"
 	}
-	
+
 	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"r261"
-		"ypos"			"c-176"	//"c50"		
-		"wide"			"267"		
-		"tall"			"f0"		
+		"ypos"			"c-176"	//"c50"
+		"wide"			"267"
+		"tall"			"f0"
 		"visible"		"1"
 		"ForceStereoRenderToFrameBuffer" "1"
 
@@ -95,13 +95,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
-			"scaleImage"		"1"	
-			
+			"scaleImage"		"1"
+
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-				
+
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		"FreezePanelBG2"
 		{
@@ -116,9 +116,9 @@
 			"enabled"		"1"
 			"fillcolor"		"0 0 0 255"
 		}
-		
+
 		"FreezeLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
@@ -136,7 +136,7 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-		
+
 		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
@@ -147,16 +147,16 @@
 			"wide"			"55"
 			"tall"			"31"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
 			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"HudOffWhite"
-		}	
+		}
 
 		"FreezeLabelKiller"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
@@ -185,10 +185,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
-		}	
-		
+		}
+
 		"NemesisSubPanel"
 		{
 			"ControlName"		"EditablePanel"
@@ -212,13 +212,13 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/color_panel_brown"
-				"scaleImage"		"1"	
-				
+				"scaleImage"		"1"
+
 				"src_corner_height"		"23"				// pixels inside the image
 				"src_corner_width"		"23"
-					
+
 				"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"0"	
+				"draw_corner_height" 	"0"
 			}
 			"NemesisIcon"
 			{
@@ -232,10 +232,10 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/leaderboard_nemesis_freezecam"
-				"scaleImage"	"1"	
-			}		
+				"scaleImage"	"1"
+			}
 			"NemesisLabel"
-			{	
+			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"NemesisLabel"
 				"font"			"HudFontMediumSmall"
@@ -252,7 +252,7 @@
 				"textAlignment"		"west"
 			}
 			"NemesisLabel2"
-			{	
+			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"NemesisLabel2"
 				"font"			"DefaultSmall"
@@ -270,7 +270,7 @@
 			}
 		}
 	}
-		
+
 	"ScreenshotPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -281,7 +281,7 @@
 		"wide"			"166"
 		"tall"			"40"
 		"visible"		"0"
-			
+
 		"ScreenshotPanelBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -307,10 +307,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/ico_camera"
-			"scaleImage"	"1"	
-		}		
+			"scaleImage"	"1"
+		}
 		"ScreenshotLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ScreenshotLabel"
 			"font"			"SpectatorKeyHints"
@@ -328,5 +328,5 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-	}	
+	}
 }
