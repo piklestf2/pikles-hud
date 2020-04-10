@@ -7,15 +7,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"20"
-		"xpos"			"c-98"	
-		"ypos"			"c-97"	
+		"xpos"			"c-98"
+		"ypos"			"c-97"
 		"wide"			"200"
 		"tall"			"202"
 
 		"font"			"piklesxhairantialias"
 		"labelText"		"0"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 175"
 		"alpha" "175"
 	}
@@ -26,15 +26,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"20"
-		"xpos"			"c-101"	
-		"ypos"			"c-96"	
+		"xpos"			"c-101"
+		"ypos"			"c-96"
 		"wide"			"199"
 		"tall"			"200"
 
 		"font"			"piklesxhairantialias"
 		"labelText"		"1"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 255"
 		"alpha" "255"
 	}
@@ -45,15 +45,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"21"
-		"xpos"			"c-100"	
-		"ypos"			"c-96"	
+		"xpos"			"c-100"
+		"ypos"			"c-96"
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"piklesxhair"
 		"labelText"		"2"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 255"
 		"alpha" "255"
 	}
@@ -64,15 +64,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"21"
-		"xpos"			"c-100"	
-		"ypos"			"c-96"	
+		"xpos"			"c-100"
+		"ypos"			"c-96"
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"piklesxhair"
 		"labelText"		"3"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 255"
 		"alpha" "255"
 	}
@@ -83,15 +83,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"21"
-		"xpos"			"c-100"	
-		"ypos"			"c-96"	
+		"xpos"			"c-100"
+		"ypos"			"c-96"
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"piklesxhair"
 		"labelText"		"4"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 255"
 		"alpha" "255"
 	}
@@ -102,15 +102,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"21"
-		"xpos"			"c-100"	
-		"ypos"			"c-96"	
+		"xpos"			"c-100"
+		"ypos"			"c-96"
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"piklesxhair"
 		"labelText"		"5"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 255"
 		"alpha" "255"
 	}
@@ -121,19 +121,19 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"21"
-		"xpos"			"c-100"	
-		"ypos"			"c-96"	
+		"xpos"			"c-100"
+		"ypos"			"c-96"
 		"wide"			"200"
 		"tall"			"200"
 
 		"font"			"piklesxhair"
 		"labelText"		"6"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 255"
 		"alpha" "255"
 	}
-	
+
 	CrossHairKonrWings
 	{
 		"controlName"	"CExLabel"
@@ -149,15 +149,15 @@
 
 		"font"			"CrossHairKonrWings"
 		"labelText"		"i"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
+
 		"fgcolor"		"0 255 0 255"
 	}
-	
+
 // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-// ↓↓↓        _ _      _         _____  _____        _____  ____      _____               _           _       ↓↓↓ 
-// ↓↓↓       (_) |    ( )       / ____|/ ____|  _   / ____|/ __ \    / ____|             | |         (_)      ↓↓↓ 
-// ↓↓↓ __   ___| | ___|/ ___   | |    | (___   (_) | |  __| |  | |  | |     _ __ ___  ___| |__   __ _ _ _ __  ↓↓↓ 
+// ↓↓↓        _ _      _         _____  _____        _____  ____      _____               _           _       ↓↓↓
+// ↓↓↓       (_) |    ( )       / ____|/ ____|  _   / ____|/ __ \    / ____|             | |         (_)      ↓↓↓
+// ↓↓↓ __   ___| | ___|/ ___   | |    | (___   (_) | |  __| |  | |  | |     _ __ ___  ___| |__   __ _ _ _ __  ↓↓↓
 // ↓↓↓ \ \ / / | |/ _ \ / __|  | |     \___ \      | | |_ | |  | |  | |    | '__/ _ \/ __| '_ \ / _` | | '__| ↓↓↓
 // ↓↓↓  \ V /| | |  __/ \__ \  | |____ ____) |  _  | |__| | |__| |  | |____| | | (_) \__ \ | | | (_| | | |    ↓↓↓
 // ↓↓↓   \_/ |_|_|\___| |___/   \_____|_____/  (_)  \_____|\____/    \_____|_|  \___/|___/_| |_|\__,_|_|_|    ↓↓↓
@@ -410,11 +410,11 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 	}
-	
+
 // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
-// ↑↑↑        _ _      _         _____  _____        _____  ____      _____               _           _       ↑↑↑ 
-// ↑↑↑       (_) |    ( )       / ____|/ ____|  _   / ____|/ __ \    / ____|             | |         (_)      ↑↑↑ 
-// ↑↑↑ __   ___| | ___|/ ___   | |    | (___   (_) | |  __| |  | |  | |     _ __ ___  ___| |__   __ _ _ _ __  ↑↑↑ 
+// ↑↑↑        _ _      _         _____  _____        _____  ____      _____               _           _       ↑↑↑
+// ↑↑↑       (_) |    ( )       / ____|/ ____|  _   / ____|/ __ \    / ____|             | |         (_)      ↑↑↑
+// ↑↑↑ __   ___| | ___|/ ___   | |    | (___   (_) | |  __| |  | |  | |     _ __ ___  ___| |__   __ _ _ _ __  ↑↑↑
 // ↑↑↑ \ \ / / | |/ _ \ / __|  | |     \___ \      | | |_ | |  | |  | |    | '__/ _ \/ __| '_ \ / _` | | '__| ↑↑↑
 // ↑↑↑  \ V /| | |  __/ \__ \  | |____ ____) |  _  | |__| | |__| |  | |____| | | (_) \__ \ | | | (_| | | |    ↑↑↑
 // ↑↑↑   \_/ |_|_|\___| |___/   \_____|_____/  (_)  \_____|\____/    \_____|_|  \___/|___/_| |_|\__,_|_|_|    ↑↑↑
@@ -517,7 +517,7 @@
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"120"
 	}
-		
+
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"
@@ -527,8 +527,8 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}	
-	
+	}
+
 	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
@@ -538,11 +538,11 @@
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"60"
-		
+
 		"blue_active_xpos"			"55"
-	
+
 		"red_active_xpos"			"105"
-	}	
+	}
 
 	HudItemEffectMeter
 	{
@@ -556,7 +556,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
@@ -569,7 +569,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
@@ -582,7 +582,7 @@
 		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-	}	
+	}
 
 	HudBowCharge
 	{
@@ -657,8 +657,8 @@
 		"SelectedBoxClor" "0 0 0 220"
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "HudSelectionText"
-	}	
-	
+	}
+
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
@@ -670,11 +670,11 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-128"	
+		"xpos"					"c-128"
 		"ypos"					"r239"
 		"wide"					"200"
 		"tall"  				"180"
@@ -694,7 +694,7 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
@@ -717,7 +717,7 @@
 		"tall"	 		"28"
 		"priority"		"40"
 	}
-	
+
 	CSpectatorTargetID
 	{
 		"fieldName" 		"CSpectatorTargetID"
@@ -729,7 +729,7 @@
 		"tall"	 		"28"
 		"priority"		"40"
 	}
-	
+
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
@@ -741,7 +741,7 @@
 		"tall"	 		"28"
 		"priority"		"35"
 	}
-	
+
 	BuildingStatus_Spy
 	{
 		"fieldName" "BuildingStatus_Spy"
@@ -751,10 +751,10 @@
 		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
-		
+
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	BuildingStatus_Engineer
 	{
 		"fieldName" "BuildingStatus_Engineer"
@@ -764,10 +764,10 @@
 		"ypos"		"8"
 		"wide"		"640"
 		"tall"		"480"
-		
+
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	HudMannVsMachineStatus
 	{
 		"fieldName" "HudMannVsMachineStatus"
@@ -778,10 +778,10 @@
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
-		
+
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	HudProgressBar
 	{
 		"fieldName" "HudProgressBar"
@@ -806,10 +806,10 @@
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
-		
+
 		"PaintBackgroundType"	"2"
 
-		"FlashColor" "HudIcon_Red"		
+		"FlashColor" "HudIcon_Red"
 
 		"icon_xpos"		"0"
 		"icon_ypos"		"2"
@@ -817,7 +817,7 @@
 		"digit_ypos"	"2"
 	}
 
-	HudScenarioIcon 
+	HudScenarioIcon
 	{
 		"fieldName" "HudScenarioIcon"
 		"xpos"	"c110"
@@ -829,9 +829,9 @@
 
 		"PaintBackgroundType"	"2"
 
-		"IconColor"				"Hostage_Yellow"	
+		"IconColor"				"Hostage_Yellow"
 	}
-	
+
 	HudFlashlight
 	{
 		"fieldName" "HudFlashlight"
@@ -841,7 +841,7 @@
 		"ypos"	"370"
 		"wide"	"102"
 		"tall"	"20"
-		
+
 		"text_xpos" "8"
 		"text_ypos" "6"
 		"TextColor"	"255 255 255 255"
@@ -851,16 +851,16 @@
 
 	HudDamageIndicator
 	{
-		"fieldName" "HudDamageIndicator" 
-		"visible" "1" 
-		"enabled" "1" 
-		"MinimumWidth" "10" 
-		"MaximumWidth" "10" 
-		"StartRadius" "140" 
-		"EndRadius" "140" 
-		"MinimumHeight" "30" 
-		"MaximumHeight" "45" 
-		"MinimumTime" "1" 
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "10"
+		"MaximumWidth" "10"
+		"StartRadius" "140"
+		"EndRadius" "140"
+		"MinimumHeight" "30"
+		"MaximumHeight" "45"
+		"MinimumTime" "1"
 	}
 
 	HudCommentary
@@ -872,10 +872,10 @@
 		"tall"  "50"
 		"visible" "1"
 		"enabled" "1"
-		
+
 		"PaintBackgroundType"	"2"
 		"BackgroundOverrideColor" "0 0 0 128"
-		
+
 		"bar_xpos"		"50"
 		"bar_ypos"		"20"
 		"bar_height"	"8"
@@ -884,10 +884,10 @@
 		"speaker_ypos"	"8"
 		"count_xpos_from_right"	"10"	// Counts from the right side
 		"count_ypos"	"8"
-		
+
 		"icon_texture"	"vgui/hud/icon_commentary"
 		"icon_xpos"		"0"
-		"icon_ypos"		"0"		
+		"icon_ypos"		"0"
 		"icon_width"	"40"
 		"icon_height"	"40"
 
@@ -931,9 +931,9 @@
 		"LineSpacing"	  "-1"
 		"CornerRadius"	  "0" //"3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
+
 		"TextFont"		"Default" //"ChatFont"
-		
+
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
@@ -1022,12 +1022,12 @@
 		"zpos" 	"2"
 		"xpos"			"r165"
 		"ypos"			"r41"
-		
+
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
 	}
-	
+
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
@@ -1047,7 +1047,7 @@
 		"topoffset"		"1"
 	}
 
-	HudHistoryResource 
+	HudHistoryResource
 	{
 		"fieldName" "HudHistoryResource"
 		"visible" "0"
@@ -1139,7 +1139,7 @@
 		"wide"			"640"
 		"tall"			"480"
 	}
-	
+
 	HudScopeCharge
 	{
 		"fieldName"		"HudScopeCharge"
@@ -1150,7 +1150,7 @@
 		"wide"			"64"
 		"tall"			"128"
 	}
-	
+
 	HudVoiceSelfStatus
 	{
 		"fieldName"		"HudVoiceSelfStatus"
@@ -1174,21 +1174,21 @@
 		"tall"			"400"
 
 		"item_wide"		"135"
-		
+
 		"show_avatar"	"0"
-		
+
 		"show_dead_icon"	"1"
 		"dead_xpos"		"1"
 		"dead_ypos"		"0"
 		"dead_wide"		"16"
 		"dead_tall"		"16"
-		
+
 		"show_voice_icon"	"0"
 		"icon_ypos"		"0"
 		"icon_xpos"		"15"
 		"icon_tall"		"16"
 		"icon_wide"		"16"
-		
+
 		"text_xpos"		"16"
 	}
 
@@ -1209,7 +1209,7 @@
 		"TextColor"		"255 255 255 255"
 		"FgColor"		"255 255 255 255"
 		"TextFont"		"HudFontSmallest"
-	}	
+	}
 
 	HudHintKeyDisplay
 	{
@@ -1229,7 +1229,7 @@
 		"TextFont"		"HudFontSmallest"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	overview
 	{
 		"fieldname"		"overview"
@@ -1240,7 +1240,7 @@
 		"wide"			"640"
 		"tall"			"480"
 	}
-	
+
 	VguiScreenCursor
 	{
 		"fieldName"		"VguiScreenCursor"
@@ -1275,12 +1275,12 @@
 		"enabled"		"1"
 		"icon_space"	"2"
 	}
-	
+
 	HUDAutoAim
 	{
 
-	}	
-	
+	}
+
 	HudHDRDemo
 	{
 
@@ -1308,7 +1308,7 @@
 		"wide"			"300"
 		"tall"			"150"
 	}
-	
+
 	PVEWinPanel
 	{
 		"fieldName"				"PVEWinPanel"
@@ -1330,7 +1330,7 @@
 		"wide"			"170"
 		"tall"			"70"
 	}
-	
+
 	FreezePanel
 	{
 		"fieldName"		"FreezePanel"
@@ -1363,12 +1363,12 @@
 		"wide"					"100"
 		"tall"					"50"
 	}
-	
+
 	AnnotationsPanel
 	{
-		
+
 	}
-	
+
 	WaitingForPlayersPanel
 	{
 		"fieldName"		"WaitingForPlayersPanel"
@@ -1379,7 +1379,7 @@
 		"wide"			"292"
 		"tall"			"64"
 	}
-	
+
 	"HudUpgradePanel"
 	{
 		"fieldName"		"HudUpgradePanel"
@@ -1388,7 +1388,7 @@
 		"xpos"			"c-200"
 		"ypos"			"260"
 		"wide"			"400"
-		"tall"			"160"		
+		"tall"			"160"
 	}
 
 	"HudChat"
@@ -1403,7 +1403,7 @@
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"HudMenuEngyBuild"
 	{
 		"fieldName" 	"HudMenuEngyBuild"
@@ -1415,7 +1415,7 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudMenuEngyDestroy"
 	{
 		"fieldName" 	"HudMenuEngyDestroy"
@@ -1427,7 +1427,7 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
@@ -1439,7 +1439,7 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
@@ -1450,19 +1450,19 @@
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
-	}	
-	
+	}
+
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-69"	
-		"ypos"			"r199"	
+		"xpos"			"c-69"
+		"ypos"			"r199"
 		"wide"			"137"
 		"tall"			"60"
-	}	
-	
+	}
+
 
 	HudTeamGoal
 	{
@@ -1565,7 +1565,7 @@
 		"wide"					"700"
 		"tall"					"55"
 	}
-	
+
 	NotificationPanel
 	{
 		"fieldName"		"NotificationPanel"
@@ -1577,7 +1577,7 @@
 		"tall"					"100"
 	}
 
-	AchievementNotificationPanel	
+	AchievementNotificationPanel
 	{
 		"fieldName"		"AchievementNotificationPanel"
 		"visible"		"1"
@@ -1598,10 +1598,10 @@
 		"wide"			"150"
 		"tall"			"25"
 	}
-	
+
 	HudArenaClassLayout
 	{
-		"fieldName"		"HudArenaClassLayout"		
+		"fieldName"		"HudArenaClassLayout"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
@@ -1609,10 +1609,10 @@
 		"wide"			"f0"
 		"tall"			"280"
 	}
-	
+
 	HudArenaVsPanel
 	{
-		"fieldName"		"HudArenaVsPanel"		
+		"fieldName"		"HudArenaVsPanel"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
@@ -1620,18 +1620,18 @@
 		"wide"			"f0"
 		"tall"			"240"
 	}
-	
+
 	HudArenaPlayerCount
 	{
-		"fieldName"		"HudArenaPlayerCount"		
+		"fieldName"		"HudArenaPlayerCount"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"50"
-	}	
-	
+	}
+
 	"HudAchievementTracker"
 	{
 		"ControlName"	"EditablePanel"
@@ -1642,7 +1642,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"zpos"			"1"
 	}
 
@@ -1656,17 +1656,17 @@
 		"wide"					"200"
 		"tall"					"300"
 	}
-	
+
 	HudTrainingMsg
 	{
-		
+
 	}
-	
+
 	TrainingComplete
 	{
-		
+
 	}
-	
+
 	HudInspectPanel
 	{
 		"fieldName"				"HudInspectPanel"
@@ -1678,7 +1678,7 @@
 		"wide"					"190"
 		"tall"					"f0"
 	}
-	
+
 	HudTFCrosshair
 	{
 		"fieldName" 	"HudTFCrosshair"
@@ -1698,14 +1698,14 @@
 		"wide"			"250"
 		"tall"			"160"
 	}
-	
+
 	ReplayReminder
 	{
 		"fieldName"		"ReplayReminder"
 		"visible"		"0"
 		"enable"		"1"
 	}
-	
+
 	MainMenuAdditions
 	{
 		"fieldName"		"MainMenuAdditions"
@@ -1762,11 +1762,11 @@
 		"wide"			"200"
 		"tall"			"0"
 	}
-	
+
 	"CHudVote"
 	{
 		"fieldName"		"CHudVote"
-		"xpos"			"0"			
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1786,11 +1786,11 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
-	
+
 	"CTFStreakNotice"
 	{
 		"fieldName"		"CTFStreakNotice"
-		"xpos"			"0"			
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1799,7 +1799,7 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
-	
+
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 	"HudMenuTauntSelection"
@@ -1811,7 +1811,7 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
@@ -1833,8 +1833,8 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}	
-	
+	}
+
 	"QuestNotificationPanel"
 	{
 		"fieldName"	"QuestNotificationPanel"
@@ -1857,7 +1857,7 @@
 		"wide"	 		"f0"
 		"tall"	 		"f0"
 	}
-	
+
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
