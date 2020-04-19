@@ -512,9 +512,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c21"
+		"xpos"	"c29"
 		"ypos"	"r198"
-		"wide"	"300" //was made 4 units taller in MvM update
+		"wide"	"300"
 		"tall"	"120"
 	}
 
@@ -562,12 +562,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c64"
+		"xpos"	"c72"
 		"ypos"	"r176"
 		"wide"	"f0"
 		"tall"	"480"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
 	}
 
 	HudDemomanCharge
@@ -662,7 +660,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c28"
+		"xpos"					"c30"
 		"ypos"					"r313"
 		"wide"					"116"
 		"tall"  				"180"
@@ -674,10 +672,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-128"
-		"ypos"					"r239"
-		"wide"					"200"
-		"tall"  				"180"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"  				"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

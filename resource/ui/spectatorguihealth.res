@@ -84,19 +84,6 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 255"
 	}
-	"BlackBG3"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlackBG3"
-		"xpos"			"3"
-		"ypos"			"3"
-		"zpos"			"7"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
-	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
