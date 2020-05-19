@@ -147,7 +147,7 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"White"
 	}
-		"PlayerStatus_MedicUberBulletResistImage"
+    "PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
