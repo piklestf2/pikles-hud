@@ -268,7 +268,7 @@
 			"wide"			"18"
 			"tall"			"18"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"Black"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
