@@ -128,37 +128,37 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"				Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"96"				Linear 0.2 0.4
-	Animate	PlayerStatusHealthValueBG		FgColor		"31 41 62 255" 		Linear 0.0 0.2
-	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.2 0.4
+    Animate     PlayerStatusHealthBonusImage        Alpha       "175"               Linear 0.0 0.5
+    Animate     PlayerStatusHealthBonusImage        Alpha       "75"                Linear 0.5 1.0
+    Animate     PlayerStatusHealthValueBG           FgColor     "20 40 80 255"      Linear 0.0 0.5
+    Animate     PlayerStatusHealthValueBG           FgColor     "SuperBlack"        Linear 0.5 1.0
 
-	Animate PlayerStatusHealthImageCover	alpha 		"255" 				Linear 0.0 0.0
+    Animate     PlayerStatusHealthImageCover        Alpha       "255"               Linear 0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop	0.4
+    RunEvent    HudHealthBonusPulseLoop             1.0
 
-	Animate PlayerStatusHealthValue 			Alpha 		"255" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue	 			FgColor	 	"75 165 255 255" 	Linear 0.0 0.0
-	Animate SpectatorPlayerStatusHealthValue 	Alpha 		"255" 				Linear 0.0 0.1
-	Animate SpectatorPlayerStatusHealthValue	FgColor 	"Tanlight" 			Linear 0.0 0.0
+    Animate     PlayerStatusHealthValue             Alpha 		"255"               Linear 0.0 0.1
+    Animate     PlayerStatusHealthValue             FgColor	 	"BuffedBlue"        Linear 0.0 0.0
+    Animate     SpectatorPlayerStatusHealthValue    Alpha 		"255"               Linear 0.0 0.1
+    Animate     SpectatorPlayerStatusHealthValue    FgColor 	"Tanlight"          Linear 0.0 0.0
 }
 
 // call to loop HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
-RunEvent HudHealthBonusPulse 0.0
+    RunEvent    HudHealthBonusPulse 0.0
 }
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.0 0.0001
-	Animate PlayerStatusHealthImageCover	alpha	 	"0" 				Linear 0.0 0.0
-	Animate PlayerStatusHealthValue Alpha "255" Linear 0.0 0.1
-	Animate PlayerStatusHealthValue	 FgColor	 "Tanlight" Linear 0.0 0.0
-	Animate SpectatorPlayerStatusHealthValue 	Alpha "255" Linear 0.0 0.1
-	Animate SpectatorPlayerStatusHealthValue	FgColor	 "Tanlight" Linear 0.0 0.0
+    StopEvent   HudHealthBonusPulse                 0.0
+    StopEvent   HudHealthBonusPulseLoop             0.0
+    Animate     PlayerStatusHealthValueBG           FgColor     "SuperBlack"        Linear 0.0 0.0001
+    Animate     PlayerStatusHealthImageCover        Alpha       "0"                 Linear 0.0 0.0
+    Animate     PlayerStatusHealthValue             Alpha       "255"               Linear 0.0 0.1
+    Animate     PlayerStatusHealthValue             FgColor     "Tanlight"          Linear 0.0 0.0
+    Animate     SpectatorPlayerStatusHealthValue    Alpha       "255"               Linear 0.0 0.1
+    Animate     SpectatorPlayerStatusHealthValue    FgColor     "Tanlight"          Linear 0.0 0.0
 }
 
 //===========================================
@@ -166,52 +166,43 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"				Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"96"				Linear 0.125 0.075
-	Animate	PlayerStatusHealthValueBG		FgColor		"62 37 31 255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.125 0.075
+    Animate     PlayerStatusHealthBonusImage    Alpha       "175"               Linear 0.0 0.075
+    Animate     PlayerStatusHealthBonusImage    Alpha       "96"                Linear 0.125 0.075
+    Animate     PlayerStatusHealthValueBG       FgColor     "InjuRedBG"         Linear 0.0 0.075
+    Animate     PlayerStatusHealthValueBG       FgColor     "SuperBlack"        Linear 0.125 0.075
 
-	RunEvent HudHealthDyingPulseLoop	0.25
+    RunEvent    HudHealthDyingPulseLoop         0.25
 
-	Animate PlayerStatusHealthValue 		Alpha 		"255" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue	 		FgColor	 	"255 75 75 255" 	Linear 0.0 0.0
+    Animate     PlayerStatusHealthValue 		Alpha 		"255" 				Linear 0.0 0.1
+    Animate     PlayerStatusHealthValue	 		FgColor	 	"InjuRed"       	Linear 0.0 0.0
 }
 
 // call to loop HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
-	RunEvent HudHealthDyingPulse 0.0
+    RunEvent    HudHealthDyingPulse             0.0
 }
 
 event HudHealthDyingPulseStop
 {
-	Animate	PlayerStatusHealthValueBG		FgColor		"SuperBlack" 		Linear 0.0 0.0001
-	Animate PlayerStatusHealthValue 		Alpha 		"255" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue	 		FgColor	 "Tanlight" 	Linear 0.0 0.0
-	StopEvent HudHealthDyingPulse 0.0
-	StopEvent HudHealthDyingPulseLoop 0.0
+    Animate     PlayerStatusHealthValueBG       FgColor     "SuperBlack"        Linear 0.0 0.0001
+    Animate     PlayerStatusHealthValue         Alpha       "255"               Linear 0.0 0.1
+    Animate     PlayerStatusHealthValue         FgColor     "Tanlight"          Linear 0.0 0.0
+    StopEvent   HudHealthDyingPulse             0.0
+    StopEvent   HudHealthDyingPulseLoop         0.0
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
-//	Animate	AmmoInClipShadow			FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
-//	Animate	AmmoInReserveShadow			FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
-//	Animate	AmmoNoClipShadow			FgColor		"RedSolid" 		Linear 0.0 0.0001 // pvhud
-//	Animate	AmmoInClipShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2
-//	Animate	AmmoInClipShadow			FgColor		"SuperBlack" 		Linear 0.2 0.04
-//	Animate	AmmoInReserveShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2
-//	Animate	AmmoInReserveShadow			FgColor		"SuperBlack" 		Linear 0.2 0.04
-//	Animate	AmmoNoClipShadow			FgColor		"128 24 24 255"		Linear 0.0 0.2
-//	Animate	AmmoNoClipShadow			FgColor		"SuperBlack" 		Linear 0.2 0.04
-	Animate	AmmoInReserve				FgColor		"255 0 0 255" 		Linear 0.0 0.0001
-	Animate	AmmoNoClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001
-	Animate	AmmoInClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001
+    Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
+    Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
+    Animate	AmmoInReserve				FgColor		"255 0 0 255" 		Linear 0.0 0.0001
+    Animate	AmmoNoClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001
+    Animate	AmmoInClip					FgColor		"255 0 0 255" 		Linear 0.0 0.0001
 
-	RunEvent HudLowAmmoPulseLoop	0.25
+    RunEvent HudLowAmmoPulseLoop	0.25
 }
 
 // call to loop HudLowAmmoPulse
@@ -463,25 +454,6 @@ event WinPanel_NormalPos
 
 //===========================================
 
-event DamagedPlayer
-{
-	StopEvent xHairHit 0.0
-	RunEvent xHairHit 0.01
-}
-
-event xHairHit
-{
-	Animate HitMarker1 Alpha "128" Linear 0.0 0.0
-	Animate HitMarker2 Alpha "128" Linear 0.0 0.0
-	Animate HitMarker3 Alpha "128" Linear 0.0 0.0
-	Animate HitMarker4 Alpha "128" Linear 0.0 0.0
-
-	Animate HitMarker1 Alpha "0" Linear 0.95 0.0
-	Animate HitMarker2 Alpha "0" Linear 0.95 0.0
-	Animate HitMarker3 Alpha "0" Linear 0.95 0.0
-	Animate HitMarker4 Alpha "0" Linear 0.95 0.0
-}
-
 event SpyWarningFlash
 {
 	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01
@@ -499,4 +471,25 @@ event SpyWarningFlashEnd
 {
 	StopEvent SpyWarningFlash			0.0
 	StopEvent SpyWarningFlashLoop		0.0
+}
+
+//===========================================
+
+event DamagedPlayer
+{
+	StopEvent   xHairHit 0.0
+	RunEvent    xHairHit 0.01
+}
+
+event xHairHit
+{
+	Animate HitMarker1 Alpha "128" Linear 0.0 0.0
+	Animate HitMarker2 Alpha "128" Linear 0.0 0.0
+	Animate HitMarker3 Alpha "128" Linear 0.0 0.0
+	Animate HitMarker4 Alpha "128" Linear 0.0 0.0
+
+	Animate HitMarker1 Alpha "0" Linear 0.95 0.0
+	Animate HitMarker2 Alpha "0" Linear 0.95 0.0
+	Animate HitMarker3 Alpha "0" Linear 0.95 0.0
+	Animate HitMarker4 Alpha "0" Linear 0.95 0.0
 }

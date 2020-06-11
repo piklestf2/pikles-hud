@@ -85,7 +85,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"SuperBlack"
+		"fgcolor"		"0 0 0 255"
 	}
 	"PlayerStatusBleedImage"
 	{

@@ -21,6 +21,11 @@ Scheme
 		// base colors
 		"Pikles"				"64 190 112 255" //"250 129 226 255"
 		"PiklesLight"			"156 222 181 255" //"252 176 237 255"
+        "BuffedBlue"            "75 165 255 255"
+        "BuffedBlueBG"          "20 40 80 255"
+        "InjuRed"               "255 75 75 255"
+        "InjuRedBG"             "80 40 20 255"
+
 		"RedTeam"				"206 115 113 255"
 		"BlueTeam"				"127 152 166 255"
 		"RedTeam128"			"206 115 113 128"
