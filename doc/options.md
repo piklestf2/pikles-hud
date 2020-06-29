@@ -4,12 +4,12 @@ Frustratingly, the `xpos` values for `tournamentspectator.res` don't seem to
 allow variable `r` or `c` alignments. So, if you use anything narrower (lower
 width to height ratio) than 16:9, you'll have to do some file swaps to avoid
 cutting the tournament spec info off your screen. In
-`"/tf/custom/pikles-hud/resource/ui/"` there are five
-`"tournamentspectator.res"` files: one with no suffix and four with suffixes
+`/tf/custom/pikles-hud/resource/ui/` there are five
+`tournamentspectator.res` files: one with no suffix and four with suffixes
 matching four common aspect ratios (4:3, 5:4, 16:9 and 16:10). Delete
-`"tournamentspectator.res"` (identical to 16:9 if you ever need to switch back)
+`tournamentspectator.res` (identical to 16:9 if you ever need to switch back)
 and delete the suffix on the file matching your aspect ratio, renaming it to
-`"tournamentspectator.res"`
+`tournamentspectator.res`
 
 ## Achievement Tracker Crosshairs
 This is enabled by default and uses vile's CS:GO styled crosshair. To actually
@@ -47,9 +47,9 @@ You could also use a script to use the crosshair with specific weapons:
 ```
 
 ## Font Crosshairs
-If you'd rather use these, open `"/tf/custom/pikles-hud/scripts/hudlayout.res"`
+If you'd rather use these, open `/tf/custom/pikles-hud/scripts/hudlayout.res`
 with any text editor. There should be eight options already in there. None are
-enabled by default. To enable, set `"visible"` to `1` (visible) or `0`
+enabled by default. To enable, set `visible` to `1` (visible) or `0`
 (invisible) to enable whichever font crosshair(s) you're going to use.
 
 Alternatively, a "new" crosshair can be created, using Fog's Crosshair font.
@@ -84,7 +84,7 @@ refer to this image for which letters/numbers correspond to which crosshair...
 
 ![fogtable](images/fogtable.png?raw=true "Fog Crosshair Table")
 
-...then put that number/letter in the quotes following `"labelText"`. You will
+...then put that number/letter in the quotes following `labelText`. You will
 most likely have to change `xpos`, `ypos`, `wide` and `tall` to get it centered
 for your resolution.
 
@@ -92,11 +92,11 @@ You can change the `fgcolor` (RGBA) if you like, but I've found that solid green
 works the best.
 
 Also, there are three "styles" for Fog's font:
-* `"FogCrosshair"` - normal, no outline or anti-aliasing; use this for most
+* `FogCrosshair` - normal, no outline or anti-aliasing; use this for most
   things
-* `"FogCrosshairAntiAlias"` - anti-aliasing; use this for crosshairs with round
+* `FogCrosshairAntiAlias` - anti-aliasing; use this for crosshairs with round
   elements
-* `"FogCrosshairOutline"` - use for an outline; personal preference really
+* `FogCrosshairOutline` - use for an outline; personal preference really
 
 ## Hit Markers
 These are four red squares around the crosshair that are visible for 0.95
