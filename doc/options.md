@@ -22,21 +22,21 @@ in all the other class configs.
 Another convenient method of toggling the crosshair is with a script such as
 this:
 
-```
+    ```
     //Defaults to ingame xhair, press [KEY] to toggle on hud xhair
     crosshair 1
     alias hudxhair_on "hud_achievement_tracker 1; crosshair 0; alias hudxhair_toggle hudxhair_off"
     alias hudxhair_off "hud_achievement_tracker 0; crosshair 1; alias hudxhair_toggle hudxhair_on"
     alias hudxhair_toggle "hudxhair_on"
     bind [KEY] hudxhair_toggle    //replace [KEY] with whatever you want to press to toggle the xhair
-```
+    ```
 
 so you could toggle between the game's crosshairs and a hud crosshair with
 a button.
 
 You could also use a script to use the crosshair with specific weapons:
 
-```
+    ```
     //To be used with the above toggle script
     alias primary     "slot1; hudxhair_on"
     alias secondary   "slot2; hudxhair_off"
@@ -44,7 +44,7 @@ You could also use a script to use the crosshair with specific weapons:
     bind 1 primary
     bind 2 secondary
     bind 3 melee
-```
+    ```
 
 ## Font Crosshairs
 If you'd rather use these, open `/tf/custom/pikles-hud/scripts/hudlayout.res`
@@ -58,7 +58,7 @@ Paste this anywhere in the hudlayout, though it's a good idea to keep it
 somewhere you'll be able to find it again (or don't worry about it and just
 abuse the search function of your editor).
 
-```
+    ```
     "xHair"
     {
         "controlName"      "CExLabel"
@@ -78,7 +78,7 @@ abuse the search function of your editor).
         "fgcolor"          "0 255 0 255"
         "alpha"            "255"
     }
-```
+    ```
 
 refer to this image for which letters/numbers correspond to which crosshair...
 
@@ -118,12 +118,12 @@ chat box (except for info relating to medic charges and some engineer stuff)
 
 To enable these, put
 
-```
+    ```
     closecaption 1
     cc_subtitles 0
     cc_captiontrace 2
     cc_predisplay_time 0
     cc_linger_time 11.25
-```
+    ```
 
 either in the console, or your autoexec.
