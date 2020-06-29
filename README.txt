@@ -1,4 +1,4 @@
-piklesHUD v2.8.799 (June 8, 2020)
+piklesHUD v2.8.8 (June 28, 2020)
 
 » extract contents to
 "Steam/SteamApps/common/team fortress 2/tf/custom/"
