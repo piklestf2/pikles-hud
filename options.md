@@ -91,8 +91,12 @@ You can change the `fgcolor` (RGBA) if you like, but I've found that solid green
 works the best.
 
 Also, there are three "styles" for Fog's font:
-* `"FogCrosshair"` - normal, no outline or anti-aliasing; use this for most things
-* `"FogCrosshairAntiAlias"` - anti-aliasing; use this for crosshairs with round elements
+* `"FogCrosshair"` - normal, no outline or anti-aliasing; use this for most
+  things
+
+* `"FogCrosshairAntiAlias"` - anti-aliasing; use this for crosshairs with round
+  elements
+
 * `"FogCrosshairOutline"` - use for an outline; personal preference really
 
 ## Hit Markers
