@@ -81,7 +81,7 @@ abuse the search function of your editor).
 
 refer to this image for which letters/numbers correspond to which crosshair...
 
-![fogtable](https://i.imgur.com/rXP74A2.png)
+![fogtable](images/fogtable.png?raw=true "Fog Crosshair Table")
 
 ...then put that number/letter in the quotes following `"labelText"`. You will
 most likely have to change `xpos`, `ypos`, `wide` and `tall` to get it centered
@@ -101,7 +101,7 @@ Also, there are three "styles" for Fog's font:
 These are four red squares around the crosshair that are visible for 0.95
 seconds (amby headshot cooldown) upon damaging a player.
 
-![hitmarker](http://i.imgur.com/7aVHMjr.png)
+![hitmarkers](images/hitmarkers.png?raw=true "Hitmarkers")
 
 These are enabled by default if you use the custom crosshair hudlayout, but
 they can easily be disabled.
@@ -113,7 +113,7 @@ for `HitMarker1`, `HitMarker2`, `HitMarker3`, and `HitMarker4`.
 These are displayed to the right of the ammo, in the same font and style as the
 chat box (except for info relating to medic charges and some engineer stuff)
 
-![closedcaptions](http://i.imgur.com/SpT13wG.png)
+![closedcaptions](images/closedcaptions.png?raw=true "Close Captions")
 
 To enable these, put
 
