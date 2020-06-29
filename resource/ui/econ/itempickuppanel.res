@@ -6,7 +6,7 @@
 		"fieldName"		"item_pickup"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"100000"
+		"zpos"			"10000"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"		"0"
@@ -16,34 +16,34 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"27 27 27 255"
-		"infocus_bgcolor_override" "27 27 27 255"
-		"outoffocus_bgcolor_override" "27 27 27 255"
-		
+		"bgcolor_override"	"Black"
+		"infocus_bgcolor_override" "Black"
+		"outoffocus_bgcolor_override" "Black"
+
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
-		
-		"modelpanelskv"	
+
+
+		"modelpanelskv"
 		{
 			"PaintBackgroundType"	"2"
-			"paintborder"			"0"
-			"paintbackground"		"1"
-			"bgcolor_override"		"27 27 27 255"
-			
+			"paintborder"			"1"
+			"bgcolor_override"		"0 0 0 0"
+
 			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
-			"model_wide"        "240"
-			
+			"model_wide"	"240"
+
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
-			"is_mouseover"                "1"
+			"is_mouseover"		"1"
 			"hide_collection_panel" "1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -51,12 +51,12 @@
 			}
 		}
 	}
-	
+
 	"classimageoutline"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"classimageoutline"
-		"xpos"			"c207"
+		"xpos"			"c208"
 		"ypos"			"115"
 		"zpos"			"6"
 		"wide"			"36"
@@ -64,12 +64,12 @@
 		"visible"		"1"
 		"bgcolor_override" "0 0 0 255"
 	}
-	
+
 	"classimage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"classimage"
-		"xpos"			"c210"
+		"xpos"			"c211"
 		"ypos"			"118"
 		"zpos"			"7"
 		"wide"			"30"
@@ -79,7 +79,7 @@
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
-	
+
 	"ItemsFoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -88,7 +88,7 @@
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -97,7 +97,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -115,7 +115,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ItemCountLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -150,14 +150,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"c195"
 		"ypos"			"350"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"70"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -180,7 +180,7 @@
 		"fieldName"		"PrevButton"
 		"xpos"			"c-265"
 		"ypos"			"350"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"70"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -197,14 +197,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"c50"
 		"ypos"			"420"
-		"zpos"			"6"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -228,7 +228,7 @@
 		"fieldName"		"OpenLoadoutButton"
 		"xpos"			"c-300"
 		"ypos"			"420"
-		"zpos"			"6"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -241,7 +241,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command" "changeloadout"
+		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -250,11 +250,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
-		"xpos"			"c248"
-		"ypos"			"118"
-		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"30"
+		"xpos"			"c224"
+		"ypos"			"155"
+		"zpos"			"20"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -269,42 +269,43 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "142 142 142 255"
+		"defaultBgColor_override" "117 107 94 255"
 		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "142 142 142 255"
-			
-		"image_drawcolor"	"white"		
-		"image_armedcolor"	"white"		
-		
+		"depressedBgColor_override" "117 107 94 255"
+
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"p1"
+			"tall"			"p1"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"icon_trash_on"
 			"scaleImage"	"1"
 			"paintbackgroundtype" "0"
-		}				
-	}		
+			"proportionaltoparent"	"1"
+		}
+	}
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DiscardButtonTooltip"
-		"xpos"			"c215"
-		"ypos"			"186"
+		"xpos"			"c180"
+		"ypos"			"175"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -320,7 +321,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"white"
+			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -341,10 +342,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Pikles"
-		"bgcolor_override"	"27 27 27 255"
+		"fgcolor_override" "200 80 60 255"
+		"bgcolor_override"	"46 43 42 255"
 	}
-	
+
 	"ScoreEntry"
 	{
 		"ControlName"		"TextEntry"
@@ -364,7 +365,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"white"
+		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"

@@ -9,7 +9,7 @@
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"image"			"illustrations/training_basic"
-	}	
+	}
 
 	"SelectButton"
 	{
@@ -34,7 +34,7 @@
 		"border_armed"		"OutlinedDullGreyBox"
 		"paintbackground"	"1"
 		"paintborder"		"1"
-		
+
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
@@ -42,7 +42,7 @@
 		"armedbgColor_override" "27 27 27 255"
 		"depressedbgColor_override" "70 70 70 255"
 	}
-	
+
 	"ProgressLabel"
 	{
 		"ControlName"	"CExLabel"

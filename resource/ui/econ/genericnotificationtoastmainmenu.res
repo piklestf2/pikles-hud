@@ -40,12 +40,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"White"
 	}
 
 	"AvatarTextLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
 		"fgcolor"		"White"
@@ -66,7 +66,7 @@
 	}
 
 	"TextLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
 		"fgcolor"		"White"
