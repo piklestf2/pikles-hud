@@ -1,5 +1,7 @@
 piklesHUD v2.8.8 (June 28, 2020)
 
+Developed on 16:9 with limited testing on 4:3
+
 » extract contents to
 "Steam/SteamApps/common/team fortress 2/tf/custom/"
 
@@ -9,6 +11,18 @@ https://sites.google.com/site/piklestf2/
 if you have questions, add me and COMMENT (so I know you're not a scammer) here
 http://steamcommunity.com/profiles/76561198054383867
 
+Credit to:
+    Bacon (testing and input)
+    Garm3n (inspiration/hud elements)
+    vile (crosshair)
+    Fog (crosshairs)
+    Unintelligent (class icons)
+    povohat/Barrakketh (inspiration/hud elements)
+    scientific (inspiration/hud elements)
+    Flame (guide/hud elements)
+    Doodle (very helpful guide)
+
+-------------------------------------------------------------------------------
 
 6/8/20
 I added the quake hitsound here. This is purely for my convenience, but I'm
