@@ -1,7 +1,7 @@
 ## Advanced Tournament Spectator
 
-Frustratingly, the xpos values for `tournamentspectator.res` don't seem to
-allow variable "r" or "c" alignments. So, if you use anything narrower (lower
+Frustratingly, the `xpos` values for `tournamentspectator.res` don't seem to
+allow variable `r` or `c` alignments. So, if you use anything narrower (lower
 width to height ratio) than 16:9, you'll have to do some file swaps to avoid
 cutting the tournament spec info off your screen. In
 `"/tf/custom/pikles-hud/resource/ui/"` there are five
@@ -54,7 +54,8 @@ enabled by default. To enable, set `"visible"` to `1` (visible) or `0`
 Alternatively, a "new" crosshair can be created, using Fog's Crosshair font.
 
 Paste this anywhere in the hudlayout, though it's a good idea to keep it
-somewhere you'll be able to find it again (or just search the file I suppose).
+somewhere you'll be able to find it again (or don't worry about it and just
+abuse the search function of your editor).
 
 ```
     "xHair"
@@ -86,17 +87,17 @@ refer to this image for which letters/numbers correspond to which crosshair...
 most likely have to change `xpos`, `ypos`, `wide` and `tall` to get it centered
 for your resolution.
 
-You can change the color (RGBA) if you like, but I've found that solid green
+You can change the `fgcolor` (RGBA) if you like, but I've found that solid green
 works the best.
 
 Also, there are three "styles" for Fog's font:
-`"FogCrosshair"` - normal, no outline or anti-aliasing; use this for most things
-`"FogCrosshairAntiAlias"` - anti-aliasing; use this for crosshairs with round elements
-`"FogCrosshairOutline"` - use for an outline; personal preference really
+* `"FogCrosshair"` - normal, no outline or anti-aliasing; use this for most things
+* `"FogCrosshairAntiAlias"` - anti-aliasing; use this for crosshairs with round elements
+* `"FogCrosshairOutline"` - use for an outline; personal preference really
 
 ## Hit Markers
 These are four red squares around the crosshair that are visible for 0.95
-seconds (amby cooldown) upon damaging a player.
+seconds (amby headshot cooldown) upon damaging a player.
 
 ![hitmarker](http://i.imgur.com/7aVHMjr.png)
 
