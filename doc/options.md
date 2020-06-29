@@ -16,10 +16,11 @@ This is enabled by default and uses vile's CS:GO styled crosshair. To actually
 see it, open up your in-game achievements and set an all-class one to "Show on
 HUD" The advantage of this is that the crosshair is easily toggle-able. For
 example, if you wanted to use the crosshair for everything but spy, you'd put
-`hud_achievement_tracker 0` in your spy config and `hud_achievement_tracker 1` in
-all the other class configs.
+`hud_achievement_tracker 0` in your spy config and `hud_achievement_tracker 1`
+in all the other class configs.
 
-Another convenient method of toggling the crosshair is with a script such as this:
+Another convenient method of toggling the crosshair is with a script such as
+this:
 
 ```
     //Defaults to ingame xhair, press [KEY] to toggle on hud xhair
@@ -47,7 +48,7 @@ You could also use a script to use the crosshair with specific weapons:
 
 ## Font Crosshairs
 If you'd rather use these, open `"/tf/custom/pikles-hud/scripts/hudlayout.res"`
-with any text editor. There should be 8 options already in there. None are
+with any text editor. There should be eight options already in there. None are
 enabled by default. To enable, set `"visible"` to `1` (visible) or `0`
 (invisible) to enable whichever font crosshair(s) you're going to use.
 
