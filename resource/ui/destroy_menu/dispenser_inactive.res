@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/dispenser_inactive.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"DefaultVerySmallBold"
@@ -19,8 +19,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -31,13 +31,13 @@
 		"tall"			"105"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhiteTransparent"
 	}
-	
+
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
 		"font"			"DefaultVerySmallBold"
@@ -54,10 +54,10 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
-	
+	}
+
 	"UnavailableLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
 		"font"			"DefaultVerySmallBold"
@@ -74,9 +74,9 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}		
-			
-	"NumberBg"	
+	}
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -87,13 +87,13 @@
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudFontSmallestBold"
@@ -112,7 +112,7 @@
 		"brighttext"	"0"
 	}
 	"NumberLabelShadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow"
 		"font"			"HudFontSmallestBold"

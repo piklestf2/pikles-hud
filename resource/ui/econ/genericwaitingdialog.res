@@ -14,9 +14,9 @@
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -38,7 +38,7 @@
 	}
 
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"EllipsesLabel"
 		"font"			"HudFontSmallBold"
@@ -58,7 +58,7 @@
 	}
 
 	"DurationLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"DurationLabel"
 		"font"			"HudFontSmallBold"
@@ -76,7 +76,7 @@
 		"fgcolor_override" "White"
 		"bgcolor_override" "0 0 0 0"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"

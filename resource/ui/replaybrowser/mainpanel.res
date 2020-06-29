@@ -18,7 +18,7 @@
 		"bgcolor_override"				"27 27 27 255"
 		"infocus_bgcolor_override"		"27 27 27 255"
 		"outoffocus_bgcolor_override"	"27 27 27 255"
-		
+
 		"title"			"#Replay_Replay"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"0"
@@ -26,7 +26,7 @@
 		"titlebarfgcolor_override"				"Pikles"
 		"titlebardisabledfgcolor_override"		"Pikles"
 		"titlebarbgcolor_override"				"27 27 27 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"55"
 	}
@@ -55,7 +55,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 255"
-	}					
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Pikles"
-	}				
+	}
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -78,7 +78,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"34"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -91,15 +91,15 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"Pikles"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"textAlignment"		"center"
 			"font"				"HudFontMediumBold"
 			"selectedcolor"		"255 255 255 255"
-			"unselectedcolor"	"142 142 142 255"	
+			"unselectedcolor"	"142 142 142 255"
 			"defaultBgColor_override"	"Black"
 			"selectedBgColor_override"	"Black"
 			"paintbackground"	"1"
@@ -108,7 +108,7 @@
 			"normalborder_override" "PiklesTab"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -132,5 +132,5 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 }

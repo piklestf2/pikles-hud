@@ -17,28 +17,28 @@
 		"bgcolor_override"	"Black"
 		"infocus_bgcolor_override" "Black"
 		"outoffocus_bgcolor_override" "Black"
-		
+
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
 		"item_mod_wide"	"40"
-		
+
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
-		"button_xpos_offcenter"	"175"		
+		"button_xpos_offcenter"	"175"
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
-		
+
 		"page_button_y"	"285"
 		"page_button_x_delta" "4"
 		"page_button_y_delta" "3"
 		"page_button_per_row" "20"
 		"page_button_height" "15"
-		
+
 		"pagebuttons_kv"
 		{
 			"ControlName"	"EditablePanel"
@@ -83,7 +83,7 @@
 				"tall"			"f-3"
 				"textinsetx"	"8"
 				"autoResize"	"1"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
@@ -94,7 +94,7 @@
 				"fgcolor"		"0 0 0 255"
 			}
 		}
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -107,7 +107,7 @@
 			"noitem_textcolor"		"142 142 142 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"50"
@@ -115,13 +115,13 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -140,7 +140,7 @@
 				"tall"			"12"
 				"textinsetx"	"8"
 				"autoResize"	"1"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
@@ -150,11 +150,11 @@
 				"border"		"StoreNewBorder"
 				"fgcolor"		"0 0 0 255"
 			}
-			
+
 			"use_item_sounds"	"1"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -190,7 +190,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"tool_icon"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -229,7 +229,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
-		
+
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"0 0 0 0"
 		"disabledFgColor_override" "White"
@@ -237,8 +237,8 @@
 		"selectionColor_override" "0 0 0 0"
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
-	}	
-	
+	}
+
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"	"CheckButton"
@@ -340,7 +340,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
-		
+
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"0 0 0 0"
 		"disabledFgColor_override" "White"
@@ -348,8 +348,8 @@
 		"selectionColor_override" "0 0 0 0"
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
-	}	
-	
+	}
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -371,7 +371,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
 		{
 			"ControlName"		"EditablePanel"
@@ -391,7 +391,7 @@
 			"border"		"DarkGreyBox"
 			"bgcolor_override"	"19 19 19 255"
 		}
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -410,12 +410,12 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"mousedragitempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mousedragitempanel"
-		
+
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -426,20 +426,20 @@
 		"noitem_textcolor"		"142 142 142 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"model_ypos"	"5"
 		"model_tall"	"35"
 		"text_ypos"		"60"
 		"text_center"	"1"
 		"name_only"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -462,8 +462,8 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -482,7 +482,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "Pikles"
 	}
-	
+
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -505,8 +505,8 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"DragToNextPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -529,7 +529,7 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	"DragToPrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -552,8 +552,8 @@
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 //	"DeleteButton"
 //	{
 //		"ControlName"	"CExButton"
@@ -578,7 +578,7 @@
 //		"sound_depressed"	"UI/buttonclick.wav"
 //		"sound_released"	"UI/buttonclickrelease.wav"
 //	}
-//	
+//
 //	"UseButton"
 //	{
 //		"ControlName"	"CExButton"
@@ -628,7 +628,7 @@
 //		"sound_depressed"	"UI/buttonclick.wav"
 //		"sound_released"	"UI/buttonclickrelease.wav"
 //	}
-//	
+//
 //	"StyleButton"
 //	{
 //		"ControlName"	"CExButton"
@@ -653,7 +653,7 @@
 //		"sound_depressed"	"UI/buttonclick.wav"
 //		"sound_released"	"UI/buttonclickrelease.wav"
 //	}
-	
+
 	"CancelApplyToolButton"
 	{
 		"ControlName"	"CExButton"
@@ -677,7 +677,7 @@
 		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}					
+	}
 
 	"ShowExplanationsButton"
 	{
@@ -703,7 +703,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"StartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -717,7 +717,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"OutlinedDullGreyBox"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"100"
@@ -726,7 +726,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"150"
 		"next_explanation"		"PagesExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -745,7 +745,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -764,7 +764,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -788,13 +788,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
-			
+
 			"image_drawcolor"	"ButtonBG"
 			"image_armedcolor" "ButtonArmed"
 			"SubImage"
@@ -810,8 +810,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -853,18 +853,18 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"	
+			"depressedBgColor_override" "ButtonArmed"
 		}
-	}	
-	
+	}
+
 	"PagesExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -878,7 +878,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"OutlinedDullGreyBox"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-50"
 		"end_y"			"130"
@@ -887,7 +887,7 @@
 		"callout_inparents_x"	"c240"
 		"callout_inparents_y"	"290"
 		"next_explanation"		"DeleteExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -906,7 +906,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -925,7 +925,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -949,13 +949,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
-			
+
 			"image_drawcolor"	"ButtonBG"
 			"image_armedcolor" "ButtonArmed"
 			"SubImage"
@@ -971,8 +971,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -996,16 +996,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"				
-		}		
+			"depressedBgColor_override" "ButtonArmed"
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1047,18 +1047,18 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"				
-		}	
-	}	
-	
+			"depressedBgColor_override" "ButtonArmed"
+		}
+	}
+
 	"DeleteExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1072,7 +1072,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"OutlinedDullGreyBox"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -1081,7 +1081,7 @@
 		"callout_inparents_x"	"c-30"
 		"callout_inparents_y"	"323"
 		"next_explanation"		"ArmoryExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1100,7 +1100,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1119,7 +1119,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1143,13 +1143,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
-			
+
 			"image_drawcolor"	"ButtonBG"
 			"image_armedcolor" "ButtonArmed"
 			"SubImage"
@@ -1165,8 +1165,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1190,15 +1190,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"				
+			"depressedBgColor_override" "ButtonArmed"
 		}
 		"NextButton"
 		{
@@ -1223,16 +1223,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"	
-		}		
+			"depressedBgColor_override" "ButtonArmed"
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1252,7 +1252,7 @@
 			"fgcolor_override" "Pikles"
 		}
 	}
-	
+
 	"ArmoryExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1266,7 +1266,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"OutlinedDullGreyBox"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -1275,7 +1275,7 @@
 		"callout_inparents_x"	"c225"
 		"callout_inparents_y"	"323"
 		"next_explanation"		"ToolsExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1294,7 +1294,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1313,7 +1313,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1337,13 +1337,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
-			
+
 			"image_drawcolor"	"ButtonBG"
 			"image_armedcolor" "ButtonArmed"
 			"SubImage"
@@ -1359,8 +1359,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1384,15 +1384,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"				
+			"depressedBgColor_override" "ButtonArmed"
 		}
 		"NextButton"
 		{
@@ -1417,16 +1417,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"	
-		}		
+			"depressedBgColor_override" "ButtonArmed"
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1446,7 +1446,7 @@
 			"fgcolor_override" "Pikles"
 		}
 	}
-	
+
 	"ToolsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1460,7 +1460,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"OutlinedDullGreyBox"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -1469,7 +1469,7 @@
 		"callout_inparents_x"	"c105"
 		"callout_inparents_y"	"323"
 		"next_explanation"		"StockExplanation"
-	
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1488,7 +1488,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1507,7 +1507,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1531,13 +1531,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
-			
+
 			"image_drawcolor"	"ButtonBG"
 			"image_armedcolor" "ButtonArmed"
 			"SubImage"
@@ -1553,8 +1553,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1578,16 +1578,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"				
-		}		
+			"depressedBgColor_override" "ButtonArmed"
+		}
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1611,16 +1611,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"				
-		}	
+			"depressedBgColor_override" "ButtonArmed"
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1640,7 +1640,7 @@
 			"fgcolor_override" "Pikles"
 		}
 	}
-		
+
 	"StockExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1655,7 +1655,7 @@
 		"paintbackground" "0"
 		"border"		"OutlinedDullGreyBox"
 		"next_explanation"		"SortExplanation"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -1663,7 +1663,7 @@
 		"end_tall"		"165"
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"50"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1682,7 +1682,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1701,7 +1701,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1725,13 +1725,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
-			
+
 			"image_drawcolor"	"ButtonBG"
 			"image_armedcolor" "ButtonArmed"
 			"SubImage"
@@ -1747,8 +1747,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1772,16 +1772,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"			
-		}		
+			"depressedBgColor_override" "ButtonArmed"
+		}
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1805,16 +1805,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
 			"depressedBgColor_override" "ButtonArmed"
-		}	
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1833,7 +1833,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "Pikles"
 		}
-	}	
+	}
 
 	"SortExplanation"
 	{
@@ -1848,7 +1848,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"OutlinedDullGreyBox"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-110"
 		"end_y"			"80"
@@ -1856,7 +1856,7 @@
 		"end_tall"		"135"
 		"callout_inparents_x"	"c200"
 		"callout_inparents_y"	"55"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1875,7 +1875,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1894,7 +1894,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1918,13 +1918,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
 			"depressedFgColor_override" "White"
-			
+
 			"image_drawcolor"	"ButtonBG"
 			"image_armedcolor" "ButtonArmed"
 			"SubImage"
@@ -1940,8 +1940,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1965,16 +1965,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"1"
-			
+
 			"defaultFgColor_override" "White"
 			"defaultBgColor_override" "ButtonBG"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "ButtonArmed"
 			"depressedFgColor_override" "White"
-			"depressedBgColor_override" "ButtonArmed"				
-		}		
+			"depressedBgColor_override" "ButtonArmed"
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1993,5 +1993,5 @@
 			"enabled"		"1"
 			"fgcolor_override" "Pikles"
 		}
-	}	
+	}
 }

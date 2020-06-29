@@ -1,7 +1,0 @@
-hudanimations_manifest
-{
-	"file"		"scripts/hudanimations_pikles.txt"
-	"file"		"scripts/hudanimations_tf_pikles.txt"
-	"file"		"scripts/hudanimations.txt"
-	"file"		"scripts/hudanimations_tf.txt"
-}
