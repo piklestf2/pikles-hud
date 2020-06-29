@@ -1290,9 +1290,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-150"
-		"ypos"			"r158"
+		"ypos"			"r172" //"r158"
 		"wide"			"300"
-		"tall"			"215"
+		"tall"			"170" //"215"
 	}
 
 
