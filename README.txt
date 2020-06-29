@@ -22,7 +22,7 @@ Credit to:
     Flame (guide/hud elements)
     Doodle (very helpful guide)
 
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 6/8/20
 I added the quake hitsound here. This is purely for my convenience, but I'm
@@ -50,7 +50,7 @@ If anything major breaks, I'll fix it the next time I hop on TF2
 
 12/23/14
 redesigned the targetids to work with the floating health thing
-they're pretty ugly though, so if you want you can still use the old flame ones by
+they're pretty ugly though, so if you want you can use the old flame ones by
 	- replacing the text in
 		targetid.res
 		spectatorguihealth.res
@@ -69,5 +69,5 @@ In short, it screwed up the target IDs, so just use these for now:
 tf_hud_target_id_disable_floating_health 1
 tf_hud_target_id_alpha 235
 
-or just steal someone else's targetid.res, healthiconpanel.res and spectatorguihealth.res
-(and CMainTargetID and CSecondaryTargetID in hudlayout.res)
+or just steal someone else's targetid.res, healthiconpanel.res and
+spectatorguihealth.res (and CMainTargetID/CSecondaryTargetID in hudlayout.res)
