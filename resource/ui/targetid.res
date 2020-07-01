@@ -90,7 +90,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetNameLabel"
-		"font"				"TFFontMediumBold"
+		"font"				"Default"
 		"xpos"				"30"
 		"ypos"				"6"
 		"zpos"				"1"
