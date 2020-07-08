@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		if_readymode
 		{
@@ -248,7 +248,7 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"RankUpShadowLabel"
@@ -299,7 +299,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmall"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 			"xpos"	"39"
 			"ypos"	"6"
 			"zpos"			"3"
@@ -543,7 +543,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 			}
 			"DeathPanel"
 			{
@@ -866,7 +866,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 
 				if_mvm
 				{
@@ -1004,7 +1004,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 			}
 
 			"chargeamount"
@@ -1045,7 +1045,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 			}
 
 			if_mvm

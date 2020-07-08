@@ -69,7 +69,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueBG"
 	{

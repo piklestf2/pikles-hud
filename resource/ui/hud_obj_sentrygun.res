@@ -114,7 +114,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"ico_metal"
-			"iconColor"		"235 226 202 255"
+			"iconColor"		"White"
 		}
 
 	"MetalCost"
@@ -136,7 +136,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontAlmostSmall"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"White"
 		}
 		"NotBuiltLabel"
 		{
@@ -373,7 +373,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"235 226 202 255"
+				"drawcolor"		"White"
 			}
 
 			"KillsLabel"
@@ -408,7 +408,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"235 226 202 255"
+				"drawcolor"		"White"
 			}
 
 			"Shells"
@@ -442,7 +442,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
-				"drawcolor"		"235 226 202 255"
+				"drawcolor"		"White"
 			}
 
 			"Rockets"

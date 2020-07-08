@@ -66,7 +66,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallShadow"
-		"fgcolor_override"		"Tanlight"
+		"fgcolor_override"		"White"
 	}
 	"BuyBackLabel"
 	{

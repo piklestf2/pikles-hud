@@ -57,7 +57,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmallestBold"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 			"xpos"			"3"
 			"ypos"			"8"
 			"zpos"			"3"

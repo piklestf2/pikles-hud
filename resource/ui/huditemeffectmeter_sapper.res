@@ -62,7 +62,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"fgcolor_override" "Tanlight"
+		"fgcolor_override" "White"
 		"bgcolor_override" "0 0 0 175"
 		"dulltext"		"0"
 		"brighttext"	"0"

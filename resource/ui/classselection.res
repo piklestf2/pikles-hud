@@ -98,7 +98,7 @@
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor_lodef"	"White"
 	}
 	"scout"
 	{
@@ -206,7 +206,7 @@
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor_lodef"	"White"
 	}
 	"demoman"
 	{
@@ -314,7 +314,7 @@
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor_lodef"	"White"
 	}
 	"medic"
 	{
@@ -825,7 +825,7 @@
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numScout"
