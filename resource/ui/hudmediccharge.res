@@ -35,7 +35,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"Tanlight"
+		"fgcolor"		"White"
 		"font"			"HudFontBiggerBold"
 	}
 
@@ -54,7 +54,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
-		"fgcolor"	"Tanlight"
+		"fgcolor"	"White"
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"

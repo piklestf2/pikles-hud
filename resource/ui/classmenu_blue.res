@@ -583,7 +583,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numSoldier"
@@ -600,7 +600,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numPyro"
@@ -617,7 +617,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numDemoman"
@@ -634,7 +634,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numHeavy"
@@ -651,7 +651,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numEngineer"
@@ -668,7 +668,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numMedic"
@@ -685,7 +685,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numSniper"
@@ -702,7 +702,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"numSpy"
@@ -719,7 +719,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 }

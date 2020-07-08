@@ -69,6 +69,6 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 		"font"			"HudFontTINY"
-		"FgColor"		"Tanlight"
+		"FgColor"		"White"
 	}
 }

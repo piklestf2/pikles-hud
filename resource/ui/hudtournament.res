@@ -45,7 +45,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 
 				if_mvm
 				{
@@ -183,7 +183,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 			}
 
 			"chargeamount"
@@ -224,7 +224,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 			}
 
 			if_mvm
@@ -507,7 +507,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"TFFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"xpos"			"8"
 		"ypos"			"42"
 		"zpos"			"1"

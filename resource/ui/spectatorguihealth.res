@@ -56,7 +56,7 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 		"font"			"hudfontsmallestbold"
-		"FgColor"		"Tanlight"
+		"FgColor"		"White"
 	}
 	"BlackBG"
 	{

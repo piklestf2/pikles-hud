@@ -44,7 +44,7 @@
 			"font"			"HudFontMedium"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}
 		"countshadow"
 		{
@@ -125,7 +125,7 @@
 			"font"			"HudFontMedium"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}
 		"countshadow"
 		{

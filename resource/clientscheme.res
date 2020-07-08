@@ -122,7 +122,8 @@ Scheme
 		"HudTrainingHint"			"255 255 255 255"
 
 		"TanDark"				"142 142 142 255"
-		"TanLight"				"255 255 255 255"	//"235 226 202 255"
+		"TanLight"				"255 255 255 255 "      //"235 226 202 255"
+		"TanLightDeliberate"	"235 226 202 255"
 		"TanDarker"				"0 0 0 255"	//"46 43 42 255" - color for specific (empty) backpack pages
 
 		"StoreDarkTan"			"142 142 142 255"

@@ -85,7 +85,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -173,7 +173,7 @@
 
 			"paintbackground"	"0"
 
-			//"defaultFgColor_override" "235 226 202 255"
+			//"defaultFgColor_override" "White"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "255 255 255 255"
 			"armedFgColor_override" "255 255 255 255"

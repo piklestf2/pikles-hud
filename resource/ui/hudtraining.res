@@ -16,7 +16,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GoalLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		"xpos"			"20"
 		"ypos"			"5"
@@ -58,7 +58,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MsgLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		"xpos"			"20"
 		"ypos"			"25"
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PressSpacebarToContinue"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		"xpos"			"20"
 		"ypos"			"70"

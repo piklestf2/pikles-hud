@@ -125,7 +125,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontSmall"
-		"fgcolor"		"Tanlight"
+		"fgcolor"		"White"
 
 		"if_hybrid"
 		{
@@ -189,7 +189,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontSmall"
-		"fgcolor"		"Tanlight"
+		"fgcolor"		"White"
 
 		"if_hybrid"
 		{
@@ -265,7 +265,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		"if_hybrid"
 		{

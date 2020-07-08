@@ -572,7 +572,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
@@ -881,7 +881,7 @@
 
 			"paintbackground"	"0"
 
-			//"defaultFgColor_override" "235 226 202 255"
+			//"defaultFgColor_override" "White"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "255 255 255 255"
 			"armedFgColor_override" "255 255 255 255"
@@ -1207,7 +1207,7 @@
 
 			"paintbackground"	"0"
 
-			//"defaultFgColor_override" "235 226 202 255"
+			//"defaultFgColor_override" "White"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "255 255 255 255"
 			"armedFgColor_override" "255 255 255 255"
@@ -3233,7 +3233,7 @@
 				"depressedFgColor_override" "46 43 42 255"
 
 				"image_drawcolor"	"142 142 142 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"White"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3401,7 +3401,7 @@
 				"depressedFgColor_override" "46 43 42 255"
 
 				"image_drawcolor"	"142 142 142 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"White"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"

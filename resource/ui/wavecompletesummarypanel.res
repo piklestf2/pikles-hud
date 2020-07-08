@@ -66,7 +66,7 @@
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 	}
 
@@ -92,7 +92,7 @@
 			"ypos"			"5"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 
 		"CreditCollectedCountLabel"
@@ -120,7 +120,7 @@
 			"ypos"			"17"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 
 		"CreditMissedCountLabel"
@@ -148,7 +148,7 @@
 			"ypos"			"29"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 
 		"CreditBonusCountLabel"
@@ -188,7 +188,7 @@
 			"ypos"			"5"
 			"wide"			"115"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 
 		"RatingTextShadow"

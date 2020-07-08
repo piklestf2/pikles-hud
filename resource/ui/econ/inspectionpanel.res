@@ -131,7 +131,7 @@
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-		//"defaultFgColor_override" "235 226 202 255"
+		//"defaultFgColor_override" "White"
 		//"armedFgColor_override" "46 43 42 255"
 		"defaultFgColor_override" "255 255 255 255"
 		"armedFgColor_override" "255 255 255 255"
