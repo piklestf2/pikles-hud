@@ -1,5 +1,22 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudRocketPack.res"
 {
+    "ItemEffectIcon"
+    {
+        "ControlName"       "CTFImagePanel"
+        "fieldName"         "ItemEffectIcon"
+        "xpos"              "9999"
+        "ypos"              "9999"
+        "ypos_minmode"      "9999"
+        "zpos"              "2"
+        "wide"              "0"
+        "tall"              "0"
+        "visible"           "0"
+        "visible_minmode"   "0"
+        "enabled"           "0"
+        "image"             "../hud/pyro_jetpack_off2"
+        "scaleImage"        "0"
+    }
+
     HudItemEffectMeter
     {
         "fieldName"     "HudItemEffectMeter"
@@ -55,7 +72,28 @@
         "xpos"              "17"
         "ypos"              "1"
         "zpos"              "2"
-        "wide"              "104"
+        "wide"              "52"
+        "tall"              "6"
+        "autoResize"        "0"
+        "pinCorner"         "0"
+        "visible"           "1"
+        "enabled"           "1"
+        "textAlignment"     "Left"
+        "fgcolor_override"  "White"
+        "bgcolor_override"  "0 0 0 175"
+        "dulltext"          "0"
+        "brighttext"        "0"
+    }
+
+    "ItemEffectMeter2"
+    {
+        "ControlName"       "ContinuousProgressBar"
+        "fieldName"         "ItemEffectMeter2"
+        "font"              "Default"
+        "xpos"              "69"
+        "ypos"              "1"
+        "zpos"              "2"
+        "wide"              "52"
         "tall"              "6"
         "autoResize"        "0"
         "pinCorner"         "0"
