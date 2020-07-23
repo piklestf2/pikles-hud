@@ -315,22 +315,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"class_item_red_9BG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"class_item_red_9BG"
-		"xpos"			"251"
-		"ypos"			"68"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"RED"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"fgcolor"		"178 178 178 156"
-	}
+
 	"class_item_blue_9"
 	{
 		"ControlName"	"EditablePanel"
@@ -342,22 +327,6 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-	"class_item_blue_9BG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"class_item_blue_9BG"
-		"xpos"			"207"
-		"ypos"			"68"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"BLU"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"fgcolor"		"178 178 178 156"
 	}
 
 	"NumberBg1"
