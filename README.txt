@@ -2,13 +2,13 @@ piklesHUD v2.8.810 (July 22, 2020)
 
 Developed on 16:9 with limited testing on 4:3
 
-» extract contents to
-"Steam/SteamApps/common/team fortress 2/tf/custom/"
+Installation:
+extract contents to "Steam/SteamApps/common/team fortress 2/tf/custom/"
 
-screenshots and HUD options at
+Screenshots and HUD options at
 https://sites.google.com/site/piklestf2/
 
-if you have questions, add me and COMMENT (so I know you're not a scammer) here
+If you have questions, add me and COMMENT (so I know you're not a scammer) here:
 http://steamcommunity.com/profiles/76561198054383867
 
 Credit to:
@@ -26,8 +26,8 @@ Credit to:
 
 6/8/20
 I added the quake hitsound here. This is purely for my convenience, but I'm
-pretty sure no one else is downloading this HUD anyway. If you don't like this,
-just remove or rename sound/ui/hitsound.wav
+pretty sure no one is downloading this HUD anyway. If you don't like this, just
+remove or rename sound/ui/hitsound.wav
 
 
 7/20/16
