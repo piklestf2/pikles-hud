@@ -488,8 +488,8 @@ event xHairHit
     Animate HitMarker3 Alpha "128" Linear 0.0 0.0
     Animate HitMarker4 Alpha "128" Linear 0.0 0.0
 
-    Animate HitMarker1 Alpha "0" Linear 0.95 0.0
-    Animate HitMarker2 Alpha "0" Linear 0.95 0.0
-    Animate HitMarker3 Alpha "0" Linear 0.95 0.0
-    Animate HitMarker4 Alpha "0" Linear 0.95 0.0
+    Animate HitMarker1 Alpha "0" Linear 0.94 0.0
+    Animate HitMarker2 Alpha "0" Linear 0.94 0.0
+    Animate HitMarker3 Alpha "0" Linear 0.94 0.0
+    Animate HitMarker4 Alpha "0" Linear 0.94 0.0
 }
