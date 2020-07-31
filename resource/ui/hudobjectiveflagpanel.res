@@ -245,7 +245,7 @@
 
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+            "ypos"      "r60"
 		}
 	}
 
@@ -303,7 +303,7 @@
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-65"
 		}
 
 		"if_hybrid_double"
@@ -313,7 +313,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r60"
 		}
 
 		"if_no_flags"
@@ -342,7 +342,7 @@
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-65"
 		}
 
 		"if_hybrid_double"
@@ -352,7 +352,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r60"
 		}
 
 		"if_no_flags"
@@ -380,7 +380,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 	}
 
