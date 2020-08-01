@@ -15,6 +15,7 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -27,6 +28,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -41,6 +43,7 @@
 		"image"			"../hud/health_bg"
 		"scaleimage"	"1"
 	}
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -55,6 +58,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleimage"	"1"
 	}
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -71,6 +75,7 @@
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
@@ -87,6 +92,7 @@
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"0 0 0 255"
 	}
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -102,6 +108,7 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -117,6 +124,7 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -132,6 +140,7 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -147,6 +156,7 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"White"
 	}
+
     "PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -162,6 +172,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -177,6 +188,7 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -208,6 +220,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -223,6 +236,7 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -238,6 +252,7 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
@@ -253,6 +268,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"White"
 	}
+
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -300,6 +316,23 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"White"
 	}
+
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SpyMarked"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			""
+		"fgcolor"		"White"
+	}
+
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -313,6 +346,214 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../HUD/hud_parachute_active"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneStrength"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneStrength"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_strength_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneHaste"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneHaste"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_haste_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneRegen"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneRegen"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_regen_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneResist"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneResist"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_resist_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneVampire"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneVampire"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_vampire_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneReflect"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneReflect"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_reflect_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RunePrecision"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePrecision"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_precision_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneAgility"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneAgility"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_agility_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneKnockout"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKnockout"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_king_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_plague_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"White"
+	}
+
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"0"
+		"ypos"			"307"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../vgui/slowed"
 		"fgcolor"		"White"
 	}
 }
