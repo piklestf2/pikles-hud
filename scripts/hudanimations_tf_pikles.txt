@@ -475,6 +475,20 @@ event SpyWarningFlashEnd
 
 //===========================================
 
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+//===========================================
+
 event DamagedPlayer
 {
     StopEvent   xHairHit 0.0
