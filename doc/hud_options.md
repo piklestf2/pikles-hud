@@ -131,5 +131,5 @@ either in the console, or your autoexec.
 ## Minmode Toggles
 Currently, `cl_hud_minmode` only affects damage numbers. With `cl_hud_minmode
 1` the damage numbers will appear as small text close to the bottom of the
-crosshair; with `cl_hud_minmode 0` the damage nubmers will appear as large text
+crosshair; with `cl_hud_minmode 0` the damage numbers will appear as large text
 to the lower left of the health.
