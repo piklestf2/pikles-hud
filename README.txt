@@ -1,4 +1,4 @@
-piklesHUD v2.8.822 (September 10, 2020)
+piklesHUD v2.8.823 (September 15, 2020)
 
 Developed on 16:9 (1280 x 720) with limited testing on 4:3.
 
