@@ -104,10 +104,9 @@ seconds (amby headshot cooldown) upon damaging a player.
 
 ![hitmarkers](images/hitmarkers.png?raw=true "Hitmarkers")
 
-These are enabled by default if you use the custom crosshair hudlayout, but
-they can easily be disabled.
+These are enabled by default, but they can easily be disabled.
 
-Under vile's cs:go crosshair, change the `visible` and `enabled` values to `0`
+In scripts/hudlayout.res, change the `visible` and `enabled` values to `0`
 for `HitMarker1`, `HitMarker2`, `HitMarker3`, and `HitMarker4`.
 
 ## Closed Captions
