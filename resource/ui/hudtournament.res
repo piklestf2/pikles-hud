@@ -37,7 +37,7 @@
 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
 		}
-		
+
 		if_competitive
 		{
 			"xpos"							"cs-0.5"
@@ -49,7 +49,7 @@
 			"team2_player_base_y"			"66"
 			"team2_player_base_offset_x"	"5"
 		}
-		
+
 		if_readymode
 		{
 			"xpos"							"c-320"
@@ -101,7 +101,7 @@
 				"wide"		"55"
 				"tall"		"35"
 			}
-						
+
 			if_competitive
 			{
 				"wide"		"45"
@@ -296,11 +296,11 @@
 					"proportionaltoparent" "1"
 					"visible"		"1"
 				}
-				
+
 				if_readymode
 				{
 					"visible"		"1"
-				}		
+				}
 			}
 
 			"ReadyImage"
@@ -458,12 +458,12 @@
 			"tall"			"20"
 			"visible"		"1"
 		}
-		
+
 		if_readymode
 		{
 			"xpos"			"195"
 			"visible"		"1"
-		}		
+		}
 	}
 	"HudTournamentBG2"
 	{
@@ -491,12 +491,12 @@
 			"tall"			"20"
 			"visible"		"1"
 		}
-		
+
 		if_readymode
 		{
 			"xpos"			"195"
 			"visible"		"1"
-		}		
+		}
 	}
 	"TournamentLabel"
 	{
