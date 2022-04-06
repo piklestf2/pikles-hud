@@ -31,9 +31,9 @@
 
 		if_mvm
 		{
-			"xpos"					"c-250"
+			"xpos"					"0"
 			"ypos"					"0"
-			"wide"					"500"
+			"wide"					"f0"
 			"tall"					"480"
 
 			"team1_player_base_y"			"66"
@@ -43,7 +43,7 @@
 
 		if_competitive
 		{
-			"xpos"							"cs-0.5"
+			"xpos"							"c-125"
 			"ypos"							"0"
 			"wide"							"f0"
 			"tall"							"480"
@@ -55,13 +55,13 @@
 
 		if_readymode
 		{
-			"xpos"							"c-320"
+			"xpos"							"0"
 			"ypos"							"0"
-			"wide"							"640"
+			"wide"							"f0"
 			"tall"							"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
+			"team1_player_base_y"			"67"
+			"team2_player_base_y"			"67"
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"25"
 		}
@@ -93,7 +93,7 @@
 		{
 			"visible"		"0"
 			"wide"			"50"
-			"tall"			"33"
+			"tall"			"35"
 			"zpos"			"1"
 
 			"color_ready"	"0 255 0 220"
@@ -101,20 +101,14 @@
 
 			if_mvm
 			{
-				"wide"		"55"
-				"tall"		"35"
 			}
 
 			if_competitive
 			{
-				"wide"		"45"
-				"tall"		"29"
 			}
 
 			if_readymode
 			{
-				"wide"		"55"
-				"tall"		"35"
 			}
 
 			"playername"
@@ -490,6 +484,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-125"
 			"visible"		"1"
 		}
 	}
@@ -523,6 +518,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-125"
 			"visible"		"1"
 		}
 	}
@@ -589,6 +585,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-122"
 			"visible"		"1"
 		}
 	}
@@ -622,6 +619,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-119"
 			"visible"		"1"
 		}
 	}
@@ -655,6 +653,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-69"
 			"visible"		"1"
 		}
 	}
@@ -721,6 +720,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c0"
 			"visible"		"1"
 		}
 	}
@@ -754,6 +754,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c46"
 			"visible"		"1"
 		}
 	}
@@ -786,6 +787,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c5"
 			"visible"		"1"
 		}
 	}
@@ -819,6 +821,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-125"
 			"visible"		"1"
 		}
 	}
@@ -883,6 +886,7 @@
 		}
 		if_readymode
 		{
+            "xpos"          "c-125"
 			"visible"		"1"
 		}
 	}
@@ -907,6 +911,7 @@
 
 		if_mvm
 		{
+            "xpos"          "c-125"
 		}
 
 		if_competitive
@@ -915,6 +920,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-125"
 		}
 	}
 
@@ -940,6 +946,7 @@
 
 		if_mvm
 		{
+            "xpos"          "c-125"
 		}
 
 		if_competitive
@@ -948,6 +955,7 @@
 
 		if_readymode
 		{
+            "xpos"          "c-125"
 		}
 	}
 
