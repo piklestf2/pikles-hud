@@ -284,6 +284,7 @@
 				{
 					"visible"		"1"
 				}
+
 				if_competitive
 				{
 					"xpos"			"28"
@@ -320,6 +321,7 @@
 				{
 					"visible"		"1"
 				}
+
 				if_competitive
 				{
 					"xpos"			"30"

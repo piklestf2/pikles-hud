@@ -166,9 +166,9 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"25"
 		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"ypos_lodef"	"33"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -186,6 +186,7 @@
 		"font"			"ClockSubText"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+        "fgcolor_override"       "White"
 	}
 	"ServerTimeLimitLabelBG"
 	{
@@ -197,8 +198,8 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"
