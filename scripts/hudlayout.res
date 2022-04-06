@@ -1272,7 +1272,7 @@
 		"enabled"		"1"
 		"xpos"			"c100"
 		"ypos"			"5"
-		"zpos"					"2"
+		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"80"
 	}
