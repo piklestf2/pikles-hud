@@ -282,7 +282,7 @@
 		"ypos"		"-14"	[$WIN32]
 		"zpos"				"1"
 		"wide"				"110"
-		"tall"				"150"
+		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"32"	[$WIN32]
