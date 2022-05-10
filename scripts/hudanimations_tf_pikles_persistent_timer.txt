@@ -3,21 +3,18 @@
 
 event PersistentTimer
 {
-    RunEvent ClearPersistentTimer   0.000
-    RunEvent PersistentTimerColon   0.001
-    RunEvent PersistentTimerOnes    0.001
-    RunEvent PersistentTimerTens    0.001
-    RunEvent PersistentTimerMinutes 0.001
-}
+    StopEvent PersistentTimerOnes       0.0
+    StopEvent PersistentTimerTens       0.0
+    StopEvent PersistentTimerMinutes    0.0
 
-//===========================================
-//  Colon
-//===========================================
-
-event PersistentTimerColon
-{
-    SetVisible "PersistentTimerColonLabel"          1 0.0
-    SetVisible "PersistentTimerColonLabelShadow"    1 0.0
+    RunEvent ClearPersistentTimer       0.0
+    RunEvent PersistentTimerColon       0.001
+    RunEvent ZeroPersistentTimer        0.001
+    RunEvent ClearPersistentTimer       0.999
+    RunEvent PersistentTimerColon       1.0
+    RunEvent PersistentTimerOnes        1.0
+    RunEvent PersistentTimerTens        1.0
+    RunEvent PersistentTimerMinutes     1.0
 }
 
 //===========================================
@@ -196,6 +193,16 @@ event PersistentTimerOnesLoop
 }
 
 //===========================================
+//  Colon
+//===========================================
+
+event PersistentTimerColon
+{
+    SetVisible "PersistentTimerColonLabel"          1 0.0
+    SetVisible "PersistentTimerColonLabelShadow"    1 0.0
+}
+
+//===========================================
 //  Clear Digits
 //===========================================
 
@@ -258,4 +265,18 @@ event ClearPersistentTimer
     SetVisible "PersistentTimerMinutesLabelShadow8" 0 0.0
     SetVisible "PersistentTimerMinutesLabel9"       0 0.0
     SetVisible "PersistentTimerMinutesLabelShadow9" 0 0.0
+}
+
+//===========================================
+//  Zero
+//===========================================
+
+event ZeroPersistentTimer
+{
+    SetVisible "PersistentTimerOnesLabel0"          1 0.0
+    SetVisible "PersistentTimerOnesLabelShadow0"    1 0.0
+    SetVisible "PersistentTimerTensLabel0"          1 0.0
+    SetVisible "PersistentTimerTensLabelShadow0"    1 0.0
+    SetVisible "PersistentTimerMinutesLabel0"       1 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow0" 1 0.0
 }
