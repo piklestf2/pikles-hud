@@ -67,6 +67,8 @@ event MenuClose
     Animate HudMenu FgColor         "0 0 0 0"   Linear 0.0 1
     Animate HudMenu MenuColor       "0 0 0 0"   Linear 0.0 1
     Animate HudMenu ItemColor       "0 0 0 0"   Linear 0.0 1
+
+    RunEvent PersistentTimer 0.0
 }
 
 event MenuPulse
