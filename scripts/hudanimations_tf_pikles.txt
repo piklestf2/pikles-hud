@@ -41,6 +41,8 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
+//===========================================
+
 event MenuOpen
 {
     StopEvent   MenuClose 0.0
@@ -292,6 +294,11 @@ event HudSnapShotReminderIn
 {
     Animate ScreenshotPanel     Position    "c-83 -50"  Linear 0.0 0.001
     Animate ScreenshotPanel     Position    "c-83 13"   Spline 0.001 0.2
+    RunEvent HudHealthDyingPulseStop 10.0
+    RunEvent HudHealthBonusPulseStop 10.0
+    RunEvent HudLowAmmoPulseStop 10.0
+    RunEvent HudMedicChargedStop 10.0
+    RunEvent StopXHairHit 10.0
 }
 
 event HudReplayReminderIn   // Places the replay reminder in the same place as the snapshot reminder
@@ -350,9 +357,6 @@ event HudMedicCharged
     Animate ChargeMeter         FgColor     "0 255 0 255"       Linear 0.6 0.2
     Animate ChargeMeter         FgColor     "0 175 255 255"     Linear 0.8 0.2
     Animate ChargeMeter         FgColor     "255 0 255 255"     Linear 1.0 0.2
-
-    Animate ScreenshotPanel     Position    "c-83 -50"          Linear 0.0 0.001
-    Animate ScreenshotPanel     Position    "c-83 13"           Spline 0.001 0.2
 
     RunEvent HudMedicChargedLoop    1.2
 }
@@ -516,15 +520,24 @@ event DamagedPlayer
     RunEvent    xHairHit 0.01
 }
 
-event xHairHit
+event XHairHit
+{
+    RunEvent StartXHairHit 0.0
+    RunEvent StopXHairHit  0.94
+}
+
+event StartXHairHit
 {
     Animate HitMarker1 Alpha "128" Linear 0.0 0.0
     Animate HitMarker2 Alpha "128" Linear 0.0 0.0
     Animate HitMarker3 Alpha "128" Linear 0.0 0.0
     Animate HitMarker4 Alpha "128" Linear 0.0 0.0
+}
 
-    Animate HitMarker1 Alpha "0" Linear 0.94 0.0
-    Animate HitMarker2 Alpha "0" Linear 0.94 0.0
-    Animate HitMarker3 Alpha "0" Linear 0.94 0.0
-    Animate HitMarker4 Alpha "0" Linear 0.94 0.0
+event StopXHairHit
+{
+    Animate HitMarker1 Alpha "0" Linear 0.0 0.0
+    Animate HitMarker2 Alpha "0" Linear 0.0 0.0
+    Animate HitMarker3 Alpha "0" Linear 0.0 0.0
+    Animate HitMarker4 Alpha "0" Linear 0.0 0.0
 }
