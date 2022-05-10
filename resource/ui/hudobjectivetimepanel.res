@@ -164,7 +164,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"ypos"			"c65"
+		"ypos"			"26"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -175,15 +175,15 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmall"
+		"font"			"ClockSubText"
         "fgcolor_override"       "White"
 	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"
-		"ypos"			"c66"
+		"xpos"			"17"
+		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -194,7 +194,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmall"
+		"font"			"ClockSubText"
         "fgcolor_override"       "Black"
 	}
 }
