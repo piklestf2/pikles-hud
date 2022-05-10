@@ -1,0 +1,261 @@
+//===========================================
+// Persistent Timer
+
+event PersistentTimer
+{
+    RunEvent ClearPersistentTimer   0.000
+    RunEvent PersistentTimerColon   0.001
+    RunEvent PersistentTimerOnes    0.001
+    RunEvent PersistentTimerTens    0.001
+    RunEvent PersistentTimerMinutes 0.001
+}
+
+//===========================================
+//  Colon
+//===========================================
+
+event PersistentTimerColon
+{
+    SetVisible "PersistentTimerColonLabel"          1 0.0
+    SetVisible "PersistentTimerColonLabelShadow"    1 0.0
+}
+
+//===========================================
+//  Minutes
+//===========================================
+
+event PersistentTimerMinutes
+{
+    SetVisible "PersistentTimerMinutesLabel9"         1 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow9"   1 0.0
+
+    SetVisible "PersistentTimerMinutesLabel9"         0 60.0
+    SetVisible "PersistentTimerMinutesLabelShadow9"   0 60.0
+    SetVisible "PersistentTimerMinutesLabel8"         1 60.0
+    SetVisible "PersistentTimerMinutesLabelShadow8"   1 60.0
+
+    SetVisible "PersistentTimerMinutesLabel8"         0 120.0
+    SetVisible "PersistentTimerMinutesLabelShadow8"   0 120.0
+    SetVisible "PersistentTimerMinutesLabel7"         1 120.0
+    SetVisible "PersistentTimerMinutesLabelShadow7"   1 120.0
+
+    SetVisible "PersistentTimerMinutesLabel7"         0 180.0
+    SetVisible "PersistentTimerMinutesLabelShadow7"   0 180.0
+    SetVisible "PersistentTimerMinutesLabel6"         1 180.0
+    SetVisible "PersistentTimerMinutesLabelShadow6"   1 180.0
+
+    SetVisible "PersistentTimerMinutesLabel6"         0 240.0
+    SetVisible "PersistentTimerMinutesLabelShadow6"   0 240.0
+    SetVisible "PersistentTimerMinutesLabel5"         1 240.0
+    SetVisible "PersistentTimerMinutesLabelShadow5"   1 240.0
+
+    SetVisible "PersistentTimerMinutesLabel5"         0 300.0
+    SetVisible "PersistentTimerMinutesLabelShadow5"   0 300.0
+    SetVisible "PersistentTimerMinutesLabel4"         1 300.0
+    SetVisible "PersistentTimerMinutesLabelShadow4"   1 300.0
+
+    SetVisible "PersistentTimerMinutesLabel4"         0 360.0
+    SetVisible "PersistentTimerMinutesLabelShadow4"   0 360.0
+    SetVisible "PersistentTimerMinutesLabel3"         1 360.0
+    SetVisible "PersistentTimerMinutesLabelShadow3"   1 360.0
+
+    SetVisible "PersistentTimerMinutesLabel3"         0 420.0
+    SetVisible "PersistentTimerMinutesLabelShadow3"   0 420.0
+    SetVisible "PersistentTimerMinutesLabel2"         1 420.0
+    SetVisible "PersistentTimerMinutesLabelShadow2"   1 420.0
+
+    SetVisible "PersistentTimerMinutesLabel2"         0 480.0
+    SetVisible "PersistentTimerMinutesLabelShadow2"   0 480.0
+    SetVisible "PersistentTimerMinutesLabel1"         1 480.0
+    SetVisible "PersistentTimerMinutesLabelShadow1"   1 480.0
+
+    SetVisible "PersistentTimerMinutesLabel1"         0 540.0
+    SetVisible "PersistentTimerMinutesLabelShadow1"   0 540.0
+    SetVisible "PersistentTimerMinutesLabel0"         1 540.0
+    SetVisible "PersistentTimerMinutesLabelShadow0"   1 540.0
+
+    SetVisible "PersistentTimerMinutesLabel0"         0 599.999
+    SetVisible "PersistentTimerMinutesLabelShadow0"   0 599.999
+
+    RunEvent PersistentTimerMinutesLoop 600.0
+}
+
+event PersistentTimerMinutesLoop
+{
+    RunEvent PersistentTimerMinutes 0.0
+}
+
+//===========================================
+//  Tens
+//===========================================
+
+event PersistentTimerTens
+{
+    SetVisible "PersistentTimerTensLabel5"         1 0.0
+    SetVisible "PersistentTimerTensLabelShadow5"   1 0.0
+
+    SetVisible "PersistentTimerTensLabel5"         0 10.0
+    SetVisible "PersistentTimerTensLabelShadow5"   0 10.0
+    SetVisible "PersistentTimerTensLabel4"         1 10.0
+    SetVisible "PersistentTimerTensLabelShadow4"   1 10.0
+
+    SetVisible "PersistentTimerTensLabel4"         0 20.0
+    SetVisible "PersistentTimerTensLabelShadow4"   0 20.0
+    SetVisible "PersistentTimerTensLabel3"         1 20.0
+    SetVisible "PersistentTimerTensLabelShadow3"   1 20.0
+
+    SetVisible "PersistentTimerTensLabel3"         0 30.0
+    SetVisible "PersistentTimerTensLabelShadow3"   0 30.0
+    SetVisible "PersistentTimerTensLabel2"         1 30.0
+    SetVisible "PersistentTimerTensLabelShadow2"   1 30.0
+
+    SetVisible "PersistentTimerTensLabel2"         0 40.0
+    SetVisible "PersistentTimerTensLabelShadow2"   0 40.0
+    SetVisible "PersistentTimerTensLabel1"         1 40.0
+    SetVisible "PersistentTimerTensLabelShadow1"   1 40.0
+
+    SetVisible "PersistentTimerTensLabel1"         0 50.0
+    SetVisible "PersistentTimerTensLabelShadow1"   0 50.0
+    SetVisible "PersistentTimerTensLabel0"         1 50.0
+    SetVisible "PersistentTimerTensLabelShadow0"   1 50.0
+
+    SetVisible "PersistentTimerTensLabel0"         0 59.999
+    SetVisible "PersistentTimerTensLabelShadow0"   0 59.999
+
+    RunEvent PersistentTimerTensLoop 60.0
+}
+
+event PersistentTimerTensLoop
+{
+    RunEvent PersistentTimerTens 0.0
+}
+
+//===========================================
+//  Ones
+//===========================================
+
+event PersistentTimerOnes
+{
+    SetVisible "PersistentTimerOnesLabel9"         1 0.0
+    SetVisible "PersistentTimerOnesLabelShadow9"   1 0.0
+
+    SetVisible "PersistentTimerOnesLabel9"         0 1.0
+    SetVisible "PersistentTimerOnesLabelShadow9"   0 1.0
+    SetVisible "PersistentTimerOnesLabel8"         1 1.0
+    SetVisible "PersistentTimerOnesLabelShadow8"   1 1.0
+
+    SetVisible "PersistentTimerOnesLabel8"         0 2.0
+    SetVisible "PersistentTimerOnesLabelShadow8"   0 2.0
+    SetVisible "PersistentTimerOnesLabel7"         1 2.0
+    SetVisible "PersistentTimerOnesLabelShadow7"   1 2.0
+
+    SetVisible "PersistentTimerOnesLabel7"         0 3.0
+    SetVisible "PersistentTimerOnesLabelShadow7"   0 3.0
+    SetVisible "PersistentTimerOnesLabel6"         1 3.0
+    SetVisible "PersistentTimerOnesLabelShadow6"   1 3.0
+
+    SetVisible "PersistentTimerOnesLabel6"         0 4.0
+    SetVisible "PersistentTimerOnesLabelShadow6"   0 4.0
+    SetVisible "PersistentTimerOnesLabel5"         1 4.0
+    SetVisible "PersistentTimerOnesLabelShadow5"   1 4.0
+
+    SetVisible "PersistentTimerOnesLabel5"         0 5.0
+    SetVisible "PersistentTimerOnesLabelShadow5"   0 5.0
+    SetVisible "PersistentTimerOnesLabel4"         1 5.0
+    SetVisible "PersistentTimerOnesLabelShadow4"   1 5.0
+
+    SetVisible "PersistentTimerOnesLabel4"         0 6.0
+    SetVisible "PersistentTimerOnesLabelShadow4"   0 6.0
+    SetVisible "PersistentTimerOnesLabel3"         1 6.0
+    SetVisible "PersistentTimerOnesLabelShadow3"   1 6.0
+
+    SetVisible "PersistentTimerOnesLabel3"         0 7.0
+    SetVisible "PersistentTimerOnesLabelShadow3"   0 7.0
+    SetVisible "PersistentTimerOnesLabel2"         1 7.0
+    SetVisible "PersistentTimerOnesLabelShadow2"   1 7.0
+
+    SetVisible "PersistentTimerOnesLabel2"         0 8.0
+    SetVisible "PersistentTimerOnesLabelShadow2"   0 8.0
+    SetVisible "PersistentTimerOnesLabel1"         1 8.0
+    SetVisible "PersistentTimerOnesLabelShadow1"   1 8.0
+
+    SetVisible "PersistentTimerOnesLabel1"         0 9.0
+    SetVisible "PersistentTimerOnesLabelShadow1"   0 9.0
+    SetVisible "PersistentTimerOnesLabel0"         1 9.0
+    SetVisible "PersistentTimerOnesLabelShadow0"   1 9.0
+
+    SetVisible "PersistentTimerOnesLabel0"         0 9.999
+    SetVisible "PersistentTimerOnesLabelShadow0"   0 9.999
+
+    RunEvent PersistentTimerOnesLoop 10.0
+}
+
+event PersistentTimerOnesLoop
+{
+    RunEvent PersistentTimerOnes 0.0
+}
+
+//===========================================
+//  Clear Digits
+//===========================================
+
+event ClearPersistentTimer
+{
+    SetVisible "PersistentTimerColonLabel"          0 0.0
+    SetVisible "PersistentTimerColonLabelShadow"    0 0.0
+
+    SetVisible "PersistentTimerOnesLabel0"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow0"    0 0.0
+    SetVisible "PersistentTimerOnesLabel1"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow1"    0 0.0
+    SetVisible "PersistentTimerOnesLabel2"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow2"    0 0.0
+    SetVisible "PersistentTimerOnesLabel3"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow3"    0 0.0
+    SetVisible "PersistentTimerOnesLabel4"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow4"    0 0.0
+    SetVisible "PersistentTimerOnesLabel5"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow5"    0 0.0
+    SetVisible "PersistentTimerOnesLabel6"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow6"    0 0.0
+    SetVisible "PersistentTimerOnesLabel7"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow7"    0 0.0
+    SetVisible "PersistentTimerOnesLabel8"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow8"    0 0.0
+    SetVisible "PersistentTimerOnesLabel9"          0 0.0
+    SetVisible "PersistentTimerOnesLabelShadow9"    0 0.0
+
+    SetVisible "PersistentTimerTensLabel0"          0 0.0
+    SetVisible "PersistentTimerTensLabelShadow0"    0 0.0
+    SetVisible "PersistentTimerTensLabel1"          0 0.0
+    SetVisible "PersistentTimerTensLabelShadow1"    0 0.0
+    SetVisible "PersistentTimerTensLabel2"          0 0.0
+    SetVisible "PersistentTimerTensLabelShadow2"    0 0.0
+    SetVisible "PersistentTimerTensLabel3"          0 0.0
+    SetVisible "PersistentTimerTensLabelShadow3"    0 0.0
+    SetVisible "PersistentTimerTensLabel4"          0 0.0
+    SetVisible "PersistentTimerTensLabelShadow4"    0 0.0
+    SetVisible "PersistentTimerTensLabel5"          0 0.0
+    SetVisible "PersistentTimerTensLabelShadow5"    0 0.0
+
+    SetVisible "PersistentTimerMinutesLabel0"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow0" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel1"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow1" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel2"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow2" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel3"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow3" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel4"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow4" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel5"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow5" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel6"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow6" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel7"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow7" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel8"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow8" 0 0.0
+    SetVisible "PersistentTimerMinutesLabel9"       0 0.0
+    SetVisible "PersistentTimerMinutesLabelShadow9" 0 0.0
+}

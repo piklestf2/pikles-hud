@@ -1,0 +1,46 @@
+#base "persistent_timer_minutes.res"
+#base "persistent_timer_tens.res"
+#base "persistent_timer_ones.res"
+
+"Resource/UI/persistent_timer/persistent_timer.res"
+{
+    "PersistentTimerColonLabel"
+    {
+        "ControlName"	    "CExLabel"
+        "fieldName"		    "PersistentTimerColonLabel"
+        "xpos"			    "c-5"
+        "ypos"			    "c55"
+        "zpos"			    "5"
+        "wide"			    "10"
+        "tall"			    "10"
+        "visible"		    "0"
+        "enabled"		    "1"
+        "labelText"		    ":"
+        "textAlignment"		"center"
+        "dulltext"		    "0"
+        "brighttext"		"0"
+        "wrap"			    "0"
+        "font"			    "HudFontSmall"
+        "fgcolor"           "White"
+    }
+
+    "PersistentTimerColonLabelShadow"
+    {
+        "ControlName"	    "CExLabel"
+        "fieldName"		    "PersistentTimerColonLabelShadow"
+        "xpos"			    "c-5"
+        "ypos"			    "c56"
+        "zpos"			    "5"
+        "wide"			    "10"
+        "tall"			    "10"
+        "visible"		    "0"
+        "enabled"		    "1"
+        "labelText"		    ":"
+        "textAlignment"		"center"
+        "dulltext"		    "0"
+        "brighttext"		"0"
+        "wrap"			    "0"
+        "font"			    "HudFontSmall"
+        "fgcolor"           "Black"
+    }
+}
