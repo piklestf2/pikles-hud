@@ -109,7 +109,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
-		"font"				"Garm3n8Spec"	//"HudFontTINY"	//"Garm3n8Spec"	//"FontStoreOriginalPrice"
+		"font"				"TargetID"  //"Garm3n8Spec"
 		"xpos"				"30" // "51"
 		"ypos"				"17"
 		"zpos"				"1"

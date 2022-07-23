@@ -1850,7 +1850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
