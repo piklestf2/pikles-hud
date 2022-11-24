@@ -251,7 +251,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
@@ -260,7 +260,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
@@ -390,7 +390,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
@@ -399,7 +399,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
