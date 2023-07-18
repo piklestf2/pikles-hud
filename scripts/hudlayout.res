@@ -1179,7 +1179,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-243"
-		"ypos"			"c53"
+		"ypos"			"c73"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
