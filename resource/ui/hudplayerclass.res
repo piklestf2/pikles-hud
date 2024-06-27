@@ -86,10 +86,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 
-		"xpos"			"c-200"
+		"xpos"			"c-210"
 		"ypos"			"r180"
 		"zpos"			"2"
-		"wide"			"90"
+		"wide"			"100"
 		"tall"			"180"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -181,7 +181,7 @@
 				"angles_x"		"-17"
 				"angles_y"		"205"
 				"angles_z"		"-10"
-				"origin_x"		"120"
+				"origin_x"		"140"
 				"origin_y"		"-1"
 				"origin_z"		"-86"
 			}
@@ -191,7 +191,7 @@
 				"angles_x"		"-10"
 				"angles_y"		"172"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"180"
 				"origin_y"		"-3"
 				"origin_z"		"-105"
 			}
@@ -201,7 +201,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"150"
 				"angles_z"		"0"
-				"origin_x"		"170"
+				"origin_x"		"190"
 				"origin_y"		"-10"
 				"origin_z"		"-95"
 			}
@@ -211,7 +211,7 @@
 				"angles_x"		"-13"
 				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"180"
 				"origin_y"		"-13"
 				"origin_z"		"-100"
 			}
@@ -221,7 +221,7 @@
 				"angles_x"		"0"
 				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"145"
+				"origin_x"		"165"
 				"origin_y"		"-10"
 				"origin_z"		"-100"
 			}
@@ -231,7 +231,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"175"
+				"origin_x"		"195"
 				"origin_y"		"-5"
 				"origin_z"		"-102"
 			}
@@ -241,7 +241,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"175"
+				"origin_x"		"195"
 				"origin_y"		"-5"
 				"origin_z"		"-100"
 			}
@@ -251,7 +251,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"160"
 				"angles_z"		"0"
-				"origin_x"		"145"
+				"origin_x"		"165"
 				"origin_y"		"-5"
 				"origin_z"		"-100"
 			}
@@ -261,7 +261,7 @@
 				"angles_x"		"-10"
 				"angles_y"		"205"
 				"angles_z"		"0"
-				"origin_x"		"140"
+				"origin_x"		"160"
 				"origin_y"		"-8"
 				"origin_z"		"-90"
 			}
