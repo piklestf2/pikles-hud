@@ -3072,7 +3072,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"16"
 				"weight"	"0"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3082,7 +3082,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"18"
 				"weight"	"0"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
