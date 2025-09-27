@@ -1459,7 +1459,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"10"
 				"weight"	"700"
 				"dropshadow"	"1"
 				"range"	 "0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1470,7 +1470,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"10"
 				"weight"	"700"
 				"dropshadow"	"1"
 				"italic"	"1"
@@ -1482,7 +1482,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"18"
+				"tall"		"10"
 				"weight"	"500"
 				"dropshadow"	"1"
 				"range"	 "0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1493,7 +1493,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"18"
+				"tall"		"10"
 				"weight"	"500"
 				"dropshadow"	"1"
 				"italic"	"1"
