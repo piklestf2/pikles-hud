@@ -92,7 +92,7 @@
 		"fieldName"			"TargetNameLabel"
 		"font"				"Default"
 		"xpos"				"30"
-		"ypos"				"6"
+		"ypos"				"7"
 		"zpos"				"1"
 		"wide"				"640"
 		"tall"				"10"
