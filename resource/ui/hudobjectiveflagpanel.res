@@ -87,7 +87,7 @@
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"xpos"			"c-89"
-		"ypos"			"r49"			//r39
+		"ypos"			"r48"			//r39
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"41"
@@ -151,7 +151,7 @@
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"xpos"			"c49"
-		"ypos"			"r49"
+		"ypos"			"r48"
 		"zpos"			"2"
 		"wide"			"41"
 		"tall"			"41"

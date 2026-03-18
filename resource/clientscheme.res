@@ -7487,27 +7487,27 @@ Scheme
 		}
 		"10"
 		{
-			"font" "resource/FORMASGE.ttf"
+			"font" "resource/formasge.ttf"
 			"name" "FORMASGE"
 		}
 		"11"
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/paula.ttf"
 			"name" "Paula"
 		}
 		"12"
 		{
-			"font" "resource/Novecentowide-DemiBold.otf"
+			"font" "resource/novecentowide-demibold.otf"
 			"name" "Novecentowide-DemiBold"
 		}
 		"13"
 		{
-			"font" "resource/Novecentowide-Medium.otf"
+			"font" "resource/novecentowide-medium.otf"
 			"name" "Novecentowide-Medium"
 		}
 		"14"
 		{
-			"font" "resource/Garm3nFont.ttf"
+			"font" "resource/garm3nfont.ttf"
 			"name" "Garm3nFont"
 		}
 		"15"
